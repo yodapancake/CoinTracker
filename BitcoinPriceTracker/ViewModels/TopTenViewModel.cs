@@ -22,5 +22,6 @@ namespace BitcoinPriceTracker.ViewModels
         public string Coin_Circulating_Supply { get; set; }
         public string Coin_Rank { get; set; }
         public string Coin_Ticker_Tape { get; set; }
+        public string Coin_picture { get; set; }
     }
 }
