@@ -149,6 +149,7 @@ namespace BitcoinPriceTracker.Models
         public Quotes5 quotes { get; set; }
         public int last_updated { get; set; }
     }
+
     public class USD6
     {
         public double price { get; set; }

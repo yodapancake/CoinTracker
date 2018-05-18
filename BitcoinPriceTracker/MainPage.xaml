@@ -7,21 +7,22 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-    
-            <GridView ItemsSource="{x:Bind Top_ten_viewmodels}">
-                <GridView.ItemTemplate>
-                    <DataTemplate x:DataType="data:TopTenViewModel">
-                        <StackPanel>
-                            <Image x:Name="ResultImage" Width="200" Height="200" Source="{x:Bind Coin_picture}" HorizontalAlignment="Center"/>
-                            <TextBlock x:Name="coin" Text="{x:Bind Coin_Ticker_Tape, Mode=OneWay}" 
+    <Grid>
+        <Rectangle Fill="Red"/>
+        <GridView ItemsSource="{x:Bind Top_ten_viewmodels}" HorizontalAlignment="Center">
+            <GridView.ItemTemplate >
+                <DataTemplate x:DataType="data:TopTenViewModel">
+                    <StackPanel Margin="20,0,20,0">
+                        <Image x:Name="ResultImage" Width="200" Height="200" Source="{x:Bind Coin_picture}" HorizontalAlignment="Center"/>
+                        <TextBlock x:Name="coin" Text="{x:Bind Coin_Ticker_Tape, Mode=OneWay}" 
                                    FontSize="52" Foreground="White" HorizontalAlignment="Center"/>
-                            <TextBlock x:Name="currency" Text="{x:Bind Coin_Name, Mode=OneWay}" 
+                        <TextBlock x:Name="currency" Text="{x:Bind Coin_Name, Mode=OneWay}" 
                                    FontSize="36" Foreground="White" HorizontalAlignment="Center"/>
-                            <TextBlock x:Name="price" Text="{x:Bind Coin_Price_USD, Mode=OneWay}" 
+                        <TextBlock x:Name="price" Text="{x:Bind Coin_Price_USD, Mode=OneWay}" 
                                    FontSize="24" Foreground="White" HorizontalAlignment="Center"/>
-                        </StackPanel>   
-                    </DataTemplate>
-                </GridView.ItemTemplate>
-            </GridView>
-        
+                    </StackPanel>
+                </DataTemplate>
+            </GridView.ItemTemplate>
+        </GridView>
+    </Grid>
 </Page>

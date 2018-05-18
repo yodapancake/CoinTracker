@@ -20,18 +20,24 @@
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\bin\x64\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>DBFB2CA5E564FC28ECD5085CB6572CE7E7AE3B604C8BA8303E904E018FF66C89</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>87ef1223-95cc-4dad-ad3d-9c9958c9a3fd_1.0.0.0_x64__j2pk3ejtsnvpa</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>87ef1223-95cc-4dad-ad3d-9c9958c9a3fd_j2pk3ejtsnvpa!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>87ef1223-95cc-4dad-ad3d-9c9958c9a3fd</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=s-hirschm</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-18T20:45:48.449</Modified>
+      <Modified>2018-05-18T22:12:13.653</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\bin\x64\Debug\BitcoinPriceTracker.exe">
       <PackagePath>entrypoint\BitcoinPriceTracker.exe</PackagePath>
-      <Modified>2018-05-18T20:45:46.395</Modified>
+      <Modified>2018-05-18T22:12:10.297</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1301,7 +1307,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\bin\x64\Debug\BitcoinPriceTracker.xr.xml">
       <PackagePath>BitcoinPriceTracker.xr.xml</PackagePath>
-      <Modified>2018-05-18T20:45:44.904</Modified>
+      <Modified>2018-05-18T22:12:08.521</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.15063.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -1310,11 +1316,11 @@
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-18T20:45:47.920</Modified>
+      <Modified>2018-05-18T22:12:12.874</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\bin\x64\Debug\Core\BitcoinPriceTracker.exe">
       <PackagePath>BitcoinPriceTracker.exe</PackagePath>
-      <Modified>2018-05-18T20:45:48.430</Modified>
+      <Modified>2018-05-18T22:12:13.630</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -7,22 +7,23 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-    
-            <GridView x:ConnectionId='2'                                          >
-                <GridView.ItemTemplate>
-                    <DataTemplate                                  >
-                        <StackPanel x:ConnectionId='3'>
-                            <Image x:ConnectionId='4' x:Name="ResultImage" Width="200" Height="200"                                HorizontalAlignment="Center"/>
-                            <TextBlock x:ConnectionId='5' x:Name="coin"                                               
+    <Grid>
+        <Rectangle Fill="Red"/>
+        <GridView x:ConnectionId='2'                                           HorizontalAlignment="Center">
+            <GridView.ItemTemplate >
+                <DataTemplate                                  >
+                    <StackPanel x:ConnectionId='3' Margin="20,0,20,0">
+                        <Image x:ConnectionId='4' x:Name="ResultImage" Width="200" Height="200"                                HorizontalAlignment="Center"/>
+                        <TextBlock x:ConnectionId='5' x:Name="coin"                                               
                                    FontSize="52" Foreground="White" HorizontalAlignment="Center"/>
-                            <TextBlock x:ConnectionId='6' x:Name="currency"                                        
+                        <TextBlock x:ConnectionId='6' x:Name="currency"                                        
                                    FontSize="36" Foreground="White" HorizontalAlignment="Center"/>
-                            <TextBlock x:ConnectionId='7' x:Name="price"                                             
+                        <TextBlock x:ConnectionId='7' x:Name="price"                                             
                                    FontSize="24" Foreground="White" HorizontalAlignment="Center"/>
-                        </StackPanel>   
-                    </DataTemplate>
-                </GridView.ItemTemplate>
-            </GridView>
-        
+                    </StackPanel>
+                </DataTemplate>
+            </GridView.ItemTemplate>
+        </GridView>
+    </Grid>
 </Page>
 
