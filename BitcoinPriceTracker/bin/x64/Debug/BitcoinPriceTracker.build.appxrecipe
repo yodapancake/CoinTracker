@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>51L104-18</Machine>
+    <Machine>51S50018542</Machine>
     <WindowsUser>s-hirschm</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
@@ -10,22 +10,22 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>87ef1223-95cc-4dad-ad3d-9c9958c9a3fd</PackageIdentityName>
     <PackageIdentityPublisher>CN=s-hirschm</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\bin\x64\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\bin\x64\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\bin\x64\Debug\BitcoinPriceTracker.exe">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\bin\x64\Debug\BitcoinPriceTracker.exe">
       <PackagePath>entrypoint\BitcoinPriceTracker.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
@@ -376,620 +376,620 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.xml.xmlserializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ADA.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ADA.png">
       <PackagePath>Assets\CryptoSVG\PNG\ADA.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ADX.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ADX.png">
       <PackagePath>Assets\CryptoSVG\PNG\ADX.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\AE.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\AE.png">
       <PackagePath>Assets\CryptoSVG\PNG\AE.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ARDR.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ARDR.png">
       <PackagePath>Assets\CryptoSVG\PNG\ARDR.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ARK.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ARK.png">
       <PackagePath>Assets\CryptoSVG\PNG\ARK.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BAT.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BAT.png">
       <PackagePath>Assets\CryptoSVG\PNG\BAT.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BCC.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BCC.png">
       <PackagePath>Assets\CryptoSVG\PNG\BCC.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BCH.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BCH.png">
       <PackagePath>Assets\CryptoSVG\PNG\BCH.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BCN.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BCN.png">
       <PackagePath>Assets\CryptoSVG\PNG\BCN.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BLOCK.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BLOCK.png">
       <PackagePath>Assets\CryptoSVG\PNG\BLOCK.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BNB.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BNB.png">
       <PackagePath>Assets\CryptoSVG\PNG\BNB.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BNT.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BNT.png">
       <PackagePath>Assets\CryptoSVG\PNG\BNT.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BTC.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BTC.png">
       <PackagePath>Assets\CryptoSVG\PNG\BTC.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BTCD.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BTCD.png">
       <PackagePath>Assets\CryptoSVG\PNG\BTCD.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BTG.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BTG.png">
       <PackagePath>Assets\CryptoSVG\PNG\BTG.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BTM.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BTM.png">
       <PackagePath>Assets\CryptoSVG\PNG\BTM.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BTS.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BTS.png">
       <PackagePath>Assets\CryptoSVG\PNG\BTS.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\CNX.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\CNX.png">
       <PackagePath>Assets\CryptoSVG\PNG\CNX.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\CVC.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\CVC.png">
       <PackagePath>Assets\CryptoSVG\PNG\CVC.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\DASH.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\DASH.png">
       <PackagePath>Assets\CryptoSVG\PNG\DASH.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\DCR.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\DCR.png">
       <PackagePath>Assets\CryptoSVG\PNG\DCR.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\DGB.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\DGB.png">
       <PackagePath>Assets\CryptoSVG\PNG\DGB.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\DGD.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\DGD.png">
       <PackagePath>Assets\CryptoSVG\PNG\DGD.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\DOGE.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\DOGE.png">
       <PackagePath>Assets\CryptoSVG\PNG\DOGE.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\EDG.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\EDG.png">
       <PackagePath>Assets\CryptoSVG\PNG\EDG.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\EMC2.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\EMC2.png">
       <PackagePath>Assets\CryptoSVG\PNG\EMC2.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\EOS.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\EOS.png">
       <PackagePath>Assets\CryptoSVG\PNG\EOS.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ETC.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ETC.png">
       <PackagePath>Assets\CryptoSVG\PNG\ETC.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ETH.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ETH.png">
       <PackagePath>Assets\CryptoSVG\PNG\ETH.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ETHOS.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ETHOS.png">
       <PackagePath>Assets\CryptoSVG\PNG\ETHOS.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ETP.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ETP.png">
       <PackagePath>Assets\CryptoSVG\PNG\ETP.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\FCT.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\FCT.png">
       <PackagePath>Assets\CryptoSVG\PNG\FCT.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\FUN.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\FUN.png">
       <PackagePath>Assets\CryptoSVG\PNG\FUN.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\GAME.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\GAME.png">
       <PackagePath>Assets\CryptoSVG\PNG\GAME.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\GAS.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\GAS.png">
       <PackagePath>Assets\CryptoSVG\PNG\GAS.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\GBYTE.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\GBYTE.png">
       <PackagePath>Assets\CryptoSVG\PNG\GBYTE.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\GNO.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\GNO.png">
       <PackagePath>Assets\CryptoSVG\PNG\GNO.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\GNT.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\GNT.png">
       <PackagePath>Assets\CryptoSVG\PNG\GNT.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\GRS.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\GRS.png">
       <PackagePath>Assets\CryptoSVG\PNG\GRS.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\GXS.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\GXS.png">
       <PackagePath>Assets\CryptoSVG\PNG\GXS.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\HSR.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\HSR.png">
       <PackagePath>Assets\CryptoSVG\PNG\HSR.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ICN.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ICN.png">
       <PackagePath>Assets\CryptoSVG\PNG\ICN.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\IOT.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\IOT.png">
       <PackagePath>Assets\CryptoSVG\PNG\IOT.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\KMD.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\KMD.png">
       <PackagePath>Assets\CryptoSVG\PNG\KMD.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\KNC.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\KNC.png">
       <PackagePath>Assets\CryptoSVG\PNG\KNC.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\LSK.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\LSK.png">
       <PackagePath>Assets\CryptoSVG\PNG\LSK.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\LTC.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\LTC.png">
       <PackagePath>Assets\CryptoSVG\PNG\LTC.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\MAID.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\MAID.png">
       <PackagePath>Assets\CryptoSVG\PNG\MAID.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\MCO.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\MCO.png">
       <PackagePath>Assets\CryptoSVG\PNG\MCO.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\MNX.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\MNX.png">
       <PackagePath>Assets\CryptoSVG\PNG\MNX.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\MONA.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\MONA.png">
       <PackagePath>Assets\CryptoSVG\PNG\MONA.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\MTL.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\MTL.png">
       <PackagePath>Assets\CryptoSVG\PNG\MTL.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\NAV.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\NAV.png">
       <PackagePath>Assets\CryptoSVG\PNG\NAV.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\NEO.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\NEO.png">
       <PackagePath>Assets\CryptoSVG\PNG\NEO.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\NXS.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\NXS.png">
       <PackagePath>Assets\CryptoSVG\PNG\NXS.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\NXT.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\NXT.png">
       <PackagePath>Assets\CryptoSVG\PNG\NXT.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\OMG.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\OMG.png">
       <PackagePath>Assets\CryptoSVG\PNG\OMG.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\PAY.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\PAY.png">
       <PackagePath>Assets\CryptoSVG\PNG\PAY.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\PIVX.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\PIVX.png">
       <PackagePath>Assets\CryptoSVG\PNG\PIVX.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\POT.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\POT.png">
       <PackagePath>Assets\CryptoSVG\PNG\POT.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\POWER.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\POWER.png">
       <PackagePath>Assets\CryptoSVG\PNG\POWER.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\PPC.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\PPC.png">
       <PackagePath>Assets\CryptoSVG\PNG\PPC.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\PPT.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\PPT.png">
       <PackagePath>Assets\CryptoSVG\PNG\PPT.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\PURA.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\PURA.png">
       <PackagePath>Assets\CryptoSVG\PNG\PURA.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\QASH.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\QASH.png">
       <PackagePath>Assets\CryptoSVG\PNG\QASH.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\QTUM.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\QTUM.png">
       <PackagePath>Assets\CryptoSVG\PNG\QTUM.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\RDN.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\RDN.png">
       <PackagePath>Assets\CryptoSVG\PNG\RDN.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\REP.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\REP.png">
       <PackagePath>Assets\CryptoSVG\PNG\REP.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\SALT.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\SALT.png">
       <PackagePath>Assets\CryptoSVG\PNG\SALT.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\SAN.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\SAN.png">
       <PackagePath>Assets\CryptoSVG\PNG\SAN.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\SC.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\SC.png">
       <PackagePath>Assets\CryptoSVG\PNG\SC.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\SKY.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\SKY.png">
       <PackagePath>Assets\CryptoSVG\PNG\SKY.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\SNGLS.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\SNGLS.png">
       <PackagePath>Assets\CryptoSVG\PNG\SNGLS.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\SNT.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\SNT.png">
       <PackagePath>Assets\CryptoSVG\PNG\SNT.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\START.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\START.png">
       <PackagePath>Assets\CryptoSVG\PNG\START.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\STEEM.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\STEEM.png">
       <PackagePath>Assets\CryptoSVG\PNG\STEEM.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\STORJ.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\STORJ.png">
       <PackagePath>Assets\CryptoSVG\PNG\STORJ.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\SYS.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\SYS.png">
       <PackagePath>Assets\CryptoSVG\PNG\SYS.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\TRX.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\TRX.png">
       <PackagePath>Assets\CryptoSVG\PNG\TRX.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\UBQ.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\UBQ.png">
       <PackagePath>Assets\CryptoSVG\PNG\UBQ.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\USDT.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\USDT.png">
       <PackagePath>Assets\CryptoSVG\PNG\USDT.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\VEN.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\VEN.png">
       <PackagePath>Assets\CryptoSVG\PNG\VEN.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\VTC.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\VTC.png">
       <PackagePath>Assets\CryptoSVG\PNG\VTC.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\WAVES.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\WAVES.png">
       <PackagePath>Assets\CryptoSVG\PNG\WAVES.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\WTC.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\WTC.png">
       <PackagePath>Assets\CryptoSVG\PNG\WTC.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\XEM.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\XEM.png">
       <PackagePath>Assets\CryptoSVG\PNG\XEM.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\XLM.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\XLM.png">
       <PackagePath>Assets\CryptoSVG\PNG\XLM.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\XMR.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\XMR.png">
       <PackagePath>Assets\CryptoSVG\PNG\XMR.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\XRP.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\XRP.png">
       <PackagePath>Assets\CryptoSVG\PNG\XRP.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\XUC.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\XUC.png">
       <PackagePath>Assets\CryptoSVG\PNG\XUC.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\XVG.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\XVG.png">
       <PackagePath>Assets\CryptoSVG\PNG\XVG.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\XZC.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\XZC.png">
       <PackagePath>Assets\CryptoSVG\PNG\XZC.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ZEC.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ZEC.png">
       <PackagePath>Assets\CryptoSVG\PNG\ZEC.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ZEN.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ZEN.png">
       <PackagePath>Assets\CryptoSVG\PNG\ZEN.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ZRX.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ZRX.png">
       <PackagePath>Assets\CryptoSVG\PNG\ZRX.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ADA.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ADA.svg">
       <PackagePath>Assets\CryptoSVG\SVG\ADA.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ADX.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ADX.svg">
       <PackagePath>Assets\CryptoSVG\SVG\ADX.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\AE.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\AE.svg">
       <PackagePath>Assets\CryptoSVG\SVG\AE.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ARDR.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ARDR.svg">
       <PackagePath>Assets\CryptoSVG\SVG\ARDR.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ARK.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ARK.svg">
       <PackagePath>Assets\CryptoSVG\SVG\ARK.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BAT.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BAT.svg">
       <PackagePath>Assets\CryptoSVG\SVG\BAT.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BCC.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BCC.svg">
       <PackagePath>Assets\CryptoSVG\SVG\BCC.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BCH.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BCH.svg">
       <PackagePath>Assets\CryptoSVG\SVG\BCH.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BCN.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BCN.svg">
       <PackagePath>Assets\CryptoSVG\SVG\BCN.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BLOCK.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BLOCK.svg">
       <PackagePath>Assets\CryptoSVG\SVG\BLOCK.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BNB.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BNB.svg">
       <PackagePath>Assets\CryptoSVG\SVG\BNB.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BNT.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BNT.svg">
       <PackagePath>Assets\CryptoSVG\SVG\BNT.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BTC.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BTC.svg">
       <PackagePath>Assets\CryptoSVG\SVG\BTC.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BTCD.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BTCD.svg">
       <PackagePath>Assets\CryptoSVG\SVG\BTCD.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BTG.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BTG.svg">
       <PackagePath>Assets\CryptoSVG\SVG\BTG.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BTM.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BTM.svg">
       <PackagePath>Assets\CryptoSVG\SVG\BTM.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BTS.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BTS.svg">
       <PackagePath>Assets\CryptoSVG\SVG\BTS.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\CNX.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\CNX.svg">
       <PackagePath>Assets\CryptoSVG\SVG\CNX.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\CVC.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\CVC.svg">
       <PackagePath>Assets\CryptoSVG\SVG\CVC.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\DASH.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\DASH.svg">
       <PackagePath>Assets\CryptoSVG\SVG\DASH.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\DCR.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\DCR.svg">
       <PackagePath>Assets\CryptoSVG\SVG\DCR.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\DGB.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\DGB.svg">
       <PackagePath>Assets\CryptoSVG\SVG\DGB.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\DGD.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\DGD.svg">
       <PackagePath>Assets\CryptoSVG\SVG\DGD.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\DOGE.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\DOGE.svg">
       <PackagePath>Assets\CryptoSVG\SVG\DOGE.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\EDG.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\EDG.svg">
       <PackagePath>Assets\CryptoSVG\SVG\EDG.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\EMC2.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\EMC2.svg">
       <PackagePath>Assets\CryptoSVG\SVG\EMC2.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\EOS.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\EOS.svg">
       <PackagePath>Assets\CryptoSVG\SVG\EOS.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ETC.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ETC.svg">
       <PackagePath>Assets\CryptoSVG\SVG\ETC.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ETH.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ETH.svg">
       <PackagePath>Assets\CryptoSVG\SVG\ETH.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ETHOS.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ETHOS.svg">
       <PackagePath>Assets\CryptoSVG\SVG\ETHOS.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ETP.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ETP.svg">
       <PackagePath>Assets\CryptoSVG\SVG\ETP.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\FCT.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\FCT.svg">
       <PackagePath>Assets\CryptoSVG\SVG\FCT.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\FUN.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\FUN.svg">
       <PackagePath>Assets\CryptoSVG\SVG\FUN.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\GAME.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\GAME.svg">
       <PackagePath>Assets\CryptoSVG\SVG\GAME.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\GAS.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\GAS.svg">
       <PackagePath>Assets\CryptoSVG\SVG\GAS.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\GBYTE.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\GBYTE.svg">
       <PackagePath>Assets\CryptoSVG\SVG\GBYTE.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\GNO.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\GNO.svg">
       <PackagePath>Assets\CryptoSVG\SVG\GNO.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\GNT.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\GNT.svg">
       <PackagePath>Assets\CryptoSVG\SVG\GNT.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\GRS.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\GRS.svg">
       <PackagePath>Assets\CryptoSVG\SVG\GRS.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\GXS.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\GXS.svg">
       <PackagePath>Assets\CryptoSVG\SVG\GXS.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\HSR.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\HSR.svg">
       <PackagePath>Assets\CryptoSVG\SVG\HSR.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ICN.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ICN.svg">
       <PackagePath>Assets\CryptoSVG\SVG\ICN.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\IOT.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\IOT.svg">
       <PackagePath>Assets\CryptoSVG\SVG\IOT.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\KMD.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\KMD.svg">
       <PackagePath>Assets\CryptoSVG\SVG\KMD.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\KNC.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\KNC.svg">
       <PackagePath>Assets\CryptoSVG\SVG\KNC.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\LSK.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\LSK.svg">
       <PackagePath>Assets\CryptoSVG\SVG\LSK.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\LTC.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\LTC.svg">
       <PackagePath>Assets\CryptoSVG\SVG\LTC.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\MAID.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\MAID.svg">
       <PackagePath>Assets\CryptoSVG\SVG\MAID.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\MCO.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\MCO.svg">
       <PackagePath>Assets\CryptoSVG\SVG\MCO.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\MNX.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\MNX.svg">
       <PackagePath>Assets\CryptoSVG\SVG\MNX.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\MONA.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\MONA.svg">
       <PackagePath>Assets\CryptoSVG\SVG\MONA.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\MTL.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\MTL.svg">
       <PackagePath>Assets\CryptoSVG\SVG\MTL.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\NAV.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\NAV.svg">
       <PackagePath>Assets\CryptoSVG\SVG\NAV.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\NEO.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\NEO.svg">
       <PackagePath>Assets\CryptoSVG\SVG\NEO.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\NXS.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\NXS.svg">
       <PackagePath>Assets\CryptoSVG\SVG\NXS.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\NXT.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\NXT.svg">
       <PackagePath>Assets\CryptoSVG\SVG\NXT.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\OMG.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\OMG.svg">
       <PackagePath>Assets\CryptoSVG\SVG\OMG.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\PAY.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\PAY.svg">
       <PackagePath>Assets\CryptoSVG\SVG\PAY.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\PIVX.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\PIVX.svg">
       <PackagePath>Assets\CryptoSVG\SVG\PIVX.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\POT.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\POT.svg">
       <PackagePath>Assets\CryptoSVG\SVG\POT.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\POWER.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\POWER.svg">
       <PackagePath>Assets\CryptoSVG\SVG\POWER.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\PPC.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\PPC.svg">
       <PackagePath>Assets\CryptoSVG\SVG\PPC.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\PPT.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\PPT.svg">
       <PackagePath>Assets\CryptoSVG\SVG\PPT.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\PURA.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\PURA.svg">
       <PackagePath>Assets\CryptoSVG\SVG\PURA.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\QASH.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\QASH.svg">
       <PackagePath>Assets\CryptoSVG\SVG\QASH.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\QTUM.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\QTUM.svg">
       <PackagePath>Assets\CryptoSVG\SVG\QTUM.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\RDN.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\RDN.svg">
       <PackagePath>Assets\CryptoSVG\SVG\RDN.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\REP.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\REP.svg">
       <PackagePath>Assets\CryptoSVG\SVG\REP.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\SALT.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\SALT.svg">
       <PackagePath>Assets\CryptoSVG\SVG\SALT.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\SAN.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\SAN.svg">
       <PackagePath>Assets\CryptoSVG\SVG\SAN.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\SC.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\SC.svg">
       <PackagePath>Assets\CryptoSVG\SVG\SC.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\SKY.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\SKY.svg">
       <PackagePath>Assets\CryptoSVG\SVG\SKY.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\SNGLS.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\SNGLS.svg">
       <PackagePath>Assets\CryptoSVG\SVG\SNGLS.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\SNT.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\SNT.svg">
       <PackagePath>Assets\CryptoSVG\SVG\SNT.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\START.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\START.svg">
       <PackagePath>Assets\CryptoSVG\SVG\START.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\STEEM.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\STEEM.svg">
       <PackagePath>Assets\CryptoSVG\SVG\STEEM.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\STORJ.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\STORJ.svg">
       <PackagePath>Assets\CryptoSVG\SVG\STORJ.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\SYS.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\SYS.svg">
       <PackagePath>Assets\CryptoSVG\SVG\SYS.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\TRX.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\TRX.svg">
       <PackagePath>Assets\CryptoSVG\SVG\TRX.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\UBQ.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\UBQ.svg">
       <PackagePath>Assets\CryptoSVG\SVG\UBQ.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\USDT.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\USDT.svg">
       <PackagePath>Assets\CryptoSVG\SVG\USDT.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\VEN.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\VEN.svg">
       <PackagePath>Assets\CryptoSVG\SVG\VEN.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\VTC.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\VTC.svg">
       <PackagePath>Assets\CryptoSVG\SVG\VTC.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\WAVES.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\WAVES.svg">
       <PackagePath>Assets\CryptoSVG\SVG\WAVES.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\WTC.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\WTC.svg">
       <PackagePath>Assets\CryptoSVG\SVG\WTC.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\XEM.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\XEM.svg">
       <PackagePath>Assets\CryptoSVG\SVG\XEM.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\XLM.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\XLM.svg">
       <PackagePath>Assets\CryptoSVG\SVG\XLM.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\XMR.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\XMR.svg">
       <PackagePath>Assets\CryptoSVG\SVG\XMR.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\XRP.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\XRP.svg">
       <PackagePath>Assets\CryptoSVG\SVG\XRP.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\XUC.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\XUC.svg">
       <PackagePath>Assets\CryptoSVG\SVG\XUC.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\XVG.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\XVG.svg">
       <PackagePath>Assets\CryptoSVG\SVG\XVG.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\XZC.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\XZC.svg">
       <PackagePath>Assets\CryptoSVG\SVG\XZC.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ZEC.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ZEC.svg">
       <PackagePath>Assets\CryptoSVG\SVG\ZEC.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ZEN.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ZEN.svg">
       <PackagePath>Assets\CryptoSVG\SVG\ZEN.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ZRX.svg">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ZRX.svg">
       <PackagePath>Assets\CryptoSVG\SVG\ZRX.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\FodyWeavers.xml">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\FodyWeavers.xml">
       <PackagePath>FodyWeavers.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\bin\x64\Debug\BitcoinPriceTracker.xr.xml">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\bin\x64\Debug\BitcoinPriceTracker.xr.xml">
       <PackagePath>BitcoinPriceTracker.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.15063.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\bin\x64\Debug\Core\BitcoinPriceTracker.exe">
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\bin\x64\Debug\Core\BitcoinPriceTracker.exe">
       <PackagePath>BitcoinPriceTracker.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

@@ -149,7 +149,6 @@ namespace BitcoinPriceTracker.Models
         public Quotes5 quotes { get; set; }
         public int last_updated { get; set; }
     }
-
     public class USD6
     {
         public double price { get; set; }
@@ -316,7 +315,7 @@ namespace BitcoinPriceTracker.Models
         public object error { get; set; }
     }
 
-    public class RootObject
+    public class Top10RootObject
     {
         public Data data { get; set; }
         public Metadata metadata { get; set; }

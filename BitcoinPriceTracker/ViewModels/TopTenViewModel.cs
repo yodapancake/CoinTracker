@@ -11,10 +11,16 @@ namespace BitcoinPriceTracker.ViewModels
     [ImplementPropertyChanged]
     public class TopTenViewModel : INotifyPropertyChanged
     {
+
+
         public event PropertyChangedEventHandler PropertyChanged;        
-        public string Coin { get; set; }
-        public string Currency { get; set; }
-        public string Price { get; set; }
-        public string Image { get; set; }      
+        public string Coin_Name { get; set; }
+        public string Coin_Price_USD { get; set; }
+        public string Coin_24_Hour_Change { get; set; }
+        public string Coin_24_Hour_Volume { get; set; }
+        public string Coin_Market_Share { get; set; }
+        public string Coin_Circulating_Supply { get; set; }
+        public string Coin_Rank { get; set; }
+        public string Coin_Ticker_Tape { get; set; }
     }
 }

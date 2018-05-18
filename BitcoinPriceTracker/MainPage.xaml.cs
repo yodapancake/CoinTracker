@@ -26,6 +26,8 @@ namespace BitcoinPriceTracker
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        List<TopTenViewModel> Top_ten_viewmodels = new List<TopTenViewModel>();
+        private TopTenViewModel TopTenViewModel = new TopTenViewModel();
         private BitcoinDetailsViewModels v = new BitcoinDetailsViewModels();
         public MainPage()
         {
@@ -33,6 +35,9 @@ namespace BitcoinPriceTracker
         }
         protected async override void OnNavigatedTo(NavigationEventArgs e)
         {
+            TopTenViewModel temp = new TopTenViewModel(); 
+            
+            Top_ten_viewmodels.Add(new TopTenViewModel());
             v.Coin = "";
             v.Currency = "";
             v.Price = "";
@@ -43,6 +48,18 @@ namespace BitcoinPriceTracker
         {
             PriceRetriever p = new PriceRetriever();
             BitcoinDetails.BitcoinDetailsRootObject root = await p.GetPrice();
+
+            Top10CoinsDetailsRetriever details = new Top10CoinsDetailsRetriever();
+            Top10RootObject Top10Root = await details.GetTop10Details();
+
+            TopTenViewModel temp2 = new TopTenViewModel();
+            temp2.Coin_Name = Top10Root.data.__invalid_name__1027.name;
+            temp2.Coin_Ticker_Tape = Top10Root.data.__invalid_name__1027.symbol;
+            temp2.Coin_Price_USD = Top10Root.data.__invalid_name__1027.quotes.USD.price.ToString();
+            Top_ten_viewmodels.Add(temp2);
+
+
+
             v.Coin = root.Data.Base;
             v.Currency = root.Data.Currency;
             v.Price = root.Data.Amount;
