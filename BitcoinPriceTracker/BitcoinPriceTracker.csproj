@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{4BA0B98A-2321-4CCE-8B19-5C7FECD1881C}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BitcoinPriceTracker</RootNamespace>
+    <AssemblyName>BitcoinPriceTracker</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.15063.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.10586.0</TargetPlatformMinVersion>
+    <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WindowsXamlEnableOverview>true</WindowsXamlEnableOverview>
+    <PackageCertificateKeyFile>BitcoinPriceTracker_TemporaryKey.pfx</PackageCertificateKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\BitcoinDetails.cs" />
+    <Compile Include="Models\Top10Coins.cs" />
+    <Compile Include="PriceRetriever.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\BitcoinDetailsViewModels.cs" />
+    <Compile Include="ViewModels\TopTenViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <None Include="Assets\CryptoSVG\logo-100.ai" />
+    <None Include="Assets\CryptoSVG\logo-100.eps" />
+    <None Include="Assets\CryptoSVG\logo-100.sketch" />
+    <None Include="Assets\CryptoSVG\__MACOSX\._logo-100.ai" />
+    <None Include="Assets\CryptoSVG\__MACOSX\._logo-100.eps" />
+    <None Include="Assets\CryptoSVG\__MACOSX\._logo-100.sketch" />
+    <None Include="BitcoinPriceTracker_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\CryptoSVG\PNG\ADA.png" />
+    <Content Include="Assets\CryptoSVG\PNG\ADX.png" />
+    <Content Include="Assets\CryptoSVG\PNG\AE.png" />
+    <Content Include="Assets\CryptoSVG\PNG\ARDR.png" />
+    <Content Include="Assets\CryptoSVG\PNG\ARK.png" />
+    <Content Include="Assets\CryptoSVG\PNG\BAT.png" />
+    <Content Include="Assets\CryptoSVG\PNG\BCC.png" />
+    <Content Include="Assets\CryptoSVG\PNG\BCH.png" />
+    <Content Include="Assets\CryptoSVG\PNG\BCN.png" />
+    <Content Include="Assets\CryptoSVG\PNG\BLOCK.png" />
+    <Content Include="Assets\CryptoSVG\PNG\BNB.png" />
+    <Content Include="Assets\CryptoSVG\PNG\BNT.png" />
+    <Content Include="Assets\CryptoSVG\PNG\BTC.png" />
+    <Content Include="Assets\CryptoSVG\PNG\BTCD.png" />
+    <Content Include="Assets\CryptoSVG\PNG\BTG.png" />
+    <Content Include="Assets\CryptoSVG\PNG\BTM.png" />
+    <Content Include="Assets\CryptoSVG\PNG\BTS.png" />
+    <Content Include="Assets\CryptoSVG\PNG\CNX.png" />
+    <Content Include="Assets\CryptoSVG\PNG\CVC.png" />
+    <Content Include="Assets\CryptoSVG\PNG\DASH.png" />
+    <Content Include="Assets\CryptoSVG\PNG\DCR.png" />
+    <Content Include="Assets\CryptoSVG\PNG\DGB.png" />
+    <Content Include="Assets\CryptoSVG\PNG\DGD.png" />
+    <Content Include="Assets\CryptoSVG\PNG\DOGE.png" />
+    <Content Include="Assets\CryptoSVG\PNG\EDG.png" />
+    <Content Include="Assets\CryptoSVG\PNG\EMC2.png" />
+    <Content Include="Assets\CryptoSVG\PNG\EOS.png" />
+    <Content Include="Assets\CryptoSVG\PNG\ETC.png" />
+    <Content Include="Assets\CryptoSVG\PNG\ETH.png" />
+    <Content Include="Assets\CryptoSVG\PNG\ETHOS.png" />
+    <Content Include="Assets\CryptoSVG\PNG\ETP.png" />
+    <Content Include="Assets\CryptoSVG\PNG\FCT.png" />
+    <Content Include="Assets\CryptoSVG\PNG\FUN.png" />
+    <Content Include="Assets\CryptoSVG\PNG\GAME.png" />
+    <Content Include="Assets\CryptoSVG\PNG\GAS.png" />
+    <Content Include="Assets\CryptoSVG\PNG\GBYTE.png" />
+    <Content Include="Assets\CryptoSVG\PNG\GNO.png" />
+    <Content Include="Assets\CryptoSVG\PNG\GNT.png" />
+    <Content Include="Assets\CryptoSVG\PNG\GRS.png" />
+    <Content Include="Assets\CryptoSVG\PNG\GXS.png" />
+    <Content Include="Assets\CryptoSVG\PNG\HSR.png" />
+    <Content Include="Assets\CryptoSVG\PNG\ICN.png" />
+    <Content Include="Assets\CryptoSVG\PNG\IOT.png" />
+    <Content Include="Assets\CryptoSVG\PNG\KMD.png" />
+    <Content Include="Assets\CryptoSVG\PNG\KNC.png" />
+    <Content Include="Assets\CryptoSVG\PNG\LSK.png" />
+    <Content Include="Assets\CryptoSVG\PNG\LTC.png" />
+    <Content Include="Assets\CryptoSVG\PNG\MAID.png" />
+    <Content Include="Assets\CryptoSVG\PNG\MCO.png" />
+    <Content Include="Assets\CryptoSVG\PNG\MNX.png" />
+    <Content Include="Assets\CryptoSVG\PNG\MONA.png" />
+    <Content Include="Assets\CryptoSVG\PNG\MTL.png" />
+    <Content Include="Assets\CryptoSVG\PNG\NAV.png" />
+    <Content Include="Assets\CryptoSVG\PNG\NEO.png" />
+    <Content Include="Assets\CryptoSVG\PNG\NXS.png" />
+    <Content Include="Assets\CryptoSVG\PNG\NXT.png" />
+    <Content Include="Assets\CryptoSVG\PNG\OMG.png" />
+    <Content Include="Assets\CryptoSVG\PNG\PAY.png" />
+    <Content Include="Assets\CryptoSVG\PNG\PIVX.png" />
+    <Content Include="Assets\CryptoSVG\PNG\POT.png" />
+    <Content Include="Assets\CryptoSVG\PNG\POWER.png" />
+    <Content Include="Assets\CryptoSVG\PNG\PPC.png" />
+    <Content Include="Assets\CryptoSVG\PNG\PPT.png" />
+    <Content Include="Assets\CryptoSVG\PNG\PURA.png" />
+    <Content Include="Assets\CryptoSVG\PNG\QASH.png" />
+    <Content Include="Assets\CryptoSVG\PNG\QTUM.png" />
+    <Content Include="Assets\CryptoSVG\PNG\RDN.png" />
+    <Content Include="Assets\CryptoSVG\PNG\REP.png" />
+    <Content Include="Assets\CryptoSVG\PNG\SALT.png" />
+    <Content Include="Assets\CryptoSVG\PNG\SAN.png" />
+    <Content Include="Assets\CryptoSVG\PNG\SC.png" />
+    <Content Include="Assets\CryptoSVG\PNG\SKY.png" />
+    <Content Include="Assets\CryptoSVG\PNG\SNGLS.png" />
+    <Content Include="Assets\CryptoSVG\PNG\SNT.png" />
+    <Content Include="Assets\CryptoSVG\PNG\START.png" />
+    <Content Include="Assets\CryptoSVG\PNG\STEEM.png" />
+    <Content Include="Assets\CryptoSVG\PNG\STORJ.png" />
+    <Content Include="Assets\CryptoSVG\PNG\SYS.png" />
+    <Content Include="Assets\CryptoSVG\PNG\TRX.png" />
+    <Content Include="Assets\CryptoSVG\PNG\UBQ.png" />
+    <Content Include="Assets\CryptoSVG\PNG\USDT.png" />
+    <Content Include="Assets\CryptoSVG\PNG\VEN.png" />
+    <Content Include="Assets\CryptoSVG\PNG\VTC.png" />
+    <Content Include="Assets\CryptoSVG\PNG\WAVES.png" />
+    <Content Include="Assets\CryptoSVG\PNG\WTC.png" />
+    <Content Include="Assets\CryptoSVG\PNG\XEM.png" />
+    <Content Include="Assets\CryptoSVG\PNG\XLM.png" />
+    <Content Include="Assets\CryptoSVG\PNG\XMR.png" />
+    <Content Include="Assets\CryptoSVG\PNG\XRP.png" />
+    <Content Include="Assets\CryptoSVG\PNG\XUC.png" />
+    <Content Include="Assets\CryptoSVG\PNG\XVG.png" />
+    <Content Include="Assets\CryptoSVG\PNG\XZC.png" />
+    <Content Include="Assets\CryptoSVG\PNG\ZEC.png" />
+    <Content Include="Assets\CryptoSVG\PNG\ZEN.png" />
+    <Content Include="Assets\CryptoSVG\PNG\ZRX.png" />
+    <Content Include="Assets\CryptoSVG\SVG\ADA.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\ADX.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\AE.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\ARDR.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\ARK.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\BAT.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\BCC.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\BCH.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\BCN.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\BLOCK.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\BNB.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\BNT.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\BTC.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\BTCD.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\BTG.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\BTM.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\BTS.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\CNX.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\CVC.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\DASH.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\DCR.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\DGB.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\DGD.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\DOGE.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\EDG.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\EMC2.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\EOS.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\ETC.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\ETH.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\ETHOS.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\ETP.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\FCT.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\FUN.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\GAME.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\GAS.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\GBYTE.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\GNO.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\GNT.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\GRS.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\GXS.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\HSR.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\ICN.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\IOT.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\KMD.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\KNC.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\LSK.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\LTC.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\MAID.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\MCO.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\MNX.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\MONA.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\MTL.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\NAV.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\NEO.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\NXS.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\NXT.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\OMG.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\PAY.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\PIVX.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\POT.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\POWER.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\PPC.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\PPT.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\PURA.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\QASH.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\QTUM.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\RDN.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\REP.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\SALT.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\SAN.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\SC.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\SKY.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\SNGLS.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\SNT.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\START.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\STEEM.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\STORJ.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\SYS.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\TRX.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\UBQ.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\USDT.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\VEN.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\VTC.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\WAVES.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\WTC.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\XEM.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\XLM.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\XMR.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\XRP.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\XUC.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\XVG.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\XZC.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\ZEC.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\ZEN.svg" />
+    <Content Include="Assets\CryptoSVG\SVG\ZRX.svg" />
+    <Content Include="FodyWeavers.xml" />
+    <Content Include="Properties\Default.rd.xml" />
+    <Content Include="Assets\LockScreenLogo.scale-200.png" />
+    <Content Include="Assets\SplashScreen.scale-200.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Content Include="Assets\StoreLogo.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
+      <Version>6.0.8</Version>
+    </PackageReference>
+    <PackageReference Include="Fody">
+      <Version>2.0.6</Version>
+    </PackageReference>
+    <PackageReference Include="PropertyChanged.Fody">
+      <Version>1.53.0</Version>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>9.0.1</Version>
+    </PackageReference>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
+    <VisualStudioVersion>14.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

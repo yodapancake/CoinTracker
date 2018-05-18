@@ -1,0 +1,1 @@
+C:\Users\s-hirschm\Documents\Visual Studio 2017\Backup Files\BitcoinPriceTracker\BitcoinPriceTracker\BitcoinPriceTracker.csproj;x64

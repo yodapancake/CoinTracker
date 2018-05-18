@@ -1,0 +1,1 @@
+C:\Users\s-hirschm\source\repos\BitcoinPriceTracker\BitcoinPriceTracker\BitcoinPriceTracker.csproj;x86
