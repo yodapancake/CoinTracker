@@ -297,8 +297,8 @@ namespace BitcoinPriceTracker.Models
 
     public class Data
     {
-        public __invalid_type__1 __invalid_name__1 { get; set; }
-        public __invalid_type__1027 __invalid_name__1027 { get; set; }
+        public __invalid_type__1 __Invalid_name__1 { get; set; }
+        public __invalid_type__1027 __Invalid_name__1027 { get; set; }
         public __invalid_type__52 __invalid_name__52 { get; set; }
         public __invalid_type__1831 __invalid_name__1831 { get; set; }
         public __invalid_type__1765 __invalid_name__1765 { get; set; }

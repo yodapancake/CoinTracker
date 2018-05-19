@@ -43,21 +43,19 @@ namespace BitcoinPriceTracker
 
             TopTenViewModel temp1 = new TopTenViewModel();
             //next line is null for whatever reason
-            temp1.Coin_Name = Top10Root.data.__invalid_name__1.name;
-            temp1.Coin_Ticker_Tape = Top10Root.data.__invalid_name__1.symbol;
-            temp1.Coin_Price_USD = Top10Root.data.__invalid_name__1.quotes.USD.price.ToString();
+            temp1.Coin_Name = Top10Root.data.__Invalid_name__1.name;
+            temp1.Coin_Ticker_Tape = Top10Root.data.__Invalid_name__1.symbol;
+            temp1.Coin_Price_USD = Top10Root.data.__Invalid_name__1.quotes.USD.price.ToString();
             temp1.Coin_picture = "ms-appx:///Assets/CryptoSVG/PNG/+" + temp1.Coin_Ticker_Tape + ".PNG";
             Top_ten_viewmodels.Add(temp1);
 
             TopTenViewModel temp2 = new TopTenViewModel();
-            temp2.Coin_Name = Top10Root.data.__invalid_name__1027.name;
-            temp2.Coin_Ticker_Tape = Top10Root.data.__invalid_name__1027.symbol;
-            temp2.Coin_Price_USD = Top10Root.data.__invalid_name__1027.quotes.USD.price.ToString();
+            temp2.Coin_Name = Top10Root.data.__Invalid_name__1027.name;
+            temp2.Coin_Ticker_Tape = Top10Root.data.__Invalid_name__1027.symbol;
+            temp2.Coin_Price_USD = Top10Root.data.__Invalid_name__1027.quotes.USD.price.ToString();
             temp2.Coin_picture = "ms-appx:///Assets/CryptoSVG/PNG/+" + temp2.Coin_Ticker_Tape + ".PNG";
             Top_ten_viewmodels.Add(temp2);
-
-        }
-        
+        }        
     } 
 }
 
