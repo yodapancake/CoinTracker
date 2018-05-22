@@ -27,7 +27,6 @@ namespace BitcoinPriceTracker
     public sealed partial class MainPage : Page
     {
         private List<TopTenViewModel> Top_ten_viewmodels = new List<TopTenViewModel>();
-        private TopTenViewModel TopTenViewModel = new TopTenViewModel();
         public MainPage()
         {
             this.InitializeComponent();
@@ -40,21 +39,17 @@ namespace BitcoinPriceTracker
         {
             Top10CoinsDetailsRetriever details = new Top10CoinsDetailsRetriever();
             Top10RootObject Top10Root = await details.GetTop10Details();
+     
+            foreach(var v in Top10Root.data)
+            {
+                TopTenViewModel temp = new TopTenViewModel();
+                temp.Coin_Name = v.Value.name;
+                temp.Coin_Ticker_Tape = v.Value.symbol;
+                temp.Coin_Price_USD = v.Value.quotes.USD.price.ToString();
+                temp.Coin_picture = "ms-appx:///Assets/CryptoSVG/PNG/" + temp.Coin_Ticker_Tape + ".PNG";
+                Top_ten_viewmodels.Add(temp);
+            }
 
-            TopTenViewModel temp1 = new TopTenViewModel();
-            //next line is null for whatever reason
-            temp1.Coin_Name = Top10Root.data.__Invalid_name__1.name;
-            temp1.Coin_Ticker_Tape = Top10Root.data.__Invalid_name__1.symbol;
-            temp1.Coin_Price_USD = Top10Root.data.__Invalid_name__1.quotes.USD.price.ToString();
-            temp1.Coin_picture = "ms-appx:///Assets/CryptoSVG/PNG/+" + temp1.Coin_Ticker_Tape + ".PNG";
-            Top_ten_viewmodels.Add(temp1);
-
-            TopTenViewModel temp2 = new TopTenViewModel();
-            temp2.Coin_Name = Top10Root.data.__Invalid_name__1027.name;
-            temp2.Coin_Ticker_Tape = Top10Root.data.__Invalid_name__1027.symbol;
-            temp2.Coin_Price_USD = Top10Root.data.__Invalid_name__1027.quotes.USD.price.ToString();
-            temp2.Coin_picture = "ms-appx:///Assets/CryptoSVG/PNG/+" + temp2.Coin_Ticker_Tape + ".PNG";
-            Top_ten_viewmodels.Add(temp2);
         }        
     } 
 }

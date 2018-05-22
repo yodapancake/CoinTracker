@@ -1,1 +1,1 @@
-C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\BitcoinPriceTracker.csproj;x64
+C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\BitcoinPriceTracker.csproj;x64
