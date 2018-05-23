@@ -14,7 +14,7 @@ namespace BitcoinPriceTracker
         public async Task<Top10RootObject> GetTop10Details()
         {
             HttpClient httpClient = new HttpClient();
-            string apiUrl = $"https://api.coinmarketcap.com/v2/ticker/?limit=10";
+            string apiUrl = $"https://api.coinmarketcap.com/v2/ticker/?limit=20";
             string responseString = await httpClient.GetStringAsync(apiUrl);
             Top10RootObject details = JsonConvert.DeserializeObject<Top10RootObject>(responseString);
             return details;

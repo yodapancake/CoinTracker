@@ -8,18 +8,18 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
     <Grid>
-        <Rectangle Fill="Red"/>
-        <GridView x:ConnectionId='2'                                           HorizontalAlignment="Center">
-            <GridView.ItemTemplate >
+        <Rectangle Fill="Blue"/>
+        <GridView x:ConnectionId='2'                                           HorizontalAlignment="Center" >
+            <GridView.ItemTemplate>
                 <DataTemplate                                  >
-                    <StackPanel x:ConnectionId='3' Margin="20,0,20,0">
-                        <Image x:ConnectionId='4' x:Name="ResultImage" Width="200" Height="200"                                HorizontalAlignment="Center"/>
+                    <StackPanel x:ConnectionId='3' Margin="20,20,20,20" HorizontalAlignment="Stretch">
+                        <Image x:ConnectionId='4' x:Name="ResultImage"                                                                                                                      HorizontalAlignment="Center"/>
                         <TextBlock x:ConnectionId='5' x:Name="coin"                                               
-                                   FontSize="52" Foreground="White" HorizontalAlignment="Center"/>
+                                   Foreground="White" Width="auto" Height="auto" HorizontalAlignment="Center"/>
                         <TextBlock x:ConnectionId='6' x:Name="currency"                                        
-                                   FontSize="36" Foreground="White" HorizontalAlignment="Center"/>
+                                    Foreground="White" Width="auto" Height="auto" HorizontalAlignment="Center"/>
                         <TextBlock x:ConnectionId='7' x:Name="price"                                             
-                                   FontSize="24" Foreground="White" HorizontalAlignment="Center"/>
+                                    Foreground="White" Width="auto" Height="auto" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </DataTemplate>
             </GridView.ItemTemplate>

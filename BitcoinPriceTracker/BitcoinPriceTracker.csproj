@@ -95,15 +95,15 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="GlobalDetailsRetriever.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Models\BitcoinDetails.cs" />
+    <Compile Include="Models\GlobalData.cs" />
     <Compile Include="Models\Top10Coins.cs" />
-    <Compile Include="PriceRetriever.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Top10CoinsDetailsRetriever.cs" />
-    <Compile Include="ViewModels\BitcoinDetailsViewModels.cs" />
+    <Compile Include="ViewModels\GlobalDataViewModel.cs" />
     <Compile Include="ViewModels\TopTenViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -161,7 +161,7 @@
     <Content Include="Assets\CryptoSVG\PNG\GXS.png" />
     <Content Include="Assets\CryptoSVG\PNG\HSR.png" />
     <Content Include="Assets\CryptoSVG\PNG\ICN.png" />
-    <Content Include="Assets\CryptoSVG\PNG\IOT.png" />
+    <Content Include="Assets\CryptoSVG\PNG\MIOTA.png" />
     <Content Include="Assets\CryptoSVG\PNG\KMD.png" />
     <Content Include="Assets\CryptoSVG\PNG\KNC.png" />
     <Content Include="Assets\CryptoSVG\PNG\LSK.png" />

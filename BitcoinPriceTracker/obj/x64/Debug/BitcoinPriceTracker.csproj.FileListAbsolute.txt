@@ -569,7 +569,6 @@ C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\bin\x64\Debug\Syste
 C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\bin\x64\Debug\System.Xml.XDocument.dll
 C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\bin\x64\Debug\System.Xml.XmlDocument.dll
 C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\bin\x64\Debug\System.Xml.XmlSerializer.dll
-C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\obj\x64\Debug\BitcoinPriceTracker.csprojResolveAssemblyReference.cache
 C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\obj\x64\Debug\App.g.i.cs
 C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\obj\x64\Debug\App.g.cs
 C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\obj\x64\Debug\MainPage.g.i.cs
@@ -875,3 +874,4 @@ C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\obj\x64\Debug\
 C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\obj\x64\Debug\qualifiers.txt.intermediate
 C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\obj\x64\Debug\ProjectArchitectures.txt
+C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\obj\x64\Debug\BitcoinPriceTracker.csprojResolveAssemblyReference.cache

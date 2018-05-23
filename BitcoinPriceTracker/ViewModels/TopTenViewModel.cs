@@ -13,13 +13,14 @@ namespace BitcoinPriceTracker.ViewModels
     {
         public event PropertyChangedEventHandler PropertyChanged;
         public string Coin_Name { get; set; } = "";
-        public string Coin_Price_USD { get; set; } = "";
-        public string Coin_24_Hour_Change { get; set; } = "";
-        public string Coin_24_Hour_Volume { get; set; } = "";
-        public string Coin_Market_Share { get; set; } = "";
-        public string Coin_Circulating_Supply { get; set; } = "";
-        public string Coin_Rank { get; set; } = "";
+        public double Coin_Price_USD { get; set; } = 0;
+        public double Coin_24_Hour_Change { get; set; } = 0;
+        public double Coin_24_Hour_Volume { get; set; } = 0;
+        public double Coin_Market_Cap { get; set; } = 0;
+        public double Coin_Circulating_Supply { get; set; } = 0;
+        public int Coin_Rank { get; set; } = 0;
         public string Coin_Ticker_Tape { get; set; } = "";
-        public string Coin_picture { get; set; } = "";
+        public string Coin_Picture { get; set; } = "";
+        public int Coin_Picture_Scale { get; set; } = 0;
     }
 }
