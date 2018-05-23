@@ -1,4 +1,5 @@
 WinMetadata\Windows.winmd
+Assets\background space.jpg
 Assets\CryptoSVG\PNG\ADA.png
 Assets\CryptoSVG\PNG\ADX.png
 Assets\CryptoSVG\PNG\AE.png
@@ -199,3 +200,4 @@ Assets\Wide310x150Logo.scale-200.png
 BitcoinPriceTracker.xr.xml
 FodyWeavers.xml
 Properties\Default.rd.xml
+sources.txt

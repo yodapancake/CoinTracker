@@ -62,14 +62,23 @@ namespace BitcoinPriceTracker
                 temp.Coin_Picture = "ms-appx:///Assets/CryptoSVG/PNG/"+temp.Coin_Ticker_Tape+".png";
 
                 double Coin_Market_Share_Percent = ((double)(temp.Coin_Market_Cap) / (long)(Global_Data_viewmodels.Total_Market_Cap));
-                int scale = (int)((Coin_Market_Share_Percent / Global_Data_viewmodels.Bitcoin_Percentage_Of_Market_Cap) * 40000);
+                int scale = (int)((Coin_Market_Share_Percent / Global_Data_viewmodels.Bitcoin_Percentage_Of_Market_Cap) * 65000);
                 temp.Coin_Picture_Scale = (int)(Math.Sqrt(scale) * 15);
 
                 Top_ten_viewmodels.Add(temp);
             }
             
        }
-       
+
+        private void ListView_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            
+        }
+
+        private void Flyout_menu_button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     } 
 }
 

@@ -7,22 +7,62 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
+    <Page.Resources>
+        <Style TargetType="TextBlock" x:Key="White_textblock">
+            <Setter Property="Foreground" Value="AntiqueWhite"/>
+            <Setter Property="FontSize" Value="40"/>
+            <Setter Property="FontFamily" Value="Helvetica"/>
+        </Style>
+    </Page.Resources>
     <Grid>
-        <Rectangle Fill="Blue"/>
-        <GridView ItemsSource="{x:Bind Top_ten_viewmodels}" HorizontalAlignment="Center" >
-            <GridView.ItemTemplate>
+        <Image x:Name="BackgroundImage" Source="Assets/background space.jpg" Stretch="UniformToFill"/>
+            <ListView Name="MyListview" ItemsSource="{x:Bind Top_ten_viewmodels}" HorizontalAlignment="Center" ItemClick="ListView_ItemClick" ScrollViewer.HorizontalScrollBarVisibility="Visible">
+            <ListView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <StackPanel Orientation="Horizontal"/>
+                </ItemsPanelTemplate>
+            </ListView.ItemsPanel>
+            <ListView.ItemTemplate>
                 <DataTemplate x:DataType="data:TopTenViewModel">
-                    <StackPanel Margin="20,20,20,20" HorizontalAlignment="Stretch">
+                    <StackPanel Margin="20,20,20,20" HorizontalAlignment="Stretch" Orientation="Vertical">
                         <Image x:Name="ResultImage" Width="{x:Bind Coin_Picture_Scale}" Height="{x:Bind Coin_Picture_Scale}" Source="{x:Bind Coin_Picture, Mode=OneWay}" HorizontalAlignment="Center"/>
-                        <TextBlock x:Name="coin" Text="{x:Bind Coin_Ticker_Tape, Mode=OneWay}" 
-                                   Foreground="White" Width="auto" Height="auto" HorizontalAlignment="Center"/>
-                        <TextBlock x:Name="currency" Text="{x:Bind Coin_Name, Mode=OneWay}" 
-                                    Foreground="White" Width="auto" Height="auto" HorizontalAlignment="Center"/>
-                        <TextBlock x:Name="price" Text="{x:Bind Coin_Price_USD, Mode=OneWay}" 
-                                    Foreground="White" Width="auto" Height="auto" HorizontalAlignment="Center"/>
+                        <RelativePanel HorizontalAlignment="Center">
+                            <Button Name="Flyout_menu_button" Click="Flyout_menu_button_Click" Width="50" Height="50" FontFamily="Segoe MDL2 Assets" Content="&#xE70D;" Background="Black">
+                                <Button.Flyout>
+                                    <Flyout Placement="Bottom" FlyoutPresenterStyle="">
+                                        <StackPanel Orientation="Vertical">
+                                            <StackPanel Orientation="Horizontal">
+                                                <TextBlock Text="24 Hour Change: " Style="{StaticResource White_textblock}"/>
+                                                <TextBlock Text="{x:Bind Coin_24_Hour_Change}" Style="{StaticResource White_textblock}"/>
+                                            </StackPanel>
+                                            <StackPanel Orientation="Horizontal">
+                                                <TextBlock Text="24 Hour Volume: " Style="{StaticResource White_textblock}"/>
+                                                <TextBlock Text="{x:Bind Coin_24_Hour_Volume}" Style="{StaticResource White_textblock}"/>
+                                            </StackPanel>
+                                            <StackPanel Orientation="Horizontal">
+                                                <TextBlock Text="Market Cap: " Style="{StaticResource White_textblock}"/>
+                                                <TextBlock Text="{x:Bind Coin_Market_Cap}" Style="{StaticResource White_textblock}"/>
+                                            </StackPanel>
+                                            <StackPanel Orientation="Horizontal">
+                                                <TextBlock Text="Coin Supply: " Style="{StaticResource White_textblock}"/>
+                                                <TextBlock Text="{x:Bind Coin_Circulating_Supply}" Style="{StaticResource White_textblock}"/>
+                                            </StackPanel>
+                                        </StackPanel>
+                                    </Flyout>
+                                </Button.Flyout>
+                            </Button>
+                            <TextBlock x:Name="currency" Margin="20,0,0,0" 
+                                       Text="{x:Bind Coin_Name, Mode=OneWay}" 
+                                       Style="{StaticResource White_textblock}" 
+                                       HorizontalAlignment="Center"
+                                       RelativePanel.AlignVerticalCenterWith="Flyout_menu_button"
+                                       RelativePanel.RightOf="Flyout_menu_button"/>
+                        </RelativePanel>
+                        <TextBlock x:Name="coin" Text="{x:Bind Coin_Ticker_Tape, Mode=OneWay}" Style="{StaticResource White_textblock}" HorizontalAlignment="Center"/>
+                        <TextBlock x:Name="price" Text="{x:Bind Coin_Price_USD, Mode=OneWay}" Style="{StaticResource White_textblock}" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </DataTemplate>
-            </GridView.ItemTemplate>
-        </GridView>
+            </ListView.ItemTemplate>
+        </ListView>
     </Grid>
 </Page>
