@@ -26,7 +26,6 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-
         <Image x:ConnectionId='2' x:Name="BackgroundImage" Grid.RowSpan="2" Source="Assets/polygon-1920x1080-4k-hd-wallpaper-orange-red-blue-background-pattern-225 (1).jpg" Stretch="UniformToFill"/>
 
         <ScrollViewer x:ConnectionId='3' IsEnabled="True"                                        />
@@ -81,8 +80,6 @@
         <Button x:ConnectionId='5' Name="Hamburger_button"                                Width="100" Height="60" FontSize="40" FontFamily="Segoe MDL2 Assets" Content="&#xE700;" Background="White"/>
         <SplitView x:ConnectionId='6' Name="HambugerSplit" Grid.Row="1" Grid.Column="0" DisplayMode="CompactOverlay" OpenPaneLength="200" CompactPaneLength="0" HorizontalAlignment="Left">
             <SplitView.Pane>
-                <StackPanel>
-                    <ScrollViewer/>
                     <ListView x:ConnectionId='7' SelectionMode="Single"                                           ScrollViewer.VerticalScrollMode="Enabled">
                         <ListView.ItemTemplate>
                             <DataTemplate                                  >
@@ -90,7 +87,6 @@
                             </DataTemplate>
                         </ListView.ItemTemplate>
                     </ListView>
-                </StackPanel>
             </SplitView.Pane>
         </SplitView>
     </Grid>
