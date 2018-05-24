@@ -81,15 +81,22 @@ namespace BitcoinPriceTracker
 
                 Top_ten_viewmodels.Add(temp);
             }
-
         }
-
         private void ListView_ItemClick(object sender, ItemClickEventArgs e)
         {
 
         }
-
         public void Flyout_menu_button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Hamburger_button_Click(object sender, RoutedEventArgs e)
+        {
+            HambugerSplit.IsPaneOpen = !HambugerSplit.IsPaneOpen;
+        }
+
+        private void ScrollViewer_ViewChanged(object sender, ScrollViewerViewChangedEventArgs e)
         {
 
         }

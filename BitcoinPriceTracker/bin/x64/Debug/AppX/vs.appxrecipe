@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>51L104-18</Machine>
+    <Machine>51S50018542</Machine>
     <WindowsUser>s-hirschm</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-24T18:05:44.063</Modified>
+      <Modified>2018-05-24T19:27:03.322</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\bin\x64\Debug\BitcoinPriceTracker.exe">
       <PackagePath>entrypoint\BitcoinPriceTracker.exe</PackagePath>
-      <Modified>2018-05-24T18:05:39.183</Modified>
+      <Modified>2018-05-24T19:27:02.049</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -505,830 +505,830 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\background space.jpg">
       <PackagePath>Assets\background space.jpg</PackagePath>
-      <Modified>2018-05-24T18:04:56.507</Modified>
+      <Modified>2018-05-24T18:54:40.505</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ADA.png">
       <PackagePath>Assets\CryptoSVG\PNG\ADA.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.119</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ADX.png">
       <PackagePath>Assets\CryptoSVG\PNG\ADX.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.121</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\AE.png">
       <PackagePath>Assets\CryptoSVG\PNG\AE.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.123</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ARDR.png">
       <PackagePath>Assets\CryptoSVG\PNG\ARDR.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.125</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ARK.png">
       <PackagePath>Assets\CryptoSVG\PNG\ARK.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.127</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BAT.png">
       <PackagePath>Assets\CryptoSVG\PNG\BAT.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.128</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BCC.png">
       <PackagePath>Assets\CryptoSVG\PNG\BCC.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.129</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BCH.png">
       <PackagePath>Assets\CryptoSVG\PNG\BCH.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.131</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BCN.png">
       <PackagePath>Assets\CryptoSVG\PNG\BCN.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.133</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BLOCK.png">
       <PackagePath>Assets\CryptoSVG\PNG\BLOCK.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.134</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BNB.png">
       <PackagePath>Assets\CryptoSVG\PNG\BNB.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.136</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BNT.png">
       <PackagePath>Assets\CryptoSVG\PNG\BNT.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.137</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BTC.png">
       <PackagePath>Assets\CryptoSVG\PNG\BTC.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.139</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BTCD.png">
       <PackagePath>Assets\CryptoSVG\PNG\BTCD.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.141</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BTG.png">
       <PackagePath>Assets\CryptoSVG\PNG\BTG.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.142</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BTM.png">
       <PackagePath>Assets\CryptoSVG\PNG\BTM.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.144</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BTS.png">
       <PackagePath>Assets\CryptoSVG\PNG\BTS.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.146</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\CNX.png">
       <PackagePath>Assets\CryptoSVG\PNG\CNX.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.148</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\CVC.png">
       <PackagePath>Assets\CryptoSVG\PNG\CVC.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.149</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\DASH.png">
       <PackagePath>Assets\CryptoSVG\PNG\DASH.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.150</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\DCR.png">
       <PackagePath>Assets\CryptoSVG\PNG\DCR.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.151</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\DGB.png">
       <PackagePath>Assets\CryptoSVG\PNG\DGB.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.152</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\DGD.png">
       <PackagePath>Assets\CryptoSVG\PNG\DGD.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.153</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\DOGE.png">
       <PackagePath>Assets\CryptoSVG\PNG\DOGE.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.154</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\EDG.png">
       <PackagePath>Assets\CryptoSVG\PNG\EDG.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.155</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\EMC2.png">
       <PackagePath>Assets\CryptoSVG\PNG\EMC2.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.156</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\EOS.png">
       <PackagePath>Assets\CryptoSVG\PNG\EOS.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.158</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ETC.png">
       <PackagePath>Assets\CryptoSVG\PNG\ETC.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.159</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ETH.png">
       <PackagePath>Assets\CryptoSVG\PNG\ETH.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.160</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ETHOS.png">
       <PackagePath>Assets\CryptoSVG\PNG\ETHOS.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.161</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ETP.png">
       <PackagePath>Assets\CryptoSVG\PNG\ETP.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.163</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\FCT.png">
       <PackagePath>Assets\CryptoSVG\PNG\FCT.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.164</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\FUN.png">
       <PackagePath>Assets\CryptoSVG\PNG\FUN.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.165</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\GAME.png">
       <PackagePath>Assets\CryptoSVG\PNG\GAME.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.167</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\GAS.png">
       <PackagePath>Assets\CryptoSVG\PNG\GAS.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.168</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\GBYTE.png">
       <PackagePath>Assets\CryptoSVG\PNG\GBYTE.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.170</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\GNO.png">
       <PackagePath>Assets\CryptoSVG\PNG\GNO.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.171</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\GNT.png">
       <PackagePath>Assets\CryptoSVG\PNG\GNT.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.172</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\GRS.png">
       <PackagePath>Assets\CryptoSVG\PNG\GRS.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.174</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\GXS.png">
       <PackagePath>Assets\CryptoSVG\PNG\GXS.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.175</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\HSR.png">
       <PackagePath>Assets\CryptoSVG\PNG\HSR.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.176</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ICN.png">
       <PackagePath>Assets\CryptoSVG\PNG\ICN.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.178</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\MIOTA.png">
       <PackagePath>Assets\CryptoSVG\PNG\MIOTA.png</PackagePath>
-      <Modified>2018-05-24T18:04:56.473</Modified>
+      <Modified>2018-05-24T18:54:40.187</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\KMD.png">
       <PackagePath>Assets\CryptoSVG\PNG\KMD.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.180</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\KNC.png">
       <PackagePath>Assets\CryptoSVG\PNG\KNC.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.181</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\LSK.png">
       <PackagePath>Assets\CryptoSVG\PNG\LSK.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.183</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\LTC.png">
       <PackagePath>Assets\CryptoSVG\PNG\LTC.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.184</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\MAID.png">
       <PackagePath>Assets\CryptoSVG\PNG\MAID.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.185</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\MCO.png">
       <PackagePath>Assets\CryptoSVG\PNG\MCO.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.186</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\MNX.png">
       <PackagePath>Assets\CryptoSVG\PNG\MNX.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.188</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\MONA.png">
       <PackagePath>Assets\CryptoSVG\PNG\MONA.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.189</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\MTL.png">
       <PackagePath>Assets\CryptoSVG\PNG\MTL.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.190</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\NAV.png">
       <PackagePath>Assets\CryptoSVG\PNG\NAV.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.191</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\NEO.png">
       <PackagePath>Assets\CryptoSVG\PNG\NEO.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.193</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\NXS.png">
       <PackagePath>Assets\CryptoSVG\PNG\NXS.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.194</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\NXT.png">
       <PackagePath>Assets\CryptoSVG\PNG\NXT.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.195</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\OMG.png">
       <PackagePath>Assets\CryptoSVG\PNG\OMG.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.196</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\PAY.png">
       <PackagePath>Assets\CryptoSVG\PNG\PAY.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.197</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\PIVX.png">
       <PackagePath>Assets\CryptoSVG\PNG\PIVX.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.198</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\POT.png">
       <PackagePath>Assets\CryptoSVG\PNG\POT.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.200</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\POWER.png">
       <PackagePath>Assets\CryptoSVG\PNG\POWER.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.201</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\PPC.png">
       <PackagePath>Assets\CryptoSVG\PNG\PPC.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.202</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\PPT.png">
       <PackagePath>Assets\CryptoSVG\PNG\PPT.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.203</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\PURA.png">
       <PackagePath>Assets\CryptoSVG\PNG\PURA.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.204</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\QASH.png">
       <PackagePath>Assets\CryptoSVG\PNG\QASH.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.205</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\QTUM.png">
       <PackagePath>Assets\CryptoSVG\PNG\QTUM.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.206</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\RDN.png">
       <PackagePath>Assets\CryptoSVG\PNG\RDN.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.207</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\REP.png">
       <PackagePath>Assets\CryptoSVG\PNG\REP.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.208</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\SALT.png">
       <PackagePath>Assets\CryptoSVG\PNG\SALT.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.209</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\SAN.png">
       <PackagePath>Assets\CryptoSVG\PNG\SAN.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.210</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\SC.png">
       <PackagePath>Assets\CryptoSVG\PNG\SC.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.211</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\SKY.png">
       <PackagePath>Assets\CryptoSVG\PNG\SKY.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.212</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\SNGLS.png">
       <PackagePath>Assets\CryptoSVG\PNG\SNGLS.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.214</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\SNT.png">
       <PackagePath>Assets\CryptoSVG\PNG\SNT.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.215</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\START.png">
       <PackagePath>Assets\CryptoSVG\PNG\START.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.216</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\STEEM.png">
       <PackagePath>Assets\CryptoSVG\PNG\STEEM.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.217</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\STORJ.png">
       <PackagePath>Assets\CryptoSVG\PNG\STORJ.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.218</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\SYS.png">
       <PackagePath>Assets\CryptoSVG\PNG\SYS.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\TRX.png">
       <PackagePath>Assets\CryptoSVG\PNG\TRX.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.221</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\UBQ.png">
       <PackagePath>Assets\CryptoSVG\PNG\UBQ.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.222</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\USDT.png">
       <PackagePath>Assets\CryptoSVG\PNG\USDT.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.224</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\VEN.png">
       <PackagePath>Assets\CryptoSVG\PNG\VEN.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.225</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\VTC.png">
       <PackagePath>Assets\CryptoSVG\PNG\VTC.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.227</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\WAVES.png">
       <PackagePath>Assets\CryptoSVG\PNG\WAVES.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.229</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\WTC.png">
       <PackagePath>Assets\CryptoSVG\PNG\WTC.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.231</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\XEM.png">
       <PackagePath>Assets\CryptoSVG\PNG\XEM.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.232</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\XLM.png">
       <PackagePath>Assets\CryptoSVG\PNG\XLM.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.233</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\XMR.png">
       <PackagePath>Assets\CryptoSVG\PNG\XMR.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.235</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\XRP.png">
       <PackagePath>Assets\CryptoSVG\PNG\XRP.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.236</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\XUC.png">
       <PackagePath>Assets\CryptoSVG\PNG\XUC.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.238</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\XVG.png">
       <PackagePath>Assets\CryptoSVG\PNG\XVG.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.239</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\XZC.png">
       <PackagePath>Assets\CryptoSVG\PNG\XZC.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.241</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ZEC.png">
       <PackagePath>Assets\CryptoSVG\PNG\ZEC.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.242</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ZEN.png">
       <PackagePath>Assets\CryptoSVG\PNG\ZEN.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.244</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ZRX.png">
       <PackagePath>Assets\CryptoSVG\PNG\ZRX.png</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.245</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2018-03-29T15:54:34.000</Modified>
+      <Modified>2018-05-24T18:54:40.446</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-29T15:54:34.000</Modified>
+      <Modified>2018-05-24T18:54:40.448</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-29T15:54:34.000</Modified>
+      <Modified>2018-05-24T18:54:40.449</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-29T15:54:34.000</Modified>
+      <Modified>2018-05-24T18:54:40.450</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-29T15:54:34.000</Modified>
+      <Modified>2018-05-24T18:54:40.452</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-29T15:54:34.000</Modified>
+      <Modified>2018-05-24T18:54:40.455</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-29T15:54:34.000</Modified>
+      <Modified>2018-05-24T18:54:40.456</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ADA.svg">
       <PackagePath>Assets\CryptoSVG\SVG\ADA.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.247</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ADX.svg">
       <PackagePath>Assets\CryptoSVG\SVG\ADX.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.249</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\AE.svg">
       <PackagePath>Assets\CryptoSVG\SVG\AE.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.250</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ARDR.svg">
       <PackagePath>Assets\CryptoSVG\SVG\ARDR.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.252</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ARK.svg">
       <PackagePath>Assets\CryptoSVG\SVG\ARK.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.253</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BAT.svg">
       <PackagePath>Assets\CryptoSVG\SVG\BAT.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.255</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BCC.svg">
       <PackagePath>Assets\CryptoSVG\SVG\BCC.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.256</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BCH.svg">
       <PackagePath>Assets\CryptoSVG\SVG\BCH.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.261</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BCN.svg">
       <PackagePath>Assets\CryptoSVG\SVG\BCN.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.262</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BLOCK.svg">
       <PackagePath>Assets\CryptoSVG\SVG\BLOCK.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.263</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BNB.svg">
       <PackagePath>Assets\CryptoSVG\SVG\BNB.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.265</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BNT.svg">
       <PackagePath>Assets\CryptoSVG\SVG\BNT.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.266</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BTC.svg">
       <PackagePath>Assets\CryptoSVG\SVG\BTC.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.267</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BTCD.svg">
       <PackagePath>Assets\CryptoSVG\SVG\BTCD.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.268</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BTG.svg">
       <PackagePath>Assets\CryptoSVG\SVG\BTG.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.270</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BTM.svg">
       <PackagePath>Assets\CryptoSVG\SVG\BTM.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.271</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BTS.svg">
       <PackagePath>Assets\CryptoSVG\SVG\BTS.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.272</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\CNX.svg">
       <PackagePath>Assets\CryptoSVG\SVG\CNX.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.274</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\CVC.svg">
       <PackagePath>Assets\CryptoSVG\SVG\CVC.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.275</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\DASH.svg">
       <PackagePath>Assets\CryptoSVG\SVG\DASH.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.276</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\DCR.svg">
       <PackagePath>Assets\CryptoSVG\SVG\DCR.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.277</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\DGB.svg">
       <PackagePath>Assets\CryptoSVG\SVG\DGB.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.279</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\DGD.svg">
       <PackagePath>Assets\CryptoSVG\SVG\DGD.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.281</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\DOGE.svg">
       <PackagePath>Assets\CryptoSVG\SVG\DOGE.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.282</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\EDG.svg">
       <PackagePath>Assets\CryptoSVG\SVG\EDG.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.284</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\EMC2.svg">
       <PackagePath>Assets\CryptoSVG\SVG\EMC2.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.285</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\EOS.svg">
       <PackagePath>Assets\CryptoSVG\SVG\EOS.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.286</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ETC.svg">
       <PackagePath>Assets\CryptoSVG\SVG\ETC.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.287</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ETH.svg">
       <PackagePath>Assets\CryptoSVG\SVG\ETH.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.288</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ETHOS.svg">
       <PackagePath>Assets\CryptoSVG\SVG\ETHOS.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.290</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ETP.svg">
       <PackagePath>Assets\CryptoSVG\SVG\ETP.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.291</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\FCT.svg">
       <PackagePath>Assets\CryptoSVG\SVG\FCT.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.292</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\FUN.svg">
       <PackagePath>Assets\CryptoSVG\SVG\FUN.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.293</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\GAME.svg">
       <PackagePath>Assets\CryptoSVG\SVG\GAME.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.294</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\GAS.svg">
       <PackagePath>Assets\CryptoSVG\SVG\GAS.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.296</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\GBYTE.svg">
       <PackagePath>Assets\CryptoSVG\SVG\GBYTE.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.297</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\GNO.svg">
       <PackagePath>Assets\CryptoSVG\SVG\GNO.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.298</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\GNT.svg">
       <PackagePath>Assets\CryptoSVG\SVG\GNT.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.299</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\GRS.svg">
       <PackagePath>Assets\CryptoSVG\SVG\GRS.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.300</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\GXS.svg">
       <PackagePath>Assets\CryptoSVG\SVG\GXS.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.301</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\HSR.svg">
       <PackagePath>Assets\CryptoSVG\SVG\HSR.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.302</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ICN.svg">
       <PackagePath>Assets\CryptoSVG\SVG\ICN.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.303</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\IOT.svg">
       <PackagePath>Assets\CryptoSVG\SVG\IOT.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.304</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\KMD.svg">
       <PackagePath>Assets\CryptoSVG\SVG\KMD.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.305</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\KNC.svg">
       <PackagePath>Assets\CryptoSVG\SVG\KNC.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.306</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\LSK.svg">
       <PackagePath>Assets\CryptoSVG\SVG\LSK.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.308</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\LTC.svg">
       <PackagePath>Assets\CryptoSVG\SVG\LTC.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.309</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\MAID.svg">
       <PackagePath>Assets\CryptoSVG\SVG\MAID.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.310</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\MCO.svg">
       <PackagePath>Assets\CryptoSVG\SVG\MCO.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.311</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\MNX.svg">
       <PackagePath>Assets\CryptoSVG\SVG\MNX.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.312</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\MONA.svg">
       <PackagePath>Assets\CryptoSVG\SVG\MONA.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.313</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\MTL.svg">
       <PackagePath>Assets\CryptoSVG\SVG\MTL.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.314</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\NAV.svg">
       <PackagePath>Assets\CryptoSVG\SVG\NAV.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.315</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\NEO.svg">
       <PackagePath>Assets\CryptoSVG\SVG\NEO.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.316</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\NXS.svg">
       <PackagePath>Assets\CryptoSVG\SVG\NXS.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.317</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\NXT.svg">
       <PackagePath>Assets\CryptoSVG\SVG\NXT.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.318</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\OMG.svg">
       <PackagePath>Assets\CryptoSVG\SVG\OMG.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.319</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\PAY.svg">
       <PackagePath>Assets\CryptoSVG\SVG\PAY.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.320</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\PIVX.svg">
       <PackagePath>Assets\CryptoSVG\SVG\PIVX.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.321</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\POT.svg">
       <PackagePath>Assets\CryptoSVG\SVG\POT.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.322</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\POWER.svg">
       <PackagePath>Assets\CryptoSVG\SVG\POWER.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.323</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\PPC.svg">
       <PackagePath>Assets\CryptoSVG\SVG\PPC.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.324</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\PPT.svg">
       <PackagePath>Assets\CryptoSVG\SVG\PPT.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.325</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\PURA.svg">
       <PackagePath>Assets\CryptoSVG\SVG\PURA.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.327</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\QASH.svg">
       <PackagePath>Assets\CryptoSVG\SVG\QASH.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.328</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\QTUM.svg">
       <PackagePath>Assets\CryptoSVG\SVG\QTUM.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.329</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\RDN.svg">
       <PackagePath>Assets\CryptoSVG\SVG\RDN.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.330</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\REP.svg">
       <PackagePath>Assets\CryptoSVG\SVG\REP.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.331</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\SALT.svg">
       <PackagePath>Assets\CryptoSVG\SVG\SALT.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.333</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\SAN.svg">
       <PackagePath>Assets\CryptoSVG\SVG\SAN.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.334</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\SC.svg">
       <PackagePath>Assets\CryptoSVG\SVG\SC.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.335</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\SKY.svg">
       <PackagePath>Assets\CryptoSVG\SVG\SKY.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.336</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\SNGLS.svg">
       <PackagePath>Assets\CryptoSVG\SVG\SNGLS.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.337</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\SNT.svg">
       <PackagePath>Assets\CryptoSVG\SVG\SNT.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.338</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\START.svg">
       <PackagePath>Assets\CryptoSVG\SVG\START.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.339</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\STEEM.svg">
       <PackagePath>Assets\CryptoSVG\SVG\STEEM.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.341</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\STORJ.svg">
       <PackagePath>Assets\CryptoSVG\SVG\STORJ.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.342</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\SYS.svg">
       <PackagePath>Assets\CryptoSVG\SVG\SYS.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.344</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\TRX.svg">
       <PackagePath>Assets\CryptoSVG\SVG\TRX.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.345</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\UBQ.svg">
       <PackagePath>Assets\CryptoSVG\SVG\UBQ.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.347</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\USDT.svg">
       <PackagePath>Assets\CryptoSVG\SVG\USDT.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.348</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\VEN.svg">
       <PackagePath>Assets\CryptoSVG\SVG\VEN.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.350</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\VTC.svg">
       <PackagePath>Assets\CryptoSVG\SVG\VTC.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.352</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\WAVES.svg">
       <PackagePath>Assets\CryptoSVG\SVG\WAVES.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.353</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\WTC.svg">
       <PackagePath>Assets\CryptoSVG\SVG\WTC.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.356</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\XEM.svg">
       <PackagePath>Assets\CryptoSVG\SVG\XEM.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.357</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\XLM.svg">
       <PackagePath>Assets\CryptoSVG\SVG\XLM.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.359</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\XMR.svg">
       <PackagePath>Assets\CryptoSVG\SVG\XMR.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.360</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\XRP.svg">
       <PackagePath>Assets\CryptoSVG\SVG\XRP.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.363</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\XUC.svg">
       <PackagePath>Assets\CryptoSVG\SVG\XUC.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.365</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\XVG.svg">
       <PackagePath>Assets\CryptoSVG\SVG\XVG.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.366</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\XZC.svg">
       <PackagePath>Assets\CryptoSVG\SVG\XZC.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.367</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ZEC.svg">
       <PackagePath>Assets\CryptoSVG\SVG\ZEC.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.370</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ZEN.svg">
       <PackagePath>Assets\CryptoSVG\SVG\ZEN.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.372</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ZRX.svg">
       <PackagePath>Assets\CryptoSVG\SVG\ZRX.svg</PackagePath>
-      <Modified>2018-05-17T19:39:26.000</Modified>
+      <Modified>2018-05-24T18:54:40.374</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\FodyWeavers.xml">
       <PackagePath>FodyWeavers.xml</PackagePath>
-      <Modified>2018-05-16T19:58:16.000</Modified>
+      <Modified>2018-05-24T18:54:40.514</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2018-05-16T19:28:20.000</Modified>
+      <Modified>2018-05-24T18:54:40.530</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\sources.txt">
       <PackagePath>sources.txt</PackagePath>
-      <Modified>2018-05-24T18:04:56.762</Modified>
+      <Modified>2018-05-24T18:54:55.861</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\bin\x64\Debug\BitcoinPriceTracker.xr.xml">
       <PackagePath>BitcoinPriceTracker.xr.xml</PackagePath>
-      <Modified>2018-05-24T18:05:38.277</Modified>
+      <Modified>2018-05-24T19:27:01.725</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.15063.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2018-03-28T14:51:35.710</Modified>
+      <Modified>2018-04-06T15:45:44.167</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-24T18:05:43.438</Modified>
+      <Modified>2018-05-24T19:27:02.864</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\bin\x64\Debug\Core\BitcoinPriceTracker.exe">
       <PackagePath>BitcoinPriceTracker.exe</PackagePath>
-      <Modified>2018-05-24T18:05:44.047</Modified>
+      <Modified>2018-05-24T19:27:03.307</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

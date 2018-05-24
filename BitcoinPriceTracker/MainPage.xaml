@@ -22,9 +22,37 @@
         
     </Page.Resources>
     <Grid>
-        <Image x:Name="BackgroundImage" Source="Assets/background space.jpg" Stretch="UniformToFill"/>
-        <ScrollViewer IsEnabled="True" />
-        <ListView Name="MyListview" ItemsSource="{x:Bind Top_ten_viewmodels}" HorizontalAlignment="Center" ItemClick="ListView_ItemClick" ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.HorizontalScrollMode="Enabled">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        
+        <SplitView Name="HambugerSplit" Grid.RowSpan="2" DisplayMode="CompactOverlay" OpenPaneLength="200" CompactPaneLength="56" HorizontalAlignment="Left"  >
+            <SplitView.Pane>
+                <StackPanel>
+                    <ListView SelectionMode="Single" ItemsSource="{x:Bind Top_ten_viewmodels}">
+                        <ListView.ItemTemplate>
+                            <DataTemplate x:DataType="data:TopTenViewModel">
+                                <TextBlock Text="{x:Bind Coin_Name}"/>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackPanel>
+            </SplitView.Pane>
+            <SplitView.Content>
+                <Frame Name="InnerFrame"/>
+            </SplitView.Content>
+        </SplitView>
+        
+        <Image x:Name="BackgroundImage" Grid.RowSpan="2" Source="Assets/background space.jpg" Stretch="UniformToFill"/>
+        <Button Name="Hamburger_button" Click="Hamburger_button_Click" Width="100" Height="60" FontSize="40" FontFamily="Segoe MDL2 Assets" Content="&#xE700;" Background="White"/>
+
+        <ScrollViewer IsEnabled="True" ViewChanged="ScrollViewer_ViewChanged" />
+        <ListView Name="MyListview" Grid.Row="1" ItemsSource="{x:Bind Top_ten_viewmodels}" HorizontalAlignment="Center" ItemClick="ListView_ItemClick" ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.HorizontalScrollMode="Enabled">
             <ListView.ItemsPanel>
                 <ItemsPanelTemplate>
                     <StackPanel Orientation="Horizontal"/>
