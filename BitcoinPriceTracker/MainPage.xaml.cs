@@ -17,6 +17,7 @@ using BitcoinPriceTracker.ViewModels;
 using BitcoinPriceTracker.Models;
 using Windows.Storage;
 using System.Collections.ObjectModel;
+using Windows.UI;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -58,30 +59,39 @@ namespace BitcoinPriceTracker
                 temp.Coin_24_Hour_Change = v.Value.quotes.USD.percent_change_24h;
                 temp.Coin_24_Hour_Volume = v.Value.quotes.USD.volume_24h;
                 temp.Coin_Circulating_Supply = v.Value.total_supply;
-                temp.Coin_Market_Cap = v.Value.quotes.USD.market_cap;               
-                temp.Coin_Picture = "ms-appx:///Assets/CryptoSVG/PNG/"+temp.Coin_Ticker_Tape+".png";
+                temp.Coin_Market_Cap = v.Value.quotes.USD.market_cap;
+                temp.Coin_Picture = "ms-appx:///Assets/CryptoSVG/PNG/" + temp.Coin_Ticker_Tape + ".png";
 
                 temp.Coin_CMC_String = " $" + String.Format("{0:#,##0.##}", temp.Coin_Market_Cap);
                 temp.Coin_Circ_String = " " + String.Format("{0:#,##0.##}", temp.Coin_Circulating_Supply);
-                temp.Coin_Volume_String = " " + String.Format("{0:#,##0.##}", temp.Coin_24_Hour_Volume);
-               
+                temp.Coin_Volume_String = "$" + String.Format("{0:#,##0.##}", temp.Coin_24_Hour_Volume);
+
                 double Coin_Market_Share_Percent = ((double)(temp.Coin_Market_Cap) / (long)(Global_Data_viewmodels.Total_Market_Cap));
                 int scale = (int)((Coin_Market_Share_Percent / Global_Data_viewmodels.Bitcoin_Percentage_Of_Market_Cap) * 65000);
-                temp.Coin_Picture_Scale = (int)(Math.Sqrt(scale) * 15);
+                temp.Coin_Picture_Scale = (int)(Math.Sqrt(scale) * 13);
+
+                if (temp.Coin_24_Hour_Change < 0)
+                {
+                    temp.Coin_Sign = new SolidColorBrush(Color.FromArgb(230, 201, 19, 19));
+                }
+                else
+                { 
+                    temp.Coin_Sign = new SolidColorBrush(Color.FromArgb(230, 19, 201, 31));
+                }
 
                 Top_ten_viewmodels.Add(temp);
             }
-            
-       }
+
+        }
 
         private void ListView_ItemClick(object sender, ItemClickEventArgs e)
         {
-            
+
         }
 
         public void Flyout_menu_button_Click(object sender, RoutedEventArgs e)
         {
-            
+
         }
     } 
 }

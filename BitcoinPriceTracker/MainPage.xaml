@@ -22,7 +22,7 @@
     <Grid>
         <Image x:Name="BackgroundImage" Source="Assets/background space.jpg" Stretch="UniformToFill"/>
         <ScrollViewer IsEnabled="True"/>
-        <ListView Name="MyListview" ItemsSource="{x:Bind Top_ten_viewmodels}" HorizontalAlignment="Center" ItemClick="ListView_ItemClick" ScrollViewer.HorizontalScrollBarVisibility="Visible">
+        <ListView Name="MyListview" ItemsSource="{x:Bind Top_ten_viewmodels}" HorizontalAlignment="Center" ItemClick="ListView_ItemClick" ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.HorizontalScrollMode="Enabled">
             <ListView.ItemsPanel>
                 <ItemsPanelTemplate>
                     <StackPanel Orientation="Horizontal"/>
@@ -39,15 +39,15 @@
                                         <StackPanel Orientation="Vertical">
                                             <StackPanel Orientation="Horizontal">
                                                 <TextBlock Text="24 Hour Change: %" Style="{StaticResource Black_textblock}"/>
-                                                <TextBlock Name="24hourChangeTextblock"  Text="{x:Bind Coin_24_Hour_Change}" Style="{StaticResource Black_textblock}"/>
+                                                <TextBlock Name="24hourChangeTextblock"  Text="{x:Bind Coin_24_Hour_Change}" Style="{StaticResource Black_textblock}" Foreground="{x:Bind Coin_Sign}"/>
                                             </StackPanel>
                                             <StackPanel Orientation="Horizontal">
-                                                <TextBlock Text="24 Hour Volume: $" Style="{StaticResource Black_textblock}"/>
-                                                <TextBlock Name="24hourVolumeTextblock" Text="{x:Bind Coin_Volume_String}" Style="{StaticResource Black_textblock}"/>
+                                                <TextBlock Text="24 Hour Volume: " Style="{StaticResource Black_textblock}"/>
+                                                <TextBlock Name="24hourVolumeTextblock" Text="{x:Bind Coin_Volume_String}" Style="{StaticResource Black_textblock}" Foreground="{x:Bind Coin_Sign}"/>
                                             </StackPanel>
                                             <StackPanel Orientation="Horizontal">
                                                 <TextBlock Text="Market Cap: " Style="{StaticResource Black_textblock}"/>
-                                                <TextBlock Name="CoinSupplyTextblock" Text="{x:Bind Coin_CMC_String}" Style="{StaticResource Black_textblock}"/>
+                                                <TextBlock Name="CoinSupplyTextblock" Text="{x:Bind Coin_CMC_String}" Style="{StaticResource Black_textblock}" Foreground="{x:Bind Coin_Sign}"/>
                                             </StackPanel>
                                             <StackPanel Orientation="Horizontal">
                                                 <TextBlock Text="Coin Supply:" Style="{StaticResource Black_textblock}"/>

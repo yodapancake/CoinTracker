@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using PropertyChanged;
 using System.ComponentModel;
+using Windows.UI;
+using Windows.UI.Xaml.Media;
 
 namespace BitcoinPriceTracker.ViewModels
 {
@@ -21,8 +23,9 @@ namespace BitcoinPriceTracker.ViewModels
         public int Coin_Rank { get; set; } = 0;
         public string Coin_Ticker_Tape { get; set; } = "";
         public string Coin_Picture { get; set; } = "";
-        public int Coin_Picture_Scale { get; set; } = 0;
-        
+        public int Coin_Picture_Scale { get; set; } = 0;      
+        public SolidColorBrush Coin_Sign { get; set; }
+
         public string Coin_CMC_String { get; set; }
         public string Coin_Circ_String { get; set; }
         public string Coin_Volume_String { get; set; }

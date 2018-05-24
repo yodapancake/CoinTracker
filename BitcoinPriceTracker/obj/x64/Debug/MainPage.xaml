@@ -22,7 +22,7 @@
     <Grid>
         <Image x:ConnectionId='2' x:Name="BackgroundImage" Source="Assets/background space.jpg" Stretch="UniformToFill"/>
         <ScrollViewer IsEnabled="True"/>
-        <ListView x:ConnectionId='3' Name="MyListview"                                           HorizontalAlignment="Center"                                ScrollViewer.HorizontalScrollBarVisibility="Visible">
+        <ListView x:ConnectionId='3' Name="MyListview" VariableSizedWrapGrid.RowSpan="1"                                           HorizontalAlignment="Center"                                ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.HorizontalScrollMode="Enabled">
             <ListView.ItemsPanel>
                 <ItemsPanelTemplate>
                     <StackPanel Orientation="Horizontal"/>
@@ -39,15 +39,15 @@
                                         <StackPanel Orientation="Vertical">
                                             <StackPanel Orientation="Horizontal">
                                                 <TextBlock Text="24 Hour Change: %" Style="{StaticResource Black_textblock}"/>
-                                                <TextBlock x:ConnectionId='13' Name="24hourChangeTextblock"                                      Style="{StaticResource Black_textblock}"/>
+                                                <TextBlock x:ConnectionId='13' Name="24hourChangeTextblock"                                      Style="{StaticResource Black_textblock}"                                />
                                             </StackPanel>
                                             <StackPanel Orientation="Horizontal">
-                                                <TextBlock Text="24 Hour Volume: $" Style="{StaticResource Black_textblock}"/>
-                                                <TextBlock x:ConnectionId='12' Name="24hourVolumeTextblock"                                    Style="{StaticResource Black_textblock}"/>
+                                                <TextBlock Text="24 Hour Volume: " Style="{StaticResource Black_textblock}"/>
+                                                <TextBlock x:ConnectionId='12' Name="24hourVolumeTextblock"                                    Style="{StaticResource Black_textblock}"                                />
                                             </StackPanel>
                                             <StackPanel Orientation="Horizontal">
                                                 <TextBlock Text="Market Cap: " Style="{StaticResource Black_textblock}"/>
-                                                <TextBlock x:ConnectionId='11' Name="CoinSupplyTextblock"                                 Style="{StaticResource Black_textblock}"/>
+                                                <TextBlock x:ConnectionId='11' Name="CoinSupplyTextblock"                                 Style="{StaticResource Black_textblock}"                                />
                                             </StackPanel>
                                             <StackPanel Orientation="Horizontal">
                                                 <TextBlock Text="Coin Supply:" Style="{StaticResource Black_textblock}"/>
