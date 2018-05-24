@@ -9,14 +9,20 @@
     mc:Ignorable="d">
     <Page.Resources>
         <Style TargetType="TextBlock" x:Key="White_textblock">
-            <Setter Property="Foreground" Value="AntiqueWhite"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="40"/>
+            <Setter Property="FontFamily" Value="Helvetica"/>
+        </Style>
+        <Style TargetType="TextBlock" x:Key="Black_textblock">
+            <Setter Property="Foreground" Value="Black"/>
             <Setter Property="FontSize" Value="40"/>
             <Setter Property="FontFamily" Value="Helvetica"/>
         </Style>
     </Page.Resources>
     <Grid>
         <Image x:ConnectionId='2' x:Name="BackgroundImage" Source="Assets/background space.jpg" Stretch="UniformToFill"/>
-            <ListView x:ConnectionId='3' Name="MyListview"                                           HorizontalAlignment="Center"                                ScrollViewer.HorizontalScrollBarVisibility="Visible">
+        <ScrollViewer IsEnabled="True"/>
+        <ListView x:ConnectionId='3' Name="MyListview"                                           HorizontalAlignment="Center"                                ScrollViewer.HorizontalScrollBarVisibility="Visible">
             <ListView.ItemsPanel>
                 <ItemsPanelTemplate>
                     <StackPanel Orientation="Horizontal"/>
@@ -27,25 +33,25 @@
                     <StackPanel x:ConnectionId='4' Margin="20,20,20,20" HorizontalAlignment="Stretch" Orientation="Vertical">
                         <Image x:ConnectionId='5' x:Name="ResultImage"                                                                                                                      HorizontalAlignment="Center"/>
                         <RelativePanel HorizontalAlignment="Center">
-                            <Button x:ConnectionId='8' Name="Flyout_menu_button"                                  Width="50" Height="50" FontFamily="Segoe MDL2 Assets" Content="&#xE70D;" Background="Black">
+                            <Button x:ConnectionId='8' Name="Flyout_menu_button"                                  Width="50" Height="50" FontFamily="Segoe MDL2 Assets" Content="&#xE70D;" Background="White">
                                 <Button.Flyout>
-                                    <Flyout Placement="Bottom">
+                                    <Flyout Placement="Right">
                                         <StackPanel Orientation="Vertical">
                                             <StackPanel Orientation="Horizontal">
-                                                <TextBlock Text="24 Hour Change: " Style="{StaticResource White_textblock}"/>
-                                                <TextBlock x:ConnectionId='13'                                     Style="{StaticResource White_textblock}"/>
+                                                <TextBlock Text="24 Hour Change: %" Style="{StaticResource Black_textblock}"/>
+                                                <TextBlock x:ConnectionId='13'                                     Style="{StaticResource Black_textblock}"/>
                                             </StackPanel>
                                             <StackPanel Orientation="Horizontal">
-                                                <TextBlock Text="24 Hour Volume: " Style="{StaticResource White_textblock}"/>
-                                                <TextBlock x:ConnectionId='12'                                     Style="{StaticResource White_textblock}"/>
+                                                <TextBlock Text="24 Hour Volume: $" Style="{StaticResource Black_textblock}"/>
+                                                <TextBlock x:ConnectionId='12'                                     Style="{StaticResource Black_textblock}"/>
                                             </StackPanel>
                                             <StackPanel Orientation="Horizontal">
-                                                <TextBlock Text="Market Cap: " Style="{StaticResource White_textblock}"/>
-                                                <TextBlock x:ConnectionId='11'                                 Style="{StaticResource White_textblock}"/>
+                                                <TextBlock Text="Market Cap: $" Style="{StaticResource Black_textblock}"/>
+                                                <TextBlock x:ConnectionId='11'                                 Style="{StaticResource Black_textblock}"/>
                                             </StackPanel>
                                             <StackPanel Orientation="Horizontal">
-                                                <TextBlock Text="Coin Supply: " Style="{StaticResource White_textblock}"/>
-                                                <TextBlock x:ConnectionId='10'                                         Style="{StaticResource White_textblock}"/>
+                                                <TextBlock Text="Coin Supply:" Style="{StaticResource White_textblock}"/>
+                                                <TextBlock x:ConnectionId='10'                                         Style="{StaticResource Black_textblock}"/>
                                             </StackPanel>
                                         </StackPanel>
                                     </Flyout>

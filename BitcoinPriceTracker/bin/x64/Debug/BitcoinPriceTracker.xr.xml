@@ -31,6 +31,11 @@
       <RootProperty Name="Height" />
       <RootProperty Name="HorizontalAlignment" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
+      <RootProperty Name="IsEnabled" />
+      <RootMethod Name="GetHorizontalScrollBarVisibility" />
+      <RootMethod Name="SetHorizontalScrollBarVisibility" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
       <RootProperty Name="Name" />
       <RootProperty Name="ItemsSource" />
@@ -38,10 +43,6 @@
       <RootProperty Name="ItemsPanel" />
       <RootProperty Name="ItemTemplate" />
       <RootEvent Name="ItemClick" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
-      <RootMethod Name="GetHorizontalScrollBarVisibility" />
-      <RootMethod Name="SetHorizontalScrollBarVisibility" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension">
       <RootProperty Name="Mode" />
