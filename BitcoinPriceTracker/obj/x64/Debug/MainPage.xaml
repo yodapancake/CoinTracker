@@ -23,7 +23,7 @@
     </Page.Resources>
     <Grid>
         <Image x:ConnectionId='2' x:Name="BackgroundImage" Source="Assets/background space.jpg" Stretch="UniformToFill"/>
-        <ScrollViewer IsEnabled="True" HorizontalScrollMode="Enabled"/>
+        <ScrollViewer IsEnabled="True" />
         <ListView x:ConnectionId='3' Name="MyListview"                                           HorizontalAlignment="Center"                                ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.HorizontalScrollMode="Enabled">
             <ListView.ItemsPanel>
                 <ItemsPanelTemplate>

@@ -34,7 +34,6 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
       <RootProperty Name="IsEnabled" />
-      <RootProperty Name="HorizontalScrollMode" />
       <RootMethod Name="GetHorizontalScrollBarVisibility" />
       <RootMethod Name="SetHorizontalScrollBarVisibility" />
       <RootMethod Name="GetHorizontalScrollMode" />
