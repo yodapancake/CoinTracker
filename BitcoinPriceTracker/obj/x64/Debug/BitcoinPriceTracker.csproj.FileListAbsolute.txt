@@ -875,3 +875,8 @@ C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\obj\x64\Debug\
 C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\obj\x64\Debug\FxResources.System.Xml.XDocument.SR.resw
 C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\obj\x64\Debug\FxResources.System.Xml.XmlDocument.SR.resw
 C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\obj\x64\Debug\FxResources.System.Xml.XmlSerializer.SR.resw
+C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\bin\x64\Debug\CoinDisplayPage.xbf
+C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\obj\x64\Debug\CoinDisplayPage.g.i.cs
+C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\obj\x64\Debug\CoinDisplayPage.g.cs
+C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\obj\x64\Debug\CoinDisplayPage.xaml
+C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\obj\x64\Debug\CoinDisplayPage.xbf

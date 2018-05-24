@@ -379,6 +379,9 @@
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\background space.jpg">
       <PackagePath>Assets\background space.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\polygon-1920x1080-4k-hd-wallpaper-orange-red-blue-background-pattern-225 %281%29.jpg">
+      <PackagePath>Assets\polygon-1920x1080-4k-hd-wallpaper-orange-red-blue-background-pattern-225 %281%29.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ADA.png">
       <PackagePath>Assets\CryptoSVG\PNG\ADA.png</PackagePath>
     </AppxPackagedFile>

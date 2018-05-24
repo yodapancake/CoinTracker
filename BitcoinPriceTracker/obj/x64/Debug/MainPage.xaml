@@ -7,7 +7,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-    
+
     <Page.Resources>
         <Style TargetType="TextBlock" x:Key="White_textblock">
             <Setter Property="Foreground" Value="White"/>
@@ -19,40 +19,18 @@
             <Setter Property="FontSize" Value="40"/>
             <Setter Property="FontFamily" Value="Helvetica"/>
         </Style>
-        
     </Page.Resources>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="auto"/>
-            <ColumnDefinition Width="*"/>
-        </Grid.ColumnDefinitions>
-        
-        <SplitView x:ConnectionId='2' Name="HambugerSplit" Grid.RowSpan="2" DisplayMode="CompactOverlay" OpenPaneLength="200" CompactPaneLength="56" HorizontalAlignment="Left"  >
-            <SplitView.Pane>
-                <StackPanel>
-                    <ListView x:ConnectionId='16' SelectionMode="Single"                                          >
-                        <ListView.ItemTemplate>
-                            <DataTemplate                                  >
-                                <TextBlock x:ConnectionId='17'                          />
-                            </DataTemplate>
-                        </ListView.ItemTemplate>
-                    </ListView>
-                </StackPanel>
-            </SplitView.Pane>
-            <SplitView.Content>
-                <Frame x:ConnectionId='18' Name="InnerFrame" VariableSizedWrapGrid.ColumnSpan="2"/>
-            </SplitView.Content>
-        </SplitView>
-        
-        <Image x:ConnectionId='3' x:Name="BackgroundImage" Grid.RowSpan="2" Source="Assets/background space.jpg" Stretch="UniformToFill"/>
-        <Button x:ConnectionId='4' Name="Hamburger_button"                                Width="100" Height="60" FontSize="40" FontFamily="Segoe MDL2 Assets" Content="&#xE700;" Background="White"/>
 
-        <ScrollViewer IsEnabled="True" />
-        <ListView x:ConnectionId='5' Name="MyListview" Grid.Row="1"                                           HorizontalAlignment="Center"                                ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.HorizontalScrollMode="Enabled">
+
+        <Image x:ConnectionId='2' x:Name="BackgroundImage" Grid.RowSpan="2" Source="Assets/polygon-1920x1080-4k-hd-wallpaper-orange-red-blue-background-pattern-225 (1).jpg" Stretch="UniformToFill"/>
+
+        <ScrollViewer x:ConnectionId='3' IsEnabled="True"                                        />
+        <ListView x:ConnectionId='4' Name="MyListview" Grid.Row="1" Grid.Column="1"                                           HorizontalAlignment="Center"                                ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.HorizontalScrollMode="Enabled">
             <ListView.ItemsPanel>
                 <ItemsPanelTemplate>
                     <StackPanel Orientation="Horizontal"/>
@@ -60,46 +38,61 @@
             </ListView.ItemsPanel>
             <ListView.ItemTemplate>
                 <DataTemplate                                  >
-                    <StackPanel x:ConnectionId='6' Margin="20,20,20,20" HorizontalAlignment="Stretch" Orientation="Vertical">
-                        <Image x:ConnectionId='7' x:Name="ResultImage"                                                                                                                      HorizontalAlignment="Center"/>
+                    <StackPanel x:ConnectionId='9' Margin="20,20,20,20" HorizontalAlignment="Stretch" Orientation="Vertical">
+                        <Image x:ConnectionId='10' x:Name="ResultImage"                                                                                                                      HorizontalAlignment="Center"/>
                         <RelativePanel HorizontalAlignment="Center">
-                            <Button x:ConnectionId='10' Name="Flyout_menu_button"                                  Width="50" Height="50" FontFamily="Segoe MDL2 Assets" Content="&#xE70D;" Background="White">
+                            <Button x:ConnectionId='13' Name="Flyout_menu_button"                                  Width="50" Height="50" FontFamily="Segoe MDL2 Assets" Content="&#xE70D;" Background="White">
                                 <Button.Flyout>
                                     <Flyout Placement="Bottom">
                                         <StackPanel Orientation="Vertical">
                                             <StackPanel Orientation="Horizontal">
                                                 <TextBlock Text="24 Hour Change: %" Style="{StaticResource Black_textblock}"/>
-                                                <TextBlock x:ConnectionId='15' Name="24hourChangeTextblock"                                      Style="{StaticResource Black_textblock}"                                />
+                                                <TextBlock x:ConnectionId='18' Name="24hourChangeTextblock"                                      Style="{StaticResource Black_textblock}"                                />
                                             </StackPanel>
                                             <StackPanel Orientation="Horizontal">
                                                 <TextBlock Text="24 Hour Volume: " Style="{StaticResource Black_textblock}"/>
-                                                <TextBlock x:ConnectionId='14' Name="24hourVolumeTextblock"                                    Style="{StaticResource Black_textblock}"                                />
+                                                <TextBlock x:ConnectionId='17' Name="24hourVolumeTextblock"                                    Style="{StaticResource Black_textblock}"                                />
                                             </StackPanel>
                                             <StackPanel Orientation="Horizontal">
                                                 <TextBlock Text="Market Cap: " Style="{StaticResource Black_textblock}"/>
-                                                <TextBlock x:ConnectionId='13' Name="CoinSupplyTextblock"                                 Style="{StaticResource Black_textblock}"                                />
+                                                <TextBlock x:ConnectionId='16' Name="CoinSupplyTextblock"                                 Style="{StaticResource Black_textblock}"                                />
                                             </StackPanel>
                                             <StackPanel Orientation="Horizontal">
                                                 <TextBlock Text="Coin Supply:" Style="{StaticResource Black_textblock}"/>
-                                                <TextBlock x:ConnectionId='12'                                  Style="{StaticResource Black_textblock}"/>
+                                                <TextBlock x:ConnectionId='15'                                  Style="{StaticResource Black_textblock}"/>
                                             </StackPanel>
                                         </StackPanel>
                                     </Flyout>
                                 </Button.Flyout>
                             </Button>
-                            <TextBlock x:ConnectionId='11' x:Name="currency" Margin="20,0,0,0" 
+                            <TextBlock x:ConnectionId='14' x:Name="currency" Margin="20,0,0,0" 
                                                                               
                                        Style="{StaticResource White_textblock}" 
                                        HorizontalAlignment="Center"
                                        RelativePanel.AlignVerticalCenterWith="Flyout_menu_button"
                                        RelativePanel.RightOf="Flyout_menu_button"/>
                         </RelativePanel>
-                        <TextBlock x:ConnectionId='8' x:Name="coin"                                               Style="{StaticResource White_textblock}" HorizontalAlignment="Center"/>
-                        <TextBlock x:ConnectionId='9' x:Name="price"                                             Style="{StaticResource White_textblock}" HorizontalAlignment="Center"/>
+                        <TextBlock x:ConnectionId='11' x:Name="coin"                                               Style="{StaticResource White_textblock}" HorizontalAlignment="Center"/>
+                        <TextBlock x:ConnectionId='12' x:Name="price"                                             Style="{StaticResource White_textblock}" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+        <Button x:ConnectionId='5' Name="Hamburger_button"                                Width="100" Height="60" FontSize="40" FontFamily="Segoe MDL2 Assets" Content="&#xE700;" Background="White"/>
+        <SplitView x:ConnectionId='6' Name="HambugerSplit" Grid.Row="1" Grid.Column="0" DisplayMode="CompactOverlay" OpenPaneLength="200" CompactPaneLength="0" HorizontalAlignment="Left">
+            <SplitView.Pane>
+                <StackPanel>
+                    <ScrollViewer/>
+                    <ListView x:ConnectionId='7' SelectionMode="Single"                                           ScrollViewer.VerticalScrollMode="Enabled">
+                        <ListView.ItemTemplate>
+                            <DataTemplate                                  >
+                                <TextBlock x:ConnectionId='8'                           Style="{StaticResource Black_textblock}"/>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackPanel>
+            </SplitView.Pane>
+        </SplitView>
     </Grid>
 </Page>
 

@@ -7,7 +7,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-    
+
     <Page.Resources>
         <Style TargetType="TextBlock" x:Key="White_textblock">
             <Setter Property="Foreground" Value="White"/>
@@ -19,40 +19,18 @@
             <Setter Property="FontSize" Value="40"/>
             <Setter Property="FontFamily" Value="Helvetica"/>
         </Style>
-        
     </Page.Resources>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="auto"/>
-            <ColumnDefinition Width="*"/>
-        </Grid.ColumnDefinitions>
-        
-        <SplitView Name="HambugerSplit" Grid.RowSpan="2" DisplayMode="CompactOverlay" OpenPaneLength="200" CompactPaneLength="56" HorizontalAlignment="Left"  >
-            <SplitView.Pane>
-                <StackPanel>
-                    <ListView SelectionMode="Single" ItemsSource="{x:Bind Top_ten_viewmodels}">
-                        <ListView.ItemTemplate>
-                            <DataTemplate x:DataType="data:TopTenViewModel">
-                                <TextBlock Text="{x:Bind Coin_Name}"/>
-                            </DataTemplate>
-                        </ListView.ItemTemplate>
-                    </ListView>
-                </StackPanel>
-            </SplitView.Pane>
-            <SplitView.Content>
-                <Frame Name="InnerFrame"/>
-            </SplitView.Content>
-        </SplitView>
-        
-        <Image x:Name="BackgroundImage" Grid.RowSpan="2" Source="Assets/background space.jpg" Stretch="UniformToFill"/>
-        <Button Name="Hamburger_button" Click="Hamburger_button_Click" Width="100" Height="60" FontSize="40" FontFamily="Segoe MDL2 Assets" Content="&#xE700;" Background="White"/>
+
+
+        <Image x:Name="BackgroundImage" Grid.RowSpan="2" Source="Assets/polygon-1920x1080-4k-hd-wallpaper-orange-red-blue-background-pattern-225 (1).jpg" Stretch="UniformToFill"/>
 
         <ScrollViewer IsEnabled="True" ViewChanged="ScrollViewer_ViewChanged" />
-        <ListView Name="MyListview" Grid.Row="1" ItemsSource="{x:Bind Top_ten_viewmodels}" HorizontalAlignment="Center" ItemClick="ListView_ItemClick" ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.HorizontalScrollMode="Enabled">
+        <ListView Name="MyListview" Grid.Row="1" Grid.Column="1" ItemsSource="{x:Bind Top_ten_viewmodels}" HorizontalAlignment="Center" ItemClick="ListView_ItemClick" ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.HorizontalScrollMode="Enabled">
             <ListView.ItemsPanel>
                 <ItemsPanelTemplate>
                     <StackPanel Orientation="Horizontal"/>
@@ -100,5 +78,20 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+        <Button Name="Hamburger_button" Click="Hamburger_button_Click" Width="100" Height="60" FontSize="40" FontFamily="Segoe MDL2 Assets" Content="&#xE700;" Background="White"/>
+        <SplitView Name="HambugerSplit" Grid.Row="1" Grid.Column="0" DisplayMode="CompactOverlay" OpenPaneLength="200" CompactPaneLength="0" HorizontalAlignment="Left">
+            <SplitView.Pane>
+                <StackPanel>
+                    <ScrollViewer/>
+                    <ListView SelectionMode="Single" ItemsSource="{x:Bind Top_ten_viewmodels}" ScrollViewer.VerticalScrollMode="Enabled">
+                        <ListView.ItemTemplate>
+                            <DataTemplate x:DataType="data:TopTenViewModel">
+                                <TextBlock Text="{x:Bind Coin_Name}" Style="{StaticResource Black_textblock}"/>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackPanel>
+            </SplitView.Pane>
+        </SplitView>
     </Grid>
 </Page>

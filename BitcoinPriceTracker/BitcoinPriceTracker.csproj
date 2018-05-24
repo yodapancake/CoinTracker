@@ -95,6 +95,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="CoinDisplayPage.xaml.cs">
+      <DependentUpon>CoinDisplayPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="GlobalDetailsRetriever.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
@@ -310,6 +313,7 @@
     <Content Include="Assets\CryptoSVG\SVG\ZEC.svg" />
     <Content Include="Assets\CryptoSVG\SVG\ZEN.svg" />
     <Content Include="Assets\CryptoSVG\SVG\ZRX.svg" />
+    <Content Include="Assets\polygon-1920x1080-4k-hd-wallpaper-orange-red-blue-background-pattern-225 %281%29.jpg" />
     <Content Include="FodyWeavers.xml" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
@@ -326,6 +330,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="CoinDisplayPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
