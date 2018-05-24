@@ -34,6 +34,7 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
       <RootProperty Name="IsEnabled" />
+      <RootProperty Name="HorizontalScrollMode" />
       <RootMethod Name="GetHorizontalScrollBarVisibility" />
       <RootMethod Name="SetHorizontalScrollBarVisibility" />
       <RootMethod Name="GetHorizontalScrollMode" />
@@ -46,10 +47,6 @@
       <RootProperty Name="ItemsPanel" />
       <RootProperty Name="ItemTemplate" />
       <RootEvent Name="ItemClick" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.VariableSizedWrapGrid">
-      <RootMethod Name="GetRowSpan" />
-      <RootMethod Name="SetRowSpan" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension">
       <RootProperty Name="Mode" />

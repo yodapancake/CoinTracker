@@ -7,6 +7,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
+    
     <Page.Resources>
         <Style TargetType="TextBlock" x:Key="White_textblock">
             <Setter Property="Foreground" Value="White"/>
@@ -18,11 +19,12 @@
             <Setter Property="FontSize" Value="40"/>
             <Setter Property="FontFamily" Value="Helvetica"/>
         </Style>
+        
     </Page.Resources>
     <Grid>
         <Image x:ConnectionId='2' x:Name="BackgroundImage" Source="Assets/background space.jpg" Stretch="UniformToFill"/>
-        <ScrollViewer IsEnabled="True"/>
-        <ListView x:ConnectionId='3' Name="MyListview" VariableSizedWrapGrid.RowSpan="1"                                           HorizontalAlignment="Center"                                ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.HorizontalScrollMode="Enabled">
+        <ScrollViewer IsEnabled="True" HorizontalScrollMode="Enabled"/>
+        <ListView x:ConnectionId='3' Name="MyListview"                                           HorizontalAlignment="Center"                                ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.HorizontalScrollMode="Enabled">
             <ListView.ItemsPanel>
                 <ItemsPanelTemplate>
                     <StackPanel Orientation="Horizontal"/>
