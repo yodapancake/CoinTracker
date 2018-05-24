@@ -22,5 +22,9 @@ namespace BitcoinPriceTracker.ViewModels
         public string Coin_Ticker_Tape { get; set; } = "";
         public string Coin_Picture { get; set; } = "";
         public int Coin_Picture_Scale { get; set; } = 0;
+        
+        public string Coin_CMC_String { get; set; }
+        public string Coin_Circ_String { get; set; }
+        public string Coin_Volume_String { get; set; }
     }
 }

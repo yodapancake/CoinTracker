@@ -35,23 +35,23 @@
                         <RelativePanel HorizontalAlignment="Center">
                             <Button Name="Flyout_menu_button" Click="Flyout_menu_button_Click" Width="50" Height="50" FontFamily="Segoe MDL2 Assets" Content="&#xE70D;" Background="White">
                                 <Button.Flyout>
-                                    <Flyout Placement="Right">
+                                    <Flyout Placement="Bottom">
                                         <StackPanel Orientation="Vertical">
                                             <StackPanel Orientation="Horizontal">
                                                 <TextBlock Text="24 Hour Change: %" Style="{StaticResource Black_textblock}"/>
-                                                <TextBlock Text="{x:Bind Coin_24_Hour_Change}" Style="{StaticResource Black_textblock}"/>
+                                                <TextBlock Name="24hourChangeTextblock"  Text="{x:Bind Coin_24_Hour_Change}" Style="{StaticResource Black_textblock}"/>
                                             </StackPanel>
                                             <StackPanel Orientation="Horizontal">
                                                 <TextBlock Text="24 Hour Volume: $" Style="{StaticResource Black_textblock}"/>
-                                                <TextBlock Text="{x:Bind Coin_24_Hour_Volume}" Style="{StaticResource Black_textblock}"/>
+                                                <TextBlock Name="24hourVolumeTextblock" Text="{x:Bind Coin_Volume_String}" Style="{StaticResource Black_textblock}"/>
                                             </StackPanel>
                                             <StackPanel Orientation="Horizontal">
-                                                <TextBlock Text="Market Cap: $" Style="{StaticResource Black_textblock}"/>
-                                                <TextBlock Text="{x:Bind Coin_Market_Cap}" Style="{StaticResource Black_textblock}"/>
+                                                <TextBlock Text="Market Cap: " Style="{StaticResource Black_textblock}"/>
+                                                <TextBlock Name="CoinSupplyTextblock" Text="{x:Bind Coin_CMC_String}" Style="{StaticResource Black_textblock}"/>
                                             </StackPanel>
                                             <StackPanel Orientation="Horizontal">
                                                 <TextBlock Text="Coin Supply:" Style="{StaticResource Black_textblock}"/>
-                                                <TextBlock Text="{x:Bind Coin_Circulating_Supply}" Style="{StaticResource Black_textblock}"/>
+                                                <TextBlock Text="{x:Bind Coin_Circ_String}" Style="{StaticResource Black_textblock}"/>
                                             </StackPanel>
                                         </StackPanel>
                                     </Flyout>

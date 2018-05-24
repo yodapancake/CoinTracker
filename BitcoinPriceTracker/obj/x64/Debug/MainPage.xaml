@@ -35,23 +35,23 @@
                         <RelativePanel HorizontalAlignment="Center">
                             <Button x:ConnectionId='8' Name="Flyout_menu_button"                                  Width="50" Height="50" FontFamily="Segoe MDL2 Assets" Content="&#xE70D;" Background="White">
                                 <Button.Flyout>
-                                    <Flyout Placement="Right">
+                                    <Flyout Placement="Bottom">
                                         <StackPanel Orientation="Vertical">
                                             <StackPanel Orientation="Horizontal">
                                                 <TextBlock Text="24 Hour Change: %" Style="{StaticResource Black_textblock}"/>
-                                                <TextBlock x:ConnectionId='13'                                     Style="{StaticResource Black_textblock}"/>
+                                                <TextBlock x:ConnectionId='13' Name="24hourChangeTextblock"                                      Style="{StaticResource Black_textblock}"/>
                                             </StackPanel>
                                             <StackPanel Orientation="Horizontal">
                                                 <TextBlock Text="24 Hour Volume: $" Style="{StaticResource Black_textblock}"/>
-                                                <TextBlock x:ConnectionId='12'                                     Style="{StaticResource Black_textblock}"/>
+                                                <TextBlock x:ConnectionId='12' Name="24hourVolumeTextblock"                                    Style="{StaticResource Black_textblock}"/>
                                             </StackPanel>
                                             <StackPanel Orientation="Horizontal">
-                                                <TextBlock Text="Market Cap: $" Style="{StaticResource Black_textblock}"/>
-                                                <TextBlock x:ConnectionId='11'                                 Style="{StaticResource Black_textblock}"/>
+                                                <TextBlock Text="Market Cap: " Style="{StaticResource Black_textblock}"/>
+                                                <TextBlock x:ConnectionId='11' Name="CoinSupplyTextblock"                                 Style="{StaticResource Black_textblock}"/>
                                             </StackPanel>
                                             <StackPanel Orientation="Horizontal">
-                                                <TextBlock Text="Coin Supply:" Style="{StaticResource White_textblock}"/>
-                                                <TextBlock x:ConnectionId='10'                                         Style="{StaticResource Black_textblock}"/>
+                                                <TextBlock Text="Coin Supply:" Style="{StaticResource Black_textblock}"/>
+                                                <TextBlock x:ConnectionId='10'                                  Style="{StaticResource Black_textblock}"/>
                                             </StackPanel>
                                         </StackPanel>
                                     </Flyout>

@@ -1,2 +1,2 @@
 ﻿https://social.msdn.microsoft.com/Forums/en-US/d4cc3290-4116-4e20-8f57-0c2b6abd4d1b/horizontally-oriented-listview?forum=wpf
-
+https://stackoverflow.com/questions/105770/net-string-format-to-add-commas-in-thousands-place-for-a-number

@@ -27,7 +27,7 @@ namespace BitcoinPriceTracker
         private GlobalDataViewModel Global_Data_viewmodels = new GlobalDataViewModel();
         private ObservableCollection<TopTenViewModel> Top_ten_viewmodels = new ObservableCollection<TopTenViewModel>();
         public MainPage()
-        {
+        {         
             this.InitializeComponent();
         }
         protected async override void OnNavigatedTo(NavigationEventArgs e)
@@ -61,6 +61,10 @@ namespace BitcoinPriceTracker
                 temp.Coin_Market_Cap = v.Value.quotes.USD.market_cap;               
                 temp.Coin_Picture = "ms-appx:///Assets/CryptoSVG/PNG/"+temp.Coin_Ticker_Tape+".png";
 
+                temp.Coin_CMC_String = " $" + String.Format("{0:#,##0.##}", temp.Coin_Market_Cap);
+                temp.Coin_Circ_String = " " + String.Format("{0:#,##0.##}", temp.Coin_Circulating_Supply);
+                temp.Coin_Volume_String = " " + String.Format("{0:#,##0.##}", temp.Coin_24_Hour_Volume);
+               
                 double Coin_Market_Share_Percent = ((double)(temp.Coin_Market_Cap) / (long)(Global_Data_viewmodels.Total_Market_Cap));
                 int scale = (int)((Coin_Market_Share_Percent / Global_Data_viewmodels.Bitcoin_Percentage_Of_Market_Cap) * 65000);
                 temp.Coin_Picture_Scale = (int)(Math.Sqrt(scale) * 15);
@@ -75,9 +79,9 @@ namespace BitcoinPriceTracker
             
         }
 
-        private void Flyout_menu_button_Click(object sender, RoutedEventArgs e)
+        public void Flyout_menu_button_Click(object sender, RoutedEventArgs e)
         {
-
+            
         }
     } 
 }

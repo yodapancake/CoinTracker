@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>51S50018542</Machine>
-    <WindowsUser>s-hirschm</WindowsUser>
+    <Machine>DESKTOP-LBCDCVK</Machine>
+    <WindowsUser>maximus</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>87ef1223-95cc-4dad-ad3d-9c9958c9a3fd</PackageIdentityName>
     <PackageIdentityPublisher>CN=s-hirschm</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\bin\x64\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>DBFB2CA5E564FC28ECD5085CB6572CE7E7AE3B604C8BA8303E904E018FF66C89</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\bin\x64\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>FFC39E78184EDF4B83DCC85F15C7719ED7DE8BC657799A185AAAA37E63286FF4</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>87ef1223-95cc-4dad-ad3d-9c9958c9a3fd_1.0.0.0_x64__j2pk3ejtsnvpa</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>87ef1223-95cc-4dad-ad3d-9c9958c9a3fd_j2pk3ejtsnvpa!App</RegisteredUserModeAppID>
     <RegisteredPackageID>87ef1223-95cc-4dad-ad3d-9c9958c9a3fd</RegisteredPackageID>
@@ -28,1307 +28,1307 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-24T00:22:21.476</Modified>
+      <Modified>2018-05-24T02:09:17.779</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\bin\x64\Debug\BitcoinPriceTracker.exe">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\bin\x64\Debug\BitcoinPriceTracker.exe">
       <PackagePath>entrypoint\BitcoinPriceTracker.exe</PackagePath>
-      <Modified>2018-05-24T00:22:20.333</Modified>
+      <Modified>2018-05-24T02:09:16.593</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
-      <Modified>2016-06-12T05:13:10.000</Modified>
+      <Modified>2016-06-12T06:13:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.ComponentModel.DataAnnotations.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.ComponentModel.DataAnnotations.dll">
       <PackagePath>System.ComponentModel.DataAnnotations.dll</PackagePath>
-      <Modified>2016-07-02T00:10:48.000</Modified>
+      <Modified>2016-07-02T01:10:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Core.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Core.dll">
       <PackagePath>System.Core.dll</PackagePath>
-      <Modified>2016-07-02T00:10:48.000</Modified>
+      <Modified>2016-07-02T01:10:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Net.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Net.dll">
       <PackagePath>System.Net.dll</PackagePath>
-      <Modified>2016-07-02T00:10:48.000</Modified>
+      <Modified>2016-07-02T01:10:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Numerics.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Numerics.dll">
       <PackagePath>System.Numerics.dll</PackagePath>
-      <Modified>2016-07-02T00:10:48.000</Modified>
+      <Modified>2016-07-02T01:10:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Runtime.Serialization.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Runtime.Serialization.dll">
       <PackagePath>System.Runtime.Serialization.dll</PackagePath>
-      <Modified>2016-07-02T00:10:48.000</Modified>
+      <Modified>2016-07-02T01:10:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.ServiceModel.Web.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.ServiceModel.Web.dll">
       <PackagePath>System.ServiceModel.Web.dll</PackagePath>
-      <Modified>2016-07-02T00:10:48.000</Modified>
+      <Modified>2016-07-02T01:10:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.ServiceModel.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.ServiceModel.dll">
       <PackagePath>System.ServiceModel.dll</PackagePath>
-      <Modified>2016-07-02T00:10:48.000</Modified>
+      <Modified>2016-07-02T01:10:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Windows.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Windows.dll">
       <PackagePath>System.Windows.dll</PackagePath>
-      <Modified>2016-07-02T00:10:48.000</Modified>
+      <Modified>2016-07-02T01:10:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Xml.Linq.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Xml.Linq.dll">
       <PackagePath>System.Xml.Linq.dll</PackagePath>
-      <Modified>2016-07-02T00:10:48.000</Modified>
+      <Modified>2016-07-02T01:10:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Xml.Serialization.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Xml.Serialization.dll">
       <PackagePath>System.Xml.Serialization.dll</PackagePath>
-      <Modified>2016-07-02T00:10:48.000</Modified>
+      <Modified>2016-07-02T01:10:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Xml.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Xml.dll">
       <PackagePath>System.Xml.dll</PackagePath>
-      <Modified>2016-07-02T00:10:48.000</Modified>
+      <Modified>2016-07-02T01:10:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.dll">
       <PackagePath>System.dll</PackagePath>
-      <Modified>2016-07-02T00:10:48.000</Modified>
+      <Modified>2016-07-02T01:10:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.visualbasic\10.0.1\lib\netcore50\Microsoft.VisualBasic.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\microsoft.visualbasic\10.0.1\lib\netcore50\Microsoft.VisualBasic.dll">
       <PackagePath>Microsoft.VisualBasic.dll</PackagePath>
-      <Modified>2016-06-12T05:13:10.000</Modified>
+      <Modified>2016-06-12T06:13:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\newtonsoft.json\9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\newtonsoft.json\9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
-      <Modified>2016-06-14T05:06:14.000</Modified>
+      <Modified>2016-06-14T06:06:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\.nuget\packages\propertychanged.fody\1.53.0\Lib\netstandard10\PropertyChanged.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\propertychanged.fody\1.53.0\Lib\netstandard10\PropertyChanged.dll">
       <PackagePath>PropertyChanged.dll</PackagePath>
       <Modified>2017-04-22T20:43:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.any.system.collections\4.0.11\lib\netcore50\System.Collections.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\runtime.any.system.collections\4.0.11\lib\netcore50\System.Collections.dll">
       <PackagePath>System.Collections.dll</PackagePath>
-      <Modified>2016-06-12T05:13:24.000</Modified>
+      <Modified>2016-06-12T06:13:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.any.system.diagnostics.tools\4.0.1\lib\netcore50\System.Diagnostics.Tools.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\runtime.any.system.diagnostics.tools\4.0.1\lib\netcore50\System.Diagnostics.Tools.dll">
       <PackagePath>System.Diagnostics.Tools.dll</PackagePath>
-      <Modified>2016-06-12T05:13:32.000</Modified>
+      <Modified>2016-06-12T06:13:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.any.system.diagnostics.tracing\4.1.0\lib\netcore50\System.Diagnostics.Tracing.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\runtime.any.system.diagnostics.tracing\4.1.0\lib\netcore50\System.Diagnostics.Tracing.dll">
       <PackagePath>System.Diagnostics.Tracing.dll</PackagePath>
-      <Modified>2016-06-12T05:13:38.000</Modified>
+      <Modified>2016-06-12T06:13:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.any.system.globalization\4.0.11\lib\netcore50\System.Globalization.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\runtime.any.system.globalization\4.0.11\lib\netcore50\System.Globalization.dll">
       <PackagePath>System.Globalization.dll</PackagePath>
-      <Modified>2016-06-12T05:13:38.000</Modified>
+      <Modified>2016-06-12T06:13:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.any.system.globalization.calendars\4.0.1\lib\netcore50\System.Globalization.Calendars.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\runtime.any.system.globalization.calendars\4.0.1\lib\netcore50\System.Globalization.Calendars.dll">
       <PackagePath>System.Globalization.Calendars.dll</PackagePath>
-      <Modified>2016-06-12T05:13:38.000</Modified>
+      <Modified>2016-06-12T06:13:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.any.system.io\4.1.0\lib\netcore50\System.IO.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\runtime.any.system.io\4.1.0\lib\netcore50\System.IO.dll">
       <PackagePath>System.IO.dll</PackagePath>
-      <Modified>2016-06-12T05:13:50.000</Modified>
+      <Modified>2016-06-12T06:13:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.any.system.reflection\4.1.0\lib\netcore50\System.Reflection.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\runtime.any.system.reflection\4.1.0\lib\netcore50\System.Reflection.dll">
       <PackagePath>System.Reflection.dll</PackagePath>
-      <Modified>2016-06-12T05:14:16.000</Modified>
+      <Modified>2016-06-12T06:14:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.any.system.reflection.extensions\4.0.1\lib\netcore50\System.Reflection.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\runtime.any.system.reflection.extensions\4.0.1\lib\netcore50\System.Reflection.Extensions.dll">
       <PackagePath>System.Reflection.Extensions.dll</PackagePath>
-      <Modified>2016-06-12T05:14:14.000</Modified>
+      <Modified>2016-06-12T06:14:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.any.system.reflection.primitives\4.0.1\lib\netcore50\System.Reflection.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\runtime.any.system.reflection.primitives\4.0.1\lib\netcore50\System.Reflection.Primitives.dll">
       <PackagePath>System.Reflection.Primitives.dll</PackagePath>
-      <Modified>2016-06-12T05:14:18.000</Modified>
+      <Modified>2016-06-12T06:14:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.any.system.resources.resourcemanager\4.0.1\lib\netcore50\System.Resources.ResourceManager.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\runtime.any.system.resources.resourcemanager\4.0.1\lib\netcore50\System.Resources.ResourceManager.dll">
       <PackagePath>System.Resources.ResourceManager.dll</PackagePath>
-      <Modified>2016-06-12T05:14:20.000</Modified>
+      <Modified>2016-06-12T06:14:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.any.system.runtime\4.1.0\lib\netcore50\System.Runtime.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\runtime.any.system.runtime\4.1.0\lib\netcore50\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
-      <Modified>2016-06-12T05:14:32.000</Modified>
+      <Modified>2016-06-12T06:14:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.any.system.runtime.handles\4.0.1\lib\netstandard1.3\System.Runtime.Handles.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\runtime.any.system.runtime.handles\4.0.1\lib\netstandard1.3\System.Runtime.Handles.dll">
       <PackagePath>System.Runtime.Handles.dll</PackagePath>
-      <Modified>2016-06-12T05:14:24.000</Modified>
+      <Modified>2016-06-12T06:14:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.any.system.runtime.interopservices\4.1.0\lib\netcore50\System.Runtime.InteropServices.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\runtime.any.system.runtime.interopservices\4.1.0\lib\netcore50\System.Runtime.InteropServices.dll">
       <PackagePath>System.Runtime.InteropServices.dll</PackagePath>
-      <Modified>2016-06-12T05:14:22.000</Modified>
+      <Modified>2016-06-12T06:14:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.any.system.text.encoding\4.0.11\lib\netcore50\System.Text.Encoding.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\runtime.any.system.text.encoding\4.0.11\lib\netcore50\System.Text.Encoding.dll">
       <PackagePath>System.Text.Encoding.dll</PackagePath>
-      <Modified>2016-06-12T05:14:48.000</Modified>
+      <Modified>2016-06-12T06:14:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.any.system.text.encoding.extensions\4.0.11\lib\netcore50\System.Text.Encoding.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\runtime.any.system.text.encoding.extensions\4.0.11\lib\netcore50\System.Text.Encoding.Extensions.dll">
       <PackagePath>System.Text.Encoding.Extensions.dll</PackagePath>
-      <Modified>2016-06-12T05:14:50.000</Modified>
+      <Modified>2016-06-12T06:14:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.any.system.threading.tasks\4.0.11\lib\netcore50\System.Threading.Tasks.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\runtime.any.system.threading.tasks\4.0.11\lib\netcore50\System.Threading.Tasks.dll">
       <PackagePath>System.Threading.Tasks.dll</PackagePath>
-      <Modified>2016-06-12T05:14:54.000</Modified>
+      <Modified>2016-06-12T06:14:54.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.any.system.threading.timer\4.0.1\lib\netcore50\System.Threading.Timer.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\runtime.any.system.threading.timer\4.0.1\lib\netcore50\System.Threading.Timer.dll">
       <PackagePath>System.Threading.Timer.dll</PackagePath>
-      <Modified>2016-06-12T05:14:58.000</Modified>
+      <Modified>2016-06-12T06:14:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.win.microsoft.win32.primitives\4.0.1\runtimes\win\lib\netstandard1.3\Microsoft.Win32.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\runtime.win.microsoft.win32.primitives\4.0.1\runtimes\win\lib\netstandard1.3\Microsoft.Win32.Primitives.dll">
       <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
-      <Modified>2016-06-12T05:13:14.000</Modified>
+      <Modified>2016-06-12T06:13:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.win.system.diagnostics.debug\4.0.11\runtimes\win\lib\netcore50\System.Diagnostics.Debug.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\runtime.win.system.diagnostics.debug\4.0.11\runtimes\win\lib\netcore50\System.Diagnostics.Debug.dll">
       <PackagePath>System.Diagnostics.Debug.dll</PackagePath>
-      <Modified>2016-06-12T05:13:26.000</Modified>
+      <Modified>2016-06-12T06:13:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.win.system.io.filesystem\4.0.1\runtimes\win\lib\netcore50\System.IO.FileSystem.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\runtime.win.system.io.filesystem\4.0.1\runtimes\win\lib\netcore50\System.IO.FileSystem.dll">
       <PackagePath>System.IO.FileSystem.dll</PackagePath>
-      <Modified>2016-06-12T05:13:44.000</Modified>
+      <Modified>2016-06-12T06:13:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.win.system.net.primitives\4.0.11\runtimes\win\lib\netcore50\System.Net.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\runtime.win.system.net.primitives\4.0.11\runtimes\win\lib\netcore50\System.Net.Primitives.dll">
       <PackagePath>System.Net.Primitives.dll</PackagePath>
-      <Modified>2016-06-12T05:14:00.000</Modified>
+      <Modified>2016-06-12T06:14:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.win.system.net.sockets\4.1.0\runtimes\win\lib\netcore50\System.Net.Sockets.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\runtime.win.system.net.sockets\4.1.0\runtimes\win\lib\netcore50\System.Net.Sockets.dll">
       <PackagePath>System.Net.Sockets.dll</PackagePath>
-      <Modified>2016-06-12T05:14:04.000</Modified>
+      <Modified>2016-06-12T06:14:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.win.system.runtime.extensions\4.1.0\runtimes\win\lib\netcore50\System.Runtime.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\runtime.win.system.runtime.extensions\4.1.0\runtimes\win\lib\netcore50\System.Runtime.Extensions.dll">
       <PackagePath>System.Runtime.Extensions.dll</PackagePath>
-      <Modified>2016-06-12T05:14:20.000</Modified>
+      <Modified>2016-06-12T06:14:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.win7-x64.microsoft.netcore.jit\1.0.3\runtimes\win7-x64\native\clrjit.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\runtime.win7-x64.microsoft.netcore.jit\1.0.3\runtimes\win7-x64\native\clrjit.dll">
       <PackagePath>clrjit.dll</PackagePath>
-      <Modified>2016-06-14T00:26:26.000</Modified>
+      <Modified>2016-06-14T01:26:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.win7-x64.runtime.native.system.io.compression\4.0.1\runtimes\win7-x64\native\clrcompression.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\runtime.win7-x64.runtime.native.system.io.compression\4.0.1\runtimes\win7-x64\native\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
-      <Modified>2016-06-14T03:46:18.000</Modified>
+      <Modified>2016-06-14T04:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.win7.system.private.uri\4.0.2\runtimes\win\lib\netcore50\System.Private.Uri.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\runtime.win7.system.private.uri\4.0.2\runtimes\win\lib\netcore50\System.Private.Uri.dll">
       <PackagePath>System.Private.Uri.dll</PackagePath>
-      <Modified>2016-07-01T21:48:12.000</Modified>
+      <Modified>2016-07-01T22:48:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.appcontext\4.1.0\lib\netcore50\System.AppContext.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.appcontext\4.1.0\lib\netcore50\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>
-      <Modified>2016-06-12T05:13:20.000</Modified>
+      <Modified>2016-06-12T06:13:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.buffers\4.0.0\lib\netstandard1.1\System.Buffers.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.buffers\4.0.0\lib\netstandard1.1\System.Buffers.dll">
       <PackagePath>System.Buffers.dll</PackagePath>
-      <Modified>2016-06-12T05:13:14.000</Modified>
+      <Modified>2016-06-12T06:13:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.collections.concurrent\4.0.12\lib\netcore50\System.Collections.Concurrent.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.collections.concurrent\4.0.12\lib\netcore50\System.Collections.Concurrent.dll">
       <PackagePath>System.Collections.Concurrent.dll</PackagePath>
-      <Modified>2016-06-12T05:13:16.000</Modified>
+      <Modified>2016-06-12T06:13:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.collections.immutable\1.2.0\lib\portable-net45+win8+wp8+wpa81\System.Collections.Immutable.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.collections.immutable\1.2.0\lib\portable-net45+win8+wp8+wpa81\System.Collections.Immutable.dll">
       <PackagePath>System.Collections.Immutable.dll</PackagePath>
-      <Modified>2016-06-12T05:13:16.000</Modified>
+      <Modified>2016-06-12T06:13:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.collections.nongeneric\4.0.1\lib\netstandard1.3\System.Collections.NonGeneric.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.collections.nongeneric\4.0.1\lib\netstandard1.3\System.Collections.NonGeneric.dll">
       <PackagePath>System.Collections.NonGeneric.dll</PackagePath>
-      <Modified>2016-06-12T05:13:22.000</Modified>
+      <Modified>2016-06-12T06:13:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.collections.specialized\4.0.1\lib\netstandard1.3\System.Collections.Specialized.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.collections.specialized\4.0.1\lib\netstandard1.3\System.Collections.Specialized.dll">
       <PackagePath>System.Collections.Specialized.dll</PackagePath>
-      <Modified>2016-06-12T05:13:22.000</Modified>
+      <Modified>2016-06-12T06:13:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.componentmodel\4.0.1\lib\netcore50\System.ComponentModel.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.componentmodel\4.0.1\lib\netcore50\System.ComponentModel.dll">
       <PackagePath>System.ComponentModel.dll</PackagePath>
-      <Modified>2016-06-12T05:13:24.000</Modified>
+      <Modified>2016-06-12T06:13:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.componentmodel.annotations\4.1.0\lib\netcore50\System.ComponentModel.Annotations.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.componentmodel.annotations\4.1.0\lib\netcore50\System.ComponentModel.Annotations.dll">
       <PackagePath>System.ComponentModel.Annotations.dll</PackagePath>
-      <Modified>2016-06-12T05:13:22.000</Modified>
+      <Modified>2016-06-12T06:13:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.componentmodel.eventbasedasync\4.0.11\lib\netcore50\System.ComponentModel.EventBasedAsync.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.componentmodel.eventbasedasync\4.0.11\lib\netcore50\System.ComponentModel.EventBasedAsync.dll">
       <PackagePath>System.ComponentModel.EventBasedAsync.dll</PackagePath>
-      <Modified>2016-06-12T05:13:20.000</Modified>
+      <Modified>2016-06-12T06:13:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.data.common\4.1.0\lib\netstandard1.2\System.Data.Common.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.data.common\4.1.0\lib\netstandard1.2\System.Data.Common.dll">
       <PackagePath>System.Data.Common.dll</PackagePath>
-      <Modified>2016-06-12T05:13:32.000</Modified>
+      <Modified>2016-06-12T06:13:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.diagnostics.contracts\4.0.1\lib\netcore50\System.Diagnostics.Contracts.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.diagnostics.contracts\4.0.1\lib\netcore50\System.Diagnostics.Contracts.dll">
       <PackagePath>System.Diagnostics.Contracts.dll</PackagePath>
-      <Modified>2016-06-12T05:13:28.000</Modified>
+      <Modified>2016-06-12T06:13:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.diagnostics.diagnosticsource\4.0.0\lib\netstandard1.3\System.Diagnostics.DiagnosticSource.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.diagnostics.diagnosticsource\4.0.0\lib\netstandard1.3\System.Diagnostics.DiagnosticSource.dll">
       <PackagePath>System.Diagnostics.DiagnosticSource.dll</PackagePath>
-      <Modified>2016-06-12T05:13:28.000</Modified>
+      <Modified>2016-06-12T06:13:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.diagnostics.stacktrace\4.0.2\lib\netstandard1.3\System.Diagnostics.StackTrace.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.diagnostics.stacktrace\4.0.2\lib\netstandard1.3\System.Diagnostics.StackTrace.dll">
       <PackagePath>System.Diagnostics.StackTrace.dll</PackagePath>
-      <Modified>2016-07-01T21:48:16.000</Modified>
+      <Modified>2016-07-01T22:48:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.dynamic.runtime\4.0.11\lib\netcore50\System.Dynamic.Runtime.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.dynamic.runtime\4.0.11\lib\netcore50\System.Dynamic.Runtime.dll">
       <PackagePath>System.Dynamic.Runtime.dll</PackagePath>
-      <Modified>2016-06-12T05:13:42.000</Modified>
+      <Modified>2016-06-12T06:13:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.globalization.extensions\4.0.1\runtimes\win\lib\netstandard1.3\System.Globalization.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.globalization.extensions\4.0.1\runtimes\win\lib\netstandard1.3\System.Globalization.Extensions.dll">
       <PackagePath>System.Globalization.Extensions.dll</PackagePath>
-      <Modified>2016-06-12T05:13:40.000</Modified>
+      <Modified>2016-06-12T06:13:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.io.compression\4.1.1\runtimes\win\lib\netstandard1.3\System.IO.Compression.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.io.compression\4.1.1\runtimes\win\lib\netstandard1.3\System.IO.Compression.dll">
       <PackagePath>System.IO.Compression.dll</PackagePath>
-      <Modified>2016-07-01T21:48:16.000</Modified>
+      <Modified>2016-07-01T22:48:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.io.compression.zipfile\4.0.1\lib\netstandard1.3\System.IO.Compression.ZipFile.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.io.compression.zipfile\4.0.1\lib\netstandard1.3\System.IO.Compression.ZipFile.dll">
       <PackagePath>System.IO.Compression.ZipFile.dll</PackagePath>
-      <Modified>2016-06-12T05:13:42.000</Modified>
+      <Modified>2016-06-12T06:13:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.io.filesystem.primitives\4.0.1\lib\netstandard1.3\System.IO.FileSystem.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.io.filesystem.primitives\4.0.1\lib\netstandard1.3\System.IO.FileSystem.Primitives.dll">
       <PackagePath>System.IO.FileSystem.Primitives.dll</PackagePath>
-      <Modified>2016-06-12T05:13:46.000</Modified>
+      <Modified>2016-06-12T06:13:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.io.isolatedstorage\4.0.1\lib\netcore50\System.IO.IsolatedStorage.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.io.isolatedstorage\4.0.1\lib\netcore50\System.IO.IsolatedStorage.dll">
       <PackagePath>System.IO.IsolatedStorage.dll</PackagePath>
-      <Modified>2016-06-12T05:13:48.000</Modified>
+      <Modified>2016-06-12T06:13:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.io.unmanagedmemorystream\4.0.1\lib\netstandard1.3\System.IO.UnmanagedMemoryStream.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.io.unmanagedmemorystream\4.0.1\lib\netstandard1.3\System.IO.UnmanagedMemoryStream.dll">
       <PackagePath>System.IO.UnmanagedMemoryStream.dll</PackagePath>
-      <Modified>2016-06-12T05:13:50.000</Modified>
+      <Modified>2016-06-12T06:13:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.linq\4.1.0\lib\netcore50\System.Linq.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.linq\4.1.0\lib\netcore50\System.Linq.dll">
       <PackagePath>System.Linq.dll</PackagePath>
-      <Modified>2016-06-12T05:14:02.000</Modified>
+      <Modified>2016-06-12T06:14:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.linq.expressions\4.1.0\lib\netcore50\System.Linq.Expressions.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.linq.expressions\4.1.0\lib\netcore50\System.Linq.Expressions.dll">
       <PackagePath>System.Linq.Expressions.dll</PackagePath>
-      <Modified>2016-06-12T05:13:54.000</Modified>
+      <Modified>2016-06-12T06:13:54.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.linq.parallel\4.0.1\lib\netcore50\System.Linq.Parallel.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.linq.parallel\4.0.1\lib\netcore50\System.Linq.Parallel.dll">
       <PackagePath>System.Linq.Parallel.dll</PackagePath>
-      <Modified>2016-06-12T05:13:52.000</Modified>
+      <Modified>2016-06-12T06:13:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.linq.queryable\4.0.1\lib\netcore50\System.Linq.Queryable.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.linq.queryable\4.0.1\lib\netcore50\System.Linq.Queryable.dll">
       <PackagePath>System.Linq.Queryable.dll</PackagePath>
-      <Modified>2016-06-12T05:13:58.000</Modified>
+      <Modified>2016-06-12T06:13:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.net.http\4.1.0\runtimes\win\lib\netcore50\System.Net.Http.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.net.http\4.1.0\runtimes\win\lib\netcore50\System.Net.Http.dll">
       <PackagePath>System.Net.Http.dll</PackagePath>
-      <Modified>2016-06-12T05:13:58.000</Modified>
+      <Modified>2016-06-12T06:13:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.net.http.rtc\4.0.1\runtimes\win\lib\netcore50\System.Net.Http.Rtc.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.net.http.rtc\4.0.1\runtimes\win\lib\netcore50\System.Net.Http.Rtc.dll">
       <PackagePath>System.Net.Http.Rtc.dll</PackagePath>
-      <Modified>2016-06-12T05:13:56.000</Modified>
+      <Modified>2016-06-12T06:13:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.net.nameresolution\4.0.0\runtimes\win\lib\netcore50\System.Net.NameResolution.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.net.nameresolution\4.0.0\runtimes\win\lib\netcore50\System.Net.NameResolution.dll">
       <PackagePath>System.Net.NameResolution.dll</PackagePath>
-      <Modified>2016-06-12T05:13:58.000</Modified>
+      <Modified>2016-06-12T06:13:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.net.networkinformation\4.1.0\runtimes\win\lib\netcore50\System.Net.NetworkInformation.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.net.networkinformation\4.1.0\runtimes\win\lib\netcore50\System.Net.NetworkInformation.dll">
       <PackagePath>System.Net.NetworkInformation.dll</PackagePath>
-      <Modified>2016-06-12T05:14:04.000</Modified>
+      <Modified>2016-06-12T06:14:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.net.requests\4.0.11\runtimes\win\lib\netstandard1.3\System.Net.Requests.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.net.requests\4.0.11\runtimes\win\lib\netstandard1.3\System.Net.Requests.dll">
       <PackagePath>System.Net.Requests.dll</PackagePath>
-      <Modified>2016-06-12T05:14:02.000</Modified>
+      <Modified>2016-06-12T06:14:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.net.webheadercollection\4.0.1\lib\netstandard1.3\System.Net.WebHeaderCollection.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.net.webheadercollection\4.0.1\lib\netstandard1.3\System.Net.WebHeaderCollection.dll">
       <PackagePath>System.Net.WebHeaderCollection.dll</PackagePath>
-      <Modified>2016-06-12T05:14:08.000</Modified>
+      <Modified>2016-06-12T06:14:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.net.websockets\4.0.0\lib\netstandard1.3\System.Net.WebSockets.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.net.websockets\4.0.0\lib\netstandard1.3\System.Net.WebSockets.dll">
       <PackagePath>System.Net.WebSockets.dll</PackagePath>
-      <Modified>2016-06-12T05:14:08.000</Modified>
+      <Modified>2016-06-12T06:14:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.net.websockets.client\4.0.2\runtimes\win\lib\netcore50\System.Net.WebSockets.Client.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.net.websockets.client\4.0.2\runtimes\win\lib\netcore50\System.Net.WebSockets.Client.dll">
       <PackagePath>System.Net.WebSockets.Client.dll</PackagePath>
-      <Modified>2017-11-20T21:34:00.000</Modified>
+      <Modified>2017-11-20T22:34:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.numerics.vectors\4.1.1\lib\portable-net45+win8+wp8+wpa81\System.Numerics.Vectors.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.numerics.vectors\4.1.1\lib\portable-net45+win8+wp8+wpa81\System.Numerics.Vectors.dll">
       <PackagePath>System.Numerics.Vectors.dll</PackagePath>
-      <Modified>2016-06-12T05:14:10.000</Modified>
+      <Modified>2016-06-12T06:14:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.numerics.vectors.windowsruntime\4.0.1\lib\uap10.0\System.Numerics.Vectors.WindowsRuntime.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.numerics.vectors.windowsruntime\4.0.1\lib\uap10.0\System.Numerics.Vectors.WindowsRuntime.dll">
       <PackagePath>System.Numerics.Vectors.WindowsRuntime.dll</PackagePath>
-      <Modified>2016-06-12T05:14:06.000</Modified>
+      <Modified>2016-06-12T06:14:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.objectmodel\4.0.12\lib\netcore50\System.ObjectModel.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.objectmodel\4.0.12\lib\netcore50\System.ObjectModel.dll">
       <PackagePath>System.ObjectModel.dll</PackagePath>
-      <Modified>2016-06-12T05:14:10.000</Modified>
+      <Modified>2016-06-12T06:14:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.private.datacontractserialization\4.1.2\lib\netstandard1.3\System.Private.DataContractSerialization.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.private.datacontractserialization\4.1.2\lib\netstandard1.3\System.Private.DataContractSerialization.dll">
       <PackagePath>System.Private.DataContractSerialization.dll</PackagePath>
-      <Modified>2017-02-09T20:26:02.000</Modified>
+      <Modified>2017-02-09T21:26:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.private.servicemodel\4.1.1\runtimes\win7\lib\netcore50\System.Private.ServiceModel.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.private.servicemodel\4.1.1\runtimes\win7\lib\netcore50\System.Private.ServiceModel.dll">
       <PackagePath>System.Private.ServiceModel.dll</PackagePath>
-      <Modified>2017-12-13T07:31:12.000</Modified>
+      <Modified>2017-12-13T08:31:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.reflection.context\4.0.1\lib\netcore50\System.Reflection.Context.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.reflection.context\4.0.1\lib\netcore50\System.Reflection.Context.dll">
       <PackagePath>System.Reflection.Context.dll</PackagePath>
-      <Modified>2016-06-12T05:14:10.000</Modified>
+      <Modified>2016-06-12T06:14:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.reflection.dispatchproxy\4.0.1\lib\netstandard1.3\System.Reflection.DispatchProxy.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.reflection.dispatchproxy\4.0.1\lib\netstandard1.3\System.Reflection.DispatchProxy.dll">
       <PackagePath>System.Reflection.DispatchProxy.dll</PackagePath>
-      <Modified>2016-06-12T05:14:14.000</Modified>
+      <Modified>2016-06-12T06:14:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.reflection.emit\4.0.1\lib\netcore50\System.Reflection.Emit.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.reflection.emit\4.0.1\lib\netcore50\System.Reflection.Emit.dll">
       <PackagePath>System.Reflection.Emit.dll</PackagePath>
-      <Modified>2016-06-12T05:14:16.000</Modified>
+      <Modified>2016-06-12T06:14:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.reflection.emit.ilgeneration\4.0.1\lib\netcore50\System.Reflection.Emit.ILGeneration.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.reflection.emit.ilgeneration\4.0.1\lib\netcore50\System.Reflection.Emit.ILGeneration.dll">
       <PackagePath>System.Reflection.Emit.ILGeneration.dll</PackagePath>
-      <Modified>2016-06-12T05:14:14.000</Modified>
+      <Modified>2016-06-12T06:14:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.reflection.emit.lightweight\4.0.1\lib\netcore50\System.Reflection.Emit.Lightweight.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.reflection.emit.lightweight\4.0.1\lib\netcore50\System.Reflection.Emit.Lightweight.dll">
       <PackagePath>System.Reflection.Emit.Lightweight.dll</PackagePath>
-      <Modified>2016-06-12T05:14:16.000</Modified>
+      <Modified>2016-06-12T06:14:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.reflection.metadata\1.3.0\lib\portable-net45+win8\System.Reflection.Metadata.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.reflection.metadata\1.3.0\lib\portable-net45+win8\System.Reflection.Metadata.dll">
       <PackagePath>System.Reflection.Metadata.dll</PackagePath>
-      <Modified>2016-06-12T05:14:14.000</Modified>
+      <Modified>2016-06-12T06:14:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.reflection.typeextensions\4.1.0\lib\netcore50\System.Reflection.TypeExtensions.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.reflection.typeextensions\4.1.0\lib\netcore50\System.Reflection.TypeExtensions.dll">
       <PackagePath>System.Reflection.TypeExtensions.dll</PackagePath>
-      <Modified>2016-06-12T05:14:22.000</Modified>
+      <Modified>2016-06-12T06:14:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.runtime.interopservices.windowsruntime\4.0.1\lib\netcore50\System.Runtime.InteropServices.WindowsRuntime.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.runtime.interopservices.windowsruntime\4.0.1\lib\netcore50\System.Runtime.InteropServices.WindowsRuntime.dll">
       <PackagePath>System.Runtime.InteropServices.WindowsRuntime.dll</PackagePath>
-      <Modified>2016-06-12T05:14:26.000</Modified>
+      <Modified>2016-06-12T06:14:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.runtime.numerics\4.0.1\lib\netcore50\System.Runtime.Numerics.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.runtime.numerics\4.0.1\lib\netcore50\System.Runtime.Numerics.dll">
       <PackagePath>System.Runtime.Numerics.dll</PackagePath>
-      <Modified>2016-06-12T05:14:30.000</Modified>
+      <Modified>2016-06-12T06:14:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.runtime.serialization.json\4.0.3\lib\netcore50\System.Runtime.Serialization.Json.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.runtime.serialization.json\4.0.3\lib\netcore50\System.Runtime.Serialization.Json.dll">
       <PackagePath>System.Runtime.Serialization.Json.dll</PackagePath>
-      <Modified>2017-02-09T20:26:02.000</Modified>
+      <Modified>2017-02-09T21:26:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.runtime.serialization.primitives\4.1.1\lib\netcore50\System.Runtime.Serialization.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.runtime.serialization.primitives\4.1.1\lib\netcore50\System.Runtime.Serialization.Primitives.dll">
       <PackagePath>System.Runtime.Serialization.Primitives.dll</PackagePath>
-      <Modified>2016-06-12T05:14:32.000</Modified>
+      <Modified>2016-06-12T06:14:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.runtime.serialization.xml\4.1.2\lib\netcore50\System.Runtime.Serialization.Xml.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.runtime.serialization.xml\4.1.2\lib\netcore50\System.Runtime.Serialization.Xml.dll">
       <PackagePath>System.Runtime.Serialization.Xml.dll</PackagePath>
-      <Modified>2017-02-09T20:26:02.000</Modified>
+      <Modified>2017-02-09T21:26:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.runtime.windowsruntime\4.0.11\runtimes\win8\lib\netstandard1.3\System.Runtime.WindowsRuntime.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.runtime.windowsruntime\4.0.11\runtimes\win8\lib\netstandard1.3\System.Runtime.WindowsRuntime.dll">
       <PackagePath>System.Runtime.WindowsRuntime.dll</PackagePath>
-      <Modified>2016-06-12T05:14:36.000</Modified>
+      <Modified>2016-06-12T06:14:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.runtime.windowsruntime.ui.xaml\4.0.1\runtimes\win8\lib\netstandard1.3\System.Runtime.WindowsRuntime.UI.Xaml.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.runtime.windowsruntime.ui.xaml\4.0.1\runtimes\win8\lib\netstandard1.3\System.Runtime.WindowsRuntime.UI.Xaml.dll">
       <PackagePath>System.Runtime.WindowsRuntime.UI.Xaml.dll</PackagePath>
-      <Modified>2016-06-12T05:14:32.000</Modified>
+      <Modified>2016-06-12T06:14:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.security.claims\4.0.1\lib\netstandard1.3\System.Security.Claims.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.security.claims\4.0.1\lib\netstandard1.3\System.Security.Claims.dll">
       <PackagePath>System.Security.Claims.dll</PackagePath>
-      <Modified>2016-06-12T05:14:40.000</Modified>
+      <Modified>2016-06-12T06:14:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.security.cryptography.algorithms\4.2.0\runtimes\win\lib\netcore50\System.Security.Cryptography.Algorithms.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.security.cryptography.algorithms\4.2.0\runtimes\win\lib\netcore50\System.Security.Cryptography.Algorithms.dll">
       <PackagePath>System.Security.Cryptography.Algorithms.dll</PackagePath>
-      <Modified>2016-06-12T05:14:42.000</Modified>
+      <Modified>2016-06-12T06:14:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.security.cryptography.cng\4.2.0\runtimes\win\lib\netstandard1.4\System.Security.Cryptography.Cng.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.security.cryptography.cng\4.2.0\runtimes\win\lib\netstandard1.4\System.Security.Cryptography.Cng.dll">
       <PackagePath>System.Security.Cryptography.Cng.dll</PackagePath>
-      <Modified>2016-06-12T05:14:42.000</Modified>
+      <Modified>2016-06-12T06:14:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.security.cryptography.encoding\4.0.0\runtimes\win\lib\netstandard1.3\System.Security.Cryptography.Encoding.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.security.cryptography.encoding\4.0.0\runtimes\win\lib\netstandard1.3\System.Security.Cryptography.Encoding.dll">
       <PackagePath>System.Security.Cryptography.Encoding.dll</PackagePath>
-      <Modified>2016-06-12T05:14:38.000</Modified>
+      <Modified>2016-06-12T06:14:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.security.cryptography.primitives\4.0.0\lib\netstandard1.3\System.Security.Cryptography.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.security.cryptography.primitives\4.0.0\lib\netstandard1.3\System.Security.Cryptography.Primitives.dll">
       <PackagePath>System.Security.Cryptography.Primitives.dll</PackagePath>
-      <Modified>2016-06-12T05:14:42.000</Modified>
+      <Modified>2016-06-12T06:14:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.security.cryptography.x509certificates\4.1.0\runtimes\win\lib\netcore50\System.Security.Cryptography.X509Certificates.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.security.cryptography.x509certificates\4.1.0\runtimes\win\lib\netcore50\System.Security.Cryptography.X509Certificates.dll">
       <PackagePath>System.Security.Cryptography.X509Certificates.dll</PackagePath>
-      <Modified>2016-06-12T05:14:48.000</Modified>
+      <Modified>2016-06-12T06:14:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.security.principal\4.0.1\lib\netcore50\System.Security.Principal.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.security.principal\4.0.1\lib\netcore50\System.Security.Principal.dll">
       <PackagePath>System.Security.Principal.dll</PackagePath>
-      <Modified>2016-06-12T05:14:46.000</Modified>
+      <Modified>2016-06-12T06:14:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.servicemodel.duplex\4.0.2\lib\netcore50\System.ServiceModel.Duplex.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.servicemodel.duplex\4.0.2\lib\netcore50\System.ServiceModel.Duplex.dll">
       <PackagePath>System.ServiceModel.Duplex.dll</PackagePath>
-      <Modified>2017-12-13T07:31:16.000</Modified>
+      <Modified>2017-12-13T08:31:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.servicemodel.http\4.1.1\lib\netcore50\System.ServiceModel.Http.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.servicemodel.http\4.1.1\lib\netcore50\System.ServiceModel.Http.dll">
       <PackagePath>System.ServiceModel.Http.dll</PackagePath>
-      <Modified>2017-12-13T07:31:18.000</Modified>
+      <Modified>2017-12-13T08:31:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.servicemodel.nettcp\4.1.1\lib\netcore50\System.ServiceModel.NetTcp.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.servicemodel.nettcp\4.1.1\lib\netcore50\System.ServiceModel.NetTcp.dll">
       <PackagePath>System.ServiceModel.NetTcp.dll</PackagePath>
-      <Modified>2017-12-13T07:31:18.000</Modified>
+      <Modified>2017-12-13T08:31:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.servicemodel.primitives\4.1.1\lib\netcore50\System.ServiceModel.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.servicemodel.primitives\4.1.1\lib\netcore50\System.ServiceModel.Primitives.dll">
       <PackagePath>System.ServiceModel.Primitives.dll</PackagePath>
-      <Modified>2017-12-13T07:31:20.000</Modified>
+      <Modified>2017-12-13T08:31:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.servicemodel.security\4.0.2\lib\netcore50\System.ServiceModel.Security.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.servicemodel.security\4.0.2\lib\netcore50\System.ServiceModel.Security.dll">
       <PackagePath>System.ServiceModel.Security.dll</PackagePath>
-      <Modified>2017-12-13T07:31:22.000</Modified>
+      <Modified>2017-12-13T08:31:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.text.encoding.codepages\4.0.1\runtimes\win\lib\netstandard1.3\System.Text.Encoding.CodePages.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.text.encoding.codepages\4.0.1\runtimes\win\lib\netstandard1.3\System.Text.Encoding.CodePages.dll">
       <PackagePath>System.Text.Encoding.CodePages.dll</PackagePath>
-      <Modified>2016-06-12T05:14:46.000</Modified>
+      <Modified>2016-06-12T06:14:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.text.regularexpressions\4.1.0\lib\netcore50\System.Text.RegularExpressions.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.text.regularexpressions\4.1.0\lib\netcore50\System.Text.RegularExpressions.dll">
       <PackagePath>System.Text.RegularExpressions.dll</PackagePath>
-      <Modified>2016-06-12T05:14:52.000</Modified>
+      <Modified>2016-06-12T06:14:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.threading\4.0.11\lib\netcore50\System.Threading.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.threading\4.0.11\lib\netcore50\System.Threading.dll">
       <PackagePath>System.Threading.dll</PackagePath>
-      <Modified>2016-06-12T05:15:00.000</Modified>
+      <Modified>2016-06-12T06:15:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.threading.overlapped\4.0.1\runtimes\win\lib\netcore50\System.Threading.Overlapped.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.threading.overlapped\4.0.1\runtimes\win\lib\netcore50\System.Threading.Overlapped.dll">
       <PackagePath>System.Threading.Overlapped.dll</PackagePath>
-      <Modified>2016-06-12T05:14:54.000</Modified>
+      <Modified>2016-06-12T06:14:54.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.threading.tasks.dataflow\4.6.0\lib\netstandard1.1\System.Threading.Tasks.Dataflow.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.threading.tasks.dataflow\4.6.0\lib\netstandard1.1\System.Threading.Tasks.Dataflow.dll">
       <PackagePath>System.Threading.Tasks.Dataflow.dll</PackagePath>
-      <Modified>2016-06-12T05:14:52.000</Modified>
+      <Modified>2016-06-12T06:14:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.threading.tasks.extensions\4.0.0\lib\portable-net45+win8+wp8+wpa81\System.Threading.Tasks.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.threading.tasks.extensions\4.0.0\lib\portable-net45+win8+wp8+wpa81\System.Threading.Tasks.Extensions.dll">
       <PackagePath>System.Threading.Tasks.Extensions.dll</PackagePath>
-      <Modified>2016-06-12T05:14:52.000</Modified>
+      <Modified>2016-06-12T06:14:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.threading.tasks.parallel\4.0.1\lib\netcore50\System.Threading.Tasks.Parallel.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.threading.tasks.parallel\4.0.1\lib\netcore50\System.Threading.Tasks.Parallel.dll">
       <PackagePath>System.Threading.Tasks.Parallel.dll</PackagePath>
-      <Modified>2016-06-12T05:14:54.000</Modified>
+      <Modified>2016-06-12T06:14:54.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.xml.readerwriter\4.0.11\lib\netcore50\System.Xml.ReaderWriter.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.xml.readerwriter\4.0.11\lib\netcore50\System.Xml.ReaderWriter.dll">
       <PackagePath>System.Xml.ReaderWriter.dll</PackagePath>
-      <Modified>2016-06-12T05:15:00.000</Modified>
+      <Modified>2016-06-12T06:15:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.xml.xdocument\4.0.11\lib\netcore50\System.Xml.XDocument.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.xml.xdocument\4.0.11\lib\netcore50\System.Xml.XDocument.dll">
       <PackagePath>System.Xml.XDocument.dll</PackagePath>
-      <Modified>2016-06-12T05:15:00.000</Modified>
+      <Modified>2016-06-12T06:15:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.xml.xmldocument\4.0.1\lib\netstandard1.3\System.Xml.XmlDocument.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.xml.xmldocument\4.0.1\lib\netstandard1.3\System.Xml.XmlDocument.dll">
       <PackagePath>System.Xml.XmlDocument.dll</PackagePath>
-      <Modified>2016-06-12T05:15:02.000</Modified>
+      <Modified>2016-06-12T06:15:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.xml.xmlserializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
+    <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.xml.xmlserializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
-      <Modified>2016-06-12T05:15:04.000</Modified>
+      <Modified>2016-06-12T06:15:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\background space.jpg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\background space.jpg">
       <PackagePath>Assets\background space.jpg</PackagePath>
-      <Modified>2018-05-23T21:02:45.691</Modified>
+      <Modified>2018-05-23T17:35:58.192</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ADA.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ADA.png">
       <PackagePath>Assets\CryptoSVG\PNG\ADA.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.692</Modified>
+      <Modified>2018-05-19T18:40:11.491</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ADX.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ADX.png">
       <PackagePath>Assets\CryptoSVG\PNG\ADX.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.695</Modified>
+      <Modified>2018-05-19T18:40:11.491</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\AE.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\AE.png">
       <PackagePath>Assets\CryptoSVG\PNG\AE.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.697</Modified>
+      <Modified>2018-05-19T18:40:11.492</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ARDR.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ARDR.png">
       <PackagePath>Assets\CryptoSVG\PNG\ARDR.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.699</Modified>
+      <Modified>2018-05-19T18:40:11.492</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ARK.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ARK.png">
       <PackagePath>Assets\CryptoSVG\PNG\ARK.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.701</Modified>
+      <Modified>2018-05-19T18:40:11.493</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BAT.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BAT.png">
       <PackagePath>Assets\CryptoSVG\PNG\BAT.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.703</Modified>
+      <Modified>2018-05-19T18:40:11.493</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BCC.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BCC.png">
       <PackagePath>Assets\CryptoSVG\PNG\BCC.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.705</Modified>
+      <Modified>2018-05-19T18:40:11.494</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BCH.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BCH.png">
       <PackagePath>Assets\CryptoSVG\PNG\BCH.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.707</Modified>
+      <Modified>2018-05-19T18:40:11.495</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BCN.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BCN.png">
       <PackagePath>Assets\CryptoSVG\PNG\BCN.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.709</Modified>
+      <Modified>2018-05-19T18:40:11.495</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BLOCK.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BLOCK.png">
       <PackagePath>Assets\CryptoSVG\PNG\BLOCK.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.712</Modified>
+      <Modified>2018-05-19T18:40:11.496</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BNB.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BNB.png">
       <PackagePath>Assets\CryptoSVG\PNG\BNB.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.714</Modified>
+      <Modified>2018-05-19T18:40:11.496</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BNT.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BNT.png">
       <PackagePath>Assets\CryptoSVG\PNG\BNT.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.716</Modified>
+      <Modified>2018-05-19T18:40:11.497</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BTC.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BTC.png">
       <PackagePath>Assets\CryptoSVG\PNG\BTC.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.719</Modified>
+      <Modified>2018-05-19T18:40:11.497</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BTCD.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BTCD.png">
       <PackagePath>Assets\CryptoSVG\PNG\BTCD.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.721</Modified>
+      <Modified>2018-05-19T18:40:11.497</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BTG.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BTG.png">
       <PackagePath>Assets\CryptoSVG\PNG\BTG.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.723</Modified>
+      <Modified>2018-05-19T18:40:11.498</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BTM.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BTM.png">
       <PackagePath>Assets\CryptoSVG\PNG\BTM.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.725</Modified>
+      <Modified>2018-05-19T18:40:11.499</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BTS.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\BTS.png">
       <PackagePath>Assets\CryptoSVG\PNG\BTS.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.727</Modified>
+      <Modified>2018-05-19T18:40:11.499</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\CNX.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\CNX.png">
       <PackagePath>Assets\CryptoSVG\PNG\CNX.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.729</Modified>
+      <Modified>2018-05-19T18:40:11.500</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\CVC.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\CVC.png">
       <PackagePath>Assets\CryptoSVG\PNG\CVC.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.731</Modified>
+      <Modified>2018-05-19T18:40:11.500</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\DASH.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\DASH.png">
       <PackagePath>Assets\CryptoSVG\PNG\DASH.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.733</Modified>
+      <Modified>2018-05-19T18:40:11.501</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\DCR.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\DCR.png">
       <PackagePath>Assets\CryptoSVG\PNG\DCR.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.735</Modified>
+      <Modified>2018-05-19T18:40:11.501</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\DGB.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\DGB.png">
       <PackagePath>Assets\CryptoSVG\PNG\DGB.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.738</Modified>
+      <Modified>2018-05-19T18:40:11.502</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\DGD.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\DGD.png">
       <PackagePath>Assets\CryptoSVG\PNG\DGD.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.740</Modified>
+      <Modified>2018-05-19T18:40:11.502</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\DOGE.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\DOGE.png">
       <PackagePath>Assets\CryptoSVG\PNG\DOGE.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.743</Modified>
+      <Modified>2018-05-19T18:40:11.503</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\EDG.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\EDG.png">
       <PackagePath>Assets\CryptoSVG\PNG\EDG.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.745</Modified>
+      <Modified>2018-05-19T18:40:11.503</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\EMC2.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\EMC2.png">
       <PackagePath>Assets\CryptoSVG\PNG\EMC2.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.748</Modified>
+      <Modified>2018-05-19T18:40:11.504</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\EOS.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\EOS.png">
       <PackagePath>Assets\CryptoSVG\PNG\EOS.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.750</Modified>
+      <Modified>2018-05-19T18:40:11.504</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ETC.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ETC.png">
       <PackagePath>Assets\CryptoSVG\PNG\ETC.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.752</Modified>
+      <Modified>2018-05-19T18:40:11.505</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ETH.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ETH.png">
       <PackagePath>Assets\CryptoSVG\PNG\ETH.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.755</Modified>
+      <Modified>2018-05-19T18:40:11.505</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ETHOS.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ETHOS.png">
       <PackagePath>Assets\CryptoSVG\PNG\ETHOS.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.757</Modified>
+      <Modified>2018-05-19T18:40:11.506</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ETP.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ETP.png">
       <PackagePath>Assets\CryptoSVG\PNG\ETP.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.759</Modified>
+      <Modified>2018-05-19T18:40:11.506</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\FCT.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\FCT.png">
       <PackagePath>Assets\CryptoSVG\PNG\FCT.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.761</Modified>
+      <Modified>2018-05-19T18:40:11.507</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\FUN.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\FUN.png">
       <PackagePath>Assets\CryptoSVG\PNG\FUN.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.763</Modified>
+      <Modified>2018-05-19T18:40:11.507</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\GAME.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\GAME.png">
       <PackagePath>Assets\CryptoSVG\PNG\GAME.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.766</Modified>
+      <Modified>2018-05-19T18:40:11.508</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\GAS.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\GAS.png">
       <PackagePath>Assets\CryptoSVG\PNG\GAS.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.768</Modified>
+      <Modified>2018-05-19T18:40:11.509</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\GBYTE.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\GBYTE.png">
       <PackagePath>Assets\CryptoSVG\PNG\GBYTE.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.770</Modified>
+      <Modified>2018-05-19T18:40:11.509</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\GNO.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\GNO.png">
       <PackagePath>Assets\CryptoSVG\PNG\GNO.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.773</Modified>
+      <Modified>2018-05-19T18:40:11.510</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\GNT.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\GNT.png">
       <PackagePath>Assets\CryptoSVG\PNG\GNT.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.775</Modified>
+      <Modified>2018-05-19T18:40:11.510</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\GRS.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\GRS.png">
       <PackagePath>Assets\CryptoSVG\PNG\GRS.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.777</Modified>
+      <Modified>2018-05-19T18:40:11.511</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\GXS.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\GXS.png">
       <PackagePath>Assets\CryptoSVG\PNG\GXS.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.779</Modified>
+      <Modified>2018-05-19T18:40:11.511</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\HSR.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\HSR.png">
       <PackagePath>Assets\CryptoSVG\PNG\HSR.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.783</Modified>
+      <Modified>2018-05-19T18:40:11.512</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ICN.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ICN.png">
       <PackagePath>Assets\CryptoSVG\PNG\ICN.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.785</Modified>
+      <Modified>2018-05-19T18:40:11.513</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\MIOTA.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\MIOTA.png">
       <PackagePath>Assets\CryptoSVG\PNG\MIOTA.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.787</Modified>
+      <Modified>2018-05-23T17:25:25.424</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\KMD.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\KMD.png">
       <PackagePath>Assets\CryptoSVG\PNG\KMD.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.789</Modified>
+      <Modified>2018-05-19T18:40:11.514</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\KNC.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\KNC.png">
       <PackagePath>Assets\CryptoSVG\PNG\KNC.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.791</Modified>
+      <Modified>2018-05-19T18:40:11.514</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\LSK.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\LSK.png">
       <PackagePath>Assets\CryptoSVG\PNG\LSK.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.793</Modified>
+      <Modified>2018-05-19T18:40:11.515</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\LTC.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\LTC.png">
       <PackagePath>Assets\CryptoSVG\PNG\LTC.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.796</Modified>
+      <Modified>2018-05-19T18:40:11.515</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\MAID.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\MAID.png">
       <PackagePath>Assets\CryptoSVG\PNG\MAID.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.798</Modified>
+      <Modified>2018-05-19T18:40:11.517</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\MCO.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\MCO.png">
       <PackagePath>Assets\CryptoSVG\PNG\MCO.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.801</Modified>
+      <Modified>2018-05-19T18:40:11.517</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\MNX.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\MNX.png">
       <PackagePath>Assets\CryptoSVG\PNG\MNX.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.803</Modified>
+      <Modified>2018-05-19T18:40:11.518</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\MONA.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\MONA.png">
       <PackagePath>Assets\CryptoSVG\PNG\MONA.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.805</Modified>
+      <Modified>2018-05-19T18:40:11.518</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\MTL.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\MTL.png">
       <PackagePath>Assets\CryptoSVG\PNG\MTL.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.807</Modified>
+      <Modified>2018-05-19T18:40:11.519</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\NAV.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\NAV.png">
       <PackagePath>Assets\CryptoSVG\PNG\NAV.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.809</Modified>
+      <Modified>2018-05-19T18:40:11.519</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\NEO.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\NEO.png">
       <PackagePath>Assets\CryptoSVG\PNG\NEO.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.812</Modified>
+      <Modified>2018-05-19T18:40:11.520</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\NXS.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\NXS.png">
       <PackagePath>Assets\CryptoSVG\PNG\NXS.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.814</Modified>
+      <Modified>2018-05-19T18:40:11.521</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\NXT.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\NXT.png">
       <PackagePath>Assets\CryptoSVG\PNG\NXT.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.816</Modified>
+      <Modified>2018-05-19T18:40:11.521</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\OMG.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\OMG.png">
       <PackagePath>Assets\CryptoSVG\PNG\OMG.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.818</Modified>
+      <Modified>2018-05-19T18:40:11.522</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\PAY.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\PAY.png">
       <PackagePath>Assets\CryptoSVG\PNG\PAY.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.820</Modified>
+      <Modified>2018-05-19T18:40:11.522</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\PIVX.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\PIVX.png">
       <PackagePath>Assets\CryptoSVG\PNG\PIVX.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.823</Modified>
+      <Modified>2018-05-19T18:40:11.523</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\POT.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\POT.png">
       <PackagePath>Assets\CryptoSVG\PNG\POT.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.825</Modified>
+      <Modified>2018-05-19T18:40:11.523</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\POWER.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\POWER.png">
       <PackagePath>Assets\CryptoSVG\PNG\POWER.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.827</Modified>
+      <Modified>2018-05-19T18:40:11.524</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\PPC.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\PPC.png">
       <PackagePath>Assets\CryptoSVG\PNG\PPC.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.829</Modified>
+      <Modified>2018-05-19T18:40:11.524</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\PPT.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\PPT.png">
       <PackagePath>Assets\CryptoSVG\PNG\PPT.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.832</Modified>
+      <Modified>2018-05-19T18:40:11.525</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\PURA.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\PURA.png">
       <PackagePath>Assets\CryptoSVG\PNG\PURA.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.833</Modified>
+      <Modified>2018-05-19T18:40:11.525</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\QASH.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\QASH.png">
       <PackagePath>Assets\CryptoSVG\PNG\QASH.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.835</Modified>
+      <Modified>2018-05-19T18:40:11.526</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\QTUM.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\QTUM.png">
       <PackagePath>Assets\CryptoSVG\PNG\QTUM.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.837</Modified>
+      <Modified>2018-05-19T18:40:11.526</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\RDN.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\RDN.png">
       <PackagePath>Assets\CryptoSVG\PNG\RDN.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.841</Modified>
+      <Modified>2018-05-19T18:40:11.527</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\REP.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\REP.png">
       <PackagePath>Assets\CryptoSVG\PNG\REP.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.843</Modified>
+      <Modified>2018-05-19T18:40:11.527</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\SALT.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\SALT.png">
       <PackagePath>Assets\CryptoSVG\PNG\SALT.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.845</Modified>
+      <Modified>2018-05-19T18:40:11.528</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\SAN.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\SAN.png">
       <PackagePath>Assets\CryptoSVG\PNG\SAN.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.848</Modified>
+      <Modified>2018-05-19T18:40:11.528</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\SC.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\SC.png">
       <PackagePath>Assets\CryptoSVG\PNG\SC.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.850</Modified>
+      <Modified>2018-05-19T18:40:11.529</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\SKY.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\SKY.png">
       <PackagePath>Assets\CryptoSVG\PNG\SKY.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.853</Modified>
+      <Modified>2018-05-19T18:40:11.529</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\SNGLS.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\SNGLS.png">
       <PackagePath>Assets\CryptoSVG\PNG\SNGLS.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.855</Modified>
+      <Modified>2018-05-19T18:40:11.530</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\SNT.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\SNT.png">
       <PackagePath>Assets\CryptoSVG\PNG\SNT.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.857</Modified>
+      <Modified>2018-05-19T18:40:11.530</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\START.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\START.png">
       <PackagePath>Assets\CryptoSVG\PNG\START.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.859</Modified>
+      <Modified>2018-05-19T18:40:11.531</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\STEEM.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\STEEM.png">
       <PackagePath>Assets\CryptoSVG\PNG\STEEM.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.861</Modified>
+      <Modified>2018-05-19T18:40:11.531</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\STORJ.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\STORJ.png">
       <PackagePath>Assets\CryptoSVG\PNG\STORJ.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.864</Modified>
+      <Modified>2018-05-19T18:40:11.532</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\SYS.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\SYS.png">
       <PackagePath>Assets\CryptoSVG\PNG\SYS.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.866</Modified>
+      <Modified>2018-05-19T18:40:11.532</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\TRX.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\TRX.png">
       <PackagePath>Assets\CryptoSVG\PNG\TRX.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.868</Modified>
+      <Modified>2018-05-19T18:40:11.533</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\UBQ.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\UBQ.png">
       <PackagePath>Assets\CryptoSVG\PNG\UBQ.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.870</Modified>
+      <Modified>2018-05-19T18:40:11.533</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\USDT.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\USDT.png">
       <PackagePath>Assets\CryptoSVG\PNG\USDT.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.872</Modified>
+      <Modified>2018-05-19T18:40:11.534</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\VEN.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\VEN.png">
       <PackagePath>Assets\CryptoSVG\PNG\VEN.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.874</Modified>
+      <Modified>2018-05-19T18:40:11.534</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\VTC.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\VTC.png">
       <PackagePath>Assets\CryptoSVG\PNG\VTC.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.877</Modified>
+      <Modified>2018-05-19T18:40:11.535</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\WAVES.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\WAVES.png">
       <PackagePath>Assets\CryptoSVG\PNG\WAVES.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.878</Modified>
+      <Modified>2018-05-19T18:40:11.535</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\WTC.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\WTC.png">
       <PackagePath>Assets\CryptoSVG\PNG\WTC.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.880</Modified>
+      <Modified>2018-05-19T18:40:11.536</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\XEM.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\XEM.png">
       <PackagePath>Assets\CryptoSVG\PNG\XEM.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.883</Modified>
+      <Modified>2018-05-19T18:40:11.536</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\XLM.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\XLM.png">
       <PackagePath>Assets\CryptoSVG\PNG\XLM.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.885</Modified>
+      <Modified>2018-05-19T18:40:11.537</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\XMR.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\XMR.png">
       <PackagePath>Assets\CryptoSVG\PNG\XMR.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.887</Modified>
+      <Modified>2018-05-19T18:40:11.537</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\XRP.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\XRP.png">
       <PackagePath>Assets\CryptoSVG\PNG\XRP.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.889</Modified>
+      <Modified>2018-05-19T18:40:11.538</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\XUC.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\XUC.png">
       <PackagePath>Assets\CryptoSVG\PNG\XUC.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.892</Modified>
+      <Modified>2018-05-19T18:40:11.539</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\XVG.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\XVG.png">
       <PackagePath>Assets\CryptoSVG\PNG\XVG.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.894</Modified>
+      <Modified>2018-05-19T18:40:11.539</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\XZC.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\XZC.png">
       <PackagePath>Assets\CryptoSVG\PNG\XZC.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.896</Modified>
+      <Modified>2018-05-19T18:40:11.539</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ZEC.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ZEC.png">
       <PackagePath>Assets\CryptoSVG\PNG\ZEC.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.898</Modified>
+      <Modified>2018-05-19T18:40:11.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ZEN.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ZEN.png">
       <PackagePath>Assets\CryptoSVG\PNG\ZEN.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.901</Modified>
+      <Modified>2018-05-19T18:40:11.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ZRX.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ZRX.png">
       <PackagePath>Assets\CryptoSVG\PNG\ZRX.png</PackagePath>
-      <Modified>2018-05-18T16:28:17.903</Modified>
+      <Modified>2018-05-19T18:40:11.541</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2018-05-18T16:28:18.226</Modified>
+      <Modified>2018-05-19T18:40:11.626</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-18T16:28:18.227</Modified>
+      <Modified>2018-05-19T18:40:11.626</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-18T16:28:18.228</Modified>
+      <Modified>2018-05-19T18:40:11.627</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-18T16:28:18.229</Modified>
+      <Modified>2018-05-19T18:40:11.627</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-18T16:28:18.231</Modified>
+      <Modified>2018-05-19T18:40:11.628</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-18T16:28:18.232</Modified>
+      <Modified>2018-05-19T18:40:11.628</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-18T16:28:18.233</Modified>
+      <Modified>2018-05-19T18:40:11.629</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ADA.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ADA.svg">
       <PackagePath>Assets\CryptoSVG\SVG\ADA.svg</PackagePath>
-      <Modified>2018-05-18T16:28:17.906</Modified>
+      <Modified>2018-05-19T18:40:11.542</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ADX.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ADX.svg">
       <PackagePath>Assets\CryptoSVG\SVG\ADX.svg</PackagePath>
-      <Modified>2018-05-18T16:28:17.910</Modified>
+      <Modified>2018-05-19T18:40:11.542</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\AE.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\AE.svg">
       <PackagePath>Assets\CryptoSVG\SVG\AE.svg</PackagePath>
-      <Modified>2018-05-18T16:28:17.913</Modified>
+      <Modified>2018-05-19T18:40:11.543</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ARDR.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ARDR.svg">
       <PackagePath>Assets\CryptoSVG\SVG\ARDR.svg</PackagePath>
-      <Modified>2018-05-18T16:28:17.915</Modified>
+      <Modified>2018-05-19T18:40:11.543</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ARK.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ARK.svg">
       <PackagePath>Assets\CryptoSVG\SVG\ARK.svg</PackagePath>
-      <Modified>2018-05-18T16:28:17.918</Modified>
+      <Modified>2018-05-19T18:40:11.544</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BAT.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BAT.svg">
       <PackagePath>Assets\CryptoSVG\SVG\BAT.svg</PackagePath>
-      <Modified>2018-05-18T16:28:17.920</Modified>
+      <Modified>2018-05-19T18:40:11.544</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BCC.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BCC.svg">
       <PackagePath>Assets\CryptoSVG\SVG\BCC.svg</PackagePath>
-      <Modified>2018-05-18T16:28:17.922</Modified>
+      <Modified>2018-05-19T18:40:11.545</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BCH.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BCH.svg">
       <PackagePath>Assets\CryptoSVG\SVG\BCH.svg</PackagePath>
-      <Modified>2018-05-18T16:28:17.925</Modified>
+      <Modified>2018-05-19T18:40:11.545</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BCN.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BCN.svg">
       <PackagePath>Assets\CryptoSVG\SVG\BCN.svg</PackagePath>
-      <Modified>2018-05-18T16:28:17.927</Modified>
+      <Modified>2018-05-19T18:40:11.546</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BLOCK.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BLOCK.svg">
       <PackagePath>Assets\CryptoSVG\SVG\BLOCK.svg</PackagePath>
-      <Modified>2018-05-18T16:28:17.930</Modified>
+      <Modified>2018-05-19T18:40:11.546</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BNB.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BNB.svg">
       <PackagePath>Assets\CryptoSVG\SVG\BNB.svg</PackagePath>
-      <Modified>2018-05-18T16:28:17.932</Modified>
+      <Modified>2018-05-19T18:40:11.546</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BNT.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BNT.svg">
       <PackagePath>Assets\CryptoSVG\SVG\BNT.svg</PackagePath>
-      <Modified>2018-05-18T16:28:17.934</Modified>
+      <Modified>2018-05-19T18:40:11.547</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BTC.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BTC.svg">
       <PackagePath>Assets\CryptoSVG\SVG\BTC.svg</PackagePath>
-      <Modified>2018-05-18T16:28:17.936</Modified>
+      <Modified>2018-05-19T18:40:11.547</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BTCD.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BTCD.svg">
       <PackagePath>Assets\CryptoSVG\SVG\BTCD.svg</PackagePath>
-      <Modified>2018-05-18T16:28:17.939</Modified>
+      <Modified>2018-05-19T18:40:11.548</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BTG.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BTG.svg">
       <PackagePath>Assets\CryptoSVG\SVG\BTG.svg</PackagePath>
-      <Modified>2018-05-18T16:28:17.941</Modified>
+      <Modified>2018-05-19T18:40:11.548</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BTM.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BTM.svg">
       <PackagePath>Assets\CryptoSVG\SVG\BTM.svg</PackagePath>
-      <Modified>2018-05-18T16:28:17.944</Modified>
+      <Modified>2018-05-19T18:40:11.549</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BTS.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BTS.svg">
       <PackagePath>Assets\CryptoSVG\SVG\BTS.svg</PackagePath>
-      <Modified>2018-05-18T16:28:17.946</Modified>
+      <Modified>2018-05-19T18:40:11.549</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\CNX.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\CNX.svg">
       <PackagePath>Assets\CryptoSVG\SVG\CNX.svg</PackagePath>
-      <Modified>2018-05-18T16:28:17.949</Modified>
+      <Modified>2018-05-19T18:40:11.550</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\CVC.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\CVC.svg">
       <PackagePath>Assets\CryptoSVG\SVG\CVC.svg</PackagePath>
-      <Modified>2018-05-18T16:28:17.952</Modified>
+      <Modified>2018-05-19T18:40:11.551</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\DASH.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\DASH.svg">
       <PackagePath>Assets\CryptoSVG\SVG\DASH.svg</PackagePath>
-      <Modified>2018-05-18T16:28:17.954</Modified>
+      <Modified>2018-05-19T18:40:11.552</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\DCR.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\DCR.svg">
       <PackagePath>Assets\CryptoSVG\SVG\DCR.svg</PackagePath>
-      <Modified>2018-05-18T16:28:17.956</Modified>
+      <Modified>2018-05-19T18:40:11.552</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\DGB.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\DGB.svg">
       <PackagePath>Assets\CryptoSVG\SVG\DGB.svg</PackagePath>
-      <Modified>2018-05-18T16:28:17.958</Modified>
+      <Modified>2018-05-19T18:40:11.553</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\DGD.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\DGD.svg">
       <PackagePath>Assets\CryptoSVG\SVG\DGD.svg</PackagePath>
-      <Modified>2018-05-18T16:28:17.960</Modified>
+      <Modified>2018-05-19T18:40:11.553</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\DOGE.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\DOGE.svg">
       <PackagePath>Assets\CryptoSVG\SVG\DOGE.svg</PackagePath>
-      <Modified>2018-05-18T16:28:17.962</Modified>
+      <Modified>2018-05-19T18:40:11.553</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\EDG.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\EDG.svg">
       <PackagePath>Assets\CryptoSVG\SVG\EDG.svg</PackagePath>
-      <Modified>2018-05-18T16:28:17.965</Modified>
+      <Modified>2018-05-19T18:40:11.554</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\EMC2.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\EMC2.svg">
       <PackagePath>Assets\CryptoSVG\SVG\EMC2.svg</PackagePath>
-      <Modified>2018-05-18T16:28:17.967</Modified>
+      <Modified>2018-05-19T18:40:11.554</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\EOS.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\EOS.svg">
       <PackagePath>Assets\CryptoSVG\SVG\EOS.svg</PackagePath>
-      <Modified>2018-05-18T16:28:17.969</Modified>
+      <Modified>2018-05-19T18:40:11.555</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ETC.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ETC.svg">
       <PackagePath>Assets\CryptoSVG\SVG\ETC.svg</PackagePath>
-      <Modified>2018-05-18T16:28:17.971</Modified>
+      <Modified>2018-05-19T18:40:11.555</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ETH.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ETH.svg">
       <PackagePath>Assets\CryptoSVG\SVG\ETH.svg</PackagePath>
-      <Modified>2018-05-18T16:28:17.973</Modified>
+      <Modified>2018-05-19T18:40:11.556</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ETHOS.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ETHOS.svg">
       <PackagePath>Assets\CryptoSVG\SVG\ETHOS.svg</PackagePath>
-      <Modified>2018-05-18T16:28:17.975</Modified>
+      <Modified>2018-05-19T18:40:11.556</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ETP.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ETP.svg">
       <PackagePath>Assets\CryptoSVG\SVG\ETP.svg</PackagePath>
-      <Modified>2018-05-18T16:28:17.977</Modified>
+      <Modified>2018-05-19T18:40:11.557</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\FCT.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\FCT.svg">
       <PackagePath>Assets\CryptoSVG\SVG\FCT.svg</PackagePath>
-      <Modified>2018-05-18T16:28:17.979</Modified>
+      <Modified>2018-05-19T18:40:11.557</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\FUN.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\FUN.svg">
       <PackagePath>Assets\CryptoSVG\SVG\FUN.svg</PackagePath>
-      <Modified>2018-05-18T16:28:17.981</Modified>
+      <Modified>2018-05-19T18:40:11.558</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\GAME.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\GAME.svg">
       <PackagePath>Assets\CryptoSVG\SVG\GAME.svg</PackagePath>
-      <Modified>2018-05-18T16:28:17.983</Modified>
+      <Modified>2018-05-19T18:40:11.558</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\GAS.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\GAS.svg">
       <PackagePath>Assets\CryptoSVG\SVG\GAS.svg</PackagePath>
-      <Modified>2018-05-18T16:28:17.986</Modified>
+      <Modified>2018-05-19T18:40:11.559</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\GBYTE.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\GBYTE.svg">
       <PackagePath>Assets\CryptoSVG\SVG\GBYTE.svg</PackagePath>
-      <Modified>2018-05-18T16:28:17.988</Modified>
+      <Modified>2018-05-19T18:40:11.559</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\GNO.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\GNO.svg">
       <PackagePath>Assets\CryptoSVG\SVG\GNO.svg</PackagePath>
-      <Modified>2018-05-18T16:28:17.991</Modified>
+      <Modified>2018-05-19T18:40:11.560</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\GNT.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\GNT.svg">
       <PackagePath>Assets\CryptoSVG\SVG\GNT.svg</PackagePath>
-      <Modified>2018-05-18T16:28:17.993</Modified>
+      <Modified>2018-05-19T18:40:11.560</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\GRS.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\GRS.svg">
       <PackagePath>Assets\CryptoSVG\SVG\GRS.svg</PackagePath>
-      <Modified>2018-05-18T16:28:17.996</Modified>
+      <Modified>2018-05-19T18:40:11.561</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\GXS.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\GXS.svg">
       <PackagePath>Assets\CryptoSVG\SVG\GXS.svg</PackagePath>
-      <Modified>2018-05-18T16:28:17.999</Modified>
+      <Modified>2018-05-19T18:40:11.561</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\HSR.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\HSR.svg">
       <PackagePath>Assets\CryptoSVG\SVG\HSR.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.002</Modified>
+      <Modified>2018-05-19T18:40:11.562</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ICN.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ICN.svg">
       <PackagePath>Assets\CryptoSVG\SVG\ICN.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.005</Modified>
+      <Modified>2018-05-19T18:40:11.562</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\IOT.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\IOT.svg">
       <PackagePath>Assets\CryptoSVG\SVG\IOT.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.007</Modified>
+      <Modified>2018-05-19T18:40:11.563</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\KMD.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\KMD.svg">
       <PackagePath>Assets\CryptoSVG\SVG\KMD.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.010</Modified>
+      <Modified>2018-05-19T18:40:11.563</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\KNC.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\KNC.svg">
       <PackagePath>Assets\CryptoSVG\SVG\KNC.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.012</Modified>
+      <Modified>2018-05-19T18:40:11.564</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\LSK.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\LSK.svg">
       <PackagePath>Assets\CryptoSVG\SVG\LSK.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.014</Modified>
+      <Modified>2018-05-19T18:40:11.564</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\LTC.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\LTC.svg">
       <PackagePath>Assets\CryptoSVG\SVG\LTC.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.017</Modified>
+      <Modified>2018-05-19T18:40:11.565</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\MAID.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\MAID.svg">
       <PackagePath>Assets\CryptoSVG\SVG\MAID.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.019</Modified>
+      <Modified>2018-05-19T18:40:11.565</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\MCO.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\MCO.svg">
       <PackagePath>Assets\CryptoSVG\SVG\MCO.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.021</Modified>
+      <Modified>2018-05-19T18:40:11.566</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\MNX.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\MNX.svg">
       <PackagePath>Assets\CryptoSVG\SVG\MNX.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.024</Modified>
+      <Modified>2018-05-19T18:40:11.566</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\MONA.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\MONA.svg">
       <PackagePath>Assets\CryptoSVG\SVG\MONA.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.026</Modified>
+      <Modified>2018-05-19T18:40:11.567</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\MTL.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\MTL.svg">
       <PackagePath>Assets\CryptoSVG\SVG\MTL.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.028</Modified>
+      <Modified>2018-05-19T18:40:11.567</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\NAV.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\NAV.svg">
       <PackagePath>Assets\CryptoSVG\SVG\NAV.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.031</Modified>
+      <Modified>2018-05-19T18:40:11.568</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\NEO.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\NEO.svg">
       <PackagePath>Assets\CryptoSVG\SVG\NEO.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.033</Modified>
+      <Modified>2018-05-19T18:40:11.568</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\NXS.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\NXS.svg">
       <PackagePath>Assets\CryptoSVG\SVG\NXS.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.036</Modified>
+      <Modified>2018-05-19T18:40:11.569</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\NXT.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\NXT.svg">
       <PackagePath>Assets\CryptoSVG\SVG\NXT.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.039</Modified>
+      <Modified>2018-05-19T18:40:11.569</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\OMG.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\OMG.svg">
       <PackagePath>Assets\CryptoSVG\SVG\OMG.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.041</Modified>
+      <Modified>2018-05-19T18:40:11.570</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\PAY.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\PAY.svg">
       <PackagePath>Assets\CryptoSVG\SVG\PAY.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.044</Modified>
+      <Modified>2018-05-19T18:40:11.570</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\PIVX.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\PIVX.svg">
       <PackagePath>Assets\CryptoSVG\SVG\PIVX.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.046</Modified>
+      <Modified>2018-05-19T18:40:11.570</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\POT.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\POT.svg">
       <PackagePath>Assets\CryptoSVG\SVG\POT.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.050</Modified>
+      <Modified>2018-05-19T18:40:11.571</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\POWER.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\POWER.svg">
       <PackagePath>Assets\CryptoSVG\SVG\POWER.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.052</Modified>
+      <Modified>2018-05-19T18:40:11.572</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\PPC.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\PPC.svg">
       <PackagePath>Assets\CryptoSVG\SVG\PPC.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.054</Modified>
+      <Modified>2018-05-19T18:40:11.572</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\PPT.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\PPT.svg">
       <PackagePath>Assets\CryptoSVG\SVG\PPT.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.057</Modified>
+      <Modified>2018-05-19T18:40:11.573</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\PURA.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\PURA.svg">
       <PackagePath>Assets\CryptoSVG\SVG\PURA.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.059</Modified>
+      <Modified>2018-05-19T18:40:11.573</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\QASH.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\QASH.svg">
       <PackagePath>Assets\CryptoSVG\SVG\QASH.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.062</Modified>
+      <Modified>2018-05-19T18:40:11.574</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\QTUM.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\QTUM.svg">
       <PackagePath>Assets\CryptoSVG\SVG\QTUM.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.064</Modified>
+      <Modified>2018-05-19T18:40:11.574</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\RDN.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\RDN.svg">
       <PackagePath>Assets\CryptoSVG\SVG\RDN.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.066</Modified>
+      <Modified>2018-05-19T18:40:11.575</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\REP.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\REP.svg">
       <PackagePath>Assets\CryptoSVG\SVG\REP.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.068</Modified>
+      <Modified>2018-05-19T18:40:11.575</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\SALT.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\SALT.svg">
       <PackagePath>Assets\CryptoSVG\SVG\SALT.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.071</Modified>
+      <Modified>2018-05-19T18:40:11.576</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\SAN.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\SAN.svg">
       <PackagePath>Assets\CryptoSVG\SVG\SAN.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.074</Modified>
+      <Modified>2018-05-19T18:40:11.576</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\SC.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\SC.svg">
       <PackagePath>Assets\CryptoSVG\SVG\SC.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.076</Modified>
+      <Modified>2018-05-19T18:40:11.577</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\SKY.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\SKY.svg">
       <PackagePath>Assets\CryptoSVG\SVG\SKY.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.079</Modified>
+      <Modified>2018-05-19T18:40:11.577</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\SNGLS.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\SNGLS.svg">
       <PackagePath>Assets\CryptoSVG\SVG\SNGLS.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.081</Modified>
+      <Modified>2018-05-19T18:40:11.578</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\SNT.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\SNT.svg">
       <PackagePath>Assets\CryptoSVG\SVG\SNT.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.083</Modified>
+      <Modified>2018-05-19T18:40:11.578</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\START.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\START.svg">
       <PackagePath>Assets\CryptoSVG\SVG\START.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.085</Modified>
+      <Modified>2018-05-19T18:40:11.579</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\STEEM.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\STEEM.svg">
       <PackagePath>Assets\CryptoSVG\SVG\STEEM.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.088</Modified>
+      <Modified>2018-05-19T18:40:11.579</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\STORJ.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\STORJ.svg">
       <PackagePath>Assets\CryptoSVG\SVG\STORJ.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.090</Modified>
+      <Modified>2018-05-19T18:40:11.580</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\SYS.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\SYS.svg">
       <PackagePath>Assets\CryptoSVG\SVG\SYS.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.092</Modified>
+      <Modified>2018-05-19T18:40:11.580</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\TRX.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\TRX.svg">
       <PackagePath>Assets\CryptoSVG\SVG\TRX.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.095</Modified>
+      <Modified>2018-05-19T18:40:11.581</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\UBQ.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\UBQ.svg">
       <PackagePath>Assets\CryptoSVG\SVG\UBQ.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.097</Modified>
+      <Modified>2018-05-19T18:40:11.581</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\USDT.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\USDT.svg">
       <PackagePath>Assets\CryptoSVG\SVG\USDT.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.100</Modified>
+      <Modified>2018-05-19T18:40:11.582</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\VEN.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\VEN.svg">
       <PackagePath>Assets\CryptoSVG\SVG\VEN.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.101</Modified>
+      <Modified>2018-05-19T18:40:11.582</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\VTC.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\VTC.svg">
       <PackagePath>Assets\CryptoSVG\SVG\VTC.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.104</Modified>
+      <Modified>2018-05-19T18:40:11.583</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\WAVES.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\WAVES.svg">
       <PackagePath>Assets\CryptoSVG\SVG\WAVES.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.106</Modified>
+      <Modified>2018-05-19T18:40:11.583</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\WTC.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\WTC.svg">
       <PackagePath>Assets\CryptoSVG\SVG\WTC.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.108</Modified>
+      <Modified>2018-05-19T18:40:11.584</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\XEM.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\XEM.svg">
       <PackagePath>Assets\CryptoSVG\SVG\XEM.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.110</Modified>
+      <Modified>2018-05-19T18:40:11.584</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\XLM.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\XLM.svg">
       <PackagePath>Assets\CryptoSVG\SVG\XLM.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.113</Modified>
+      <Modified>2018-05-19T18:40:11.585</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\XMR.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\XMR.svg">
       <PackagePath>Assets\CryptoSVG\SVG\XMR.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.115</Modified>
+      <Modified>2018-05-19T18:40:11.585</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\XRP.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\XRP.svg">
       <PackagePath>Assets\CryptoSVG\SVG\XRP.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.117</Modified>
+      <Modified>2018-05-19T18:40:11.586</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\XUC.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\XUC.svg">
       <PackagePath>Assets\CryptoSVG\SVG\XUC.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.120</Modified>
+      <Modified>2018-05-19T18:40:11.586</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\XVG.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\XVG.svg">
       <PackagePath>Assets\CryptoSVG\SVG\XVG.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.122</Modified>
+      <Modified>2018-05-19T18:40:11.587</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\XZC.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\XZC.svg">
       <PackagePath>Assets\CryptoSVG\SVG\XZC.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.126</Modified>
+      <Modified>2018-05-19T18:40:11.587</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ZEC.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ZEC.svg">
       <PackagePath>Assets\CryptoSVG\SVG\ZEC.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.128</Modified>
+      <Modified>2018-05-19T18:40:11.588</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ZEN.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ZEN.svg">
       <PackagePath>Assets\CryptoSVG\SVG\ZEN.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.129</Modified>
+      <Modified>2018-05-19T18:40:11.588</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ZRX.svg">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ZRX.svg">
       <PackagePath>Assets\CryptoSVG\SVG\ZRX.svg</PackagePath>
-      <Modified>2018-05-18T16:28:18.133</Modified>
+      <Modified>2018-05-19T18:40:11.588</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\FodyWeavers.xml">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\FodyWeavers.xml">
       <PackagePath>FodyWeavers.xml</PackagePath>
-      <Modified>2018-05-18T16:28:18.238</Modified>
+      <Modified>2018-05-19T18:40:11.631</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2018-05-18T16:28:18.251</Modified>
+      <Modified>2018-05-19T18:40:11.635</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\sources.txt">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\sources.txt">
       <PackagePath>sources.txt</PackagePath>
-      <Modified>2018-05-23T21:02:56.589</Modified>
+      <Modified>2018-05-24T01:24:55.070</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\bin\x64\Debug\BitcoinPriceTracker.xr.xml">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\bin\x64\Debug\BitcoinPriceTracker.xr.xml">
       <PackagePath>BitcoinPriceTracker.xr.xml</PackagePath>
-      <Modified>2018-05-24T00:20:04.791</Modified>
+      <Modified>2018-05-24T01:14:40.021</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.15063.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2018-04-06T15:45:44.167</Modified>
+      <Modified>2018-04-26T04:20:46.681</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-24T00:22:21.028</Modified>
+      <Modified>2018-05-24T02:09:17.506</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s-hirschm\Documents\CoinTracker\BitcoinPriceTracker\bin\x64\Debug\Core\BitcoinPriceTracker.exe">
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\bin\x64\Debug\Core\BitcoinPriceTracker.exe">
       <PackagePath>BitcoinPriceTracker.exe</PackagePath>
-      <Modified>2018-05-24T00:22:21.466</Modified>
+      <Modified>2018-05-24T02:09:17.770</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
