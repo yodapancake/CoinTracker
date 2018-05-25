@@ -122,6 +122,7 @@
     <None Include="BitcoinPriceTracker_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\atmosphere-background-bright-19670.jpg" />
     <Content Include="Assets\background space.jpg" />
     <Content Include="Assets\CryptoSVG\PNG\ADA.png" />
     <Content Include="Assets\CryptoSVG\PNG\ADX.png" />
@@ -313,7 +314,7 @@
     <Content Include="Assets\CryptoSVG\SVG\ZEC.svg" />
     <Content Include="Assets\CryptoSVG\SVG\ZEN.svg" />
     <Content Include="Assets\CryptoSVG\SVG\ZRX.svg" />
-    <Content Include="Assets\polygon-1920x1080-4k-hd-wallpaper-orange-red-blue-background-pattern-225 %281%29.jpg" />
+    <Content Include="Assets\haha.jpg" />
     <Content Include="FodyWeavers.xml" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />

@@ -29,5 +29,6 @@ namespace BitcoinPriceTracker.ViewModels
         public string Coin_CMC_String { get; set; }
         public string Coin_Circ_String { get; set; }
         public string Coin_Volume_String { get; set; }
+        public string Coin_24_Hour_Change_String { get; set; }
     }
 }

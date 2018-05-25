@@ -26,7 +26,7 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <Image x:Name="BackgroundImage" Grid.RowSpan="2" Source="Assets/polygon-1920x1080-4k-hd-wallpaper-orange-red-blue-background-pattern-225 (1).jpg" Stretch="UniformToFill"/>
+        <Image x:Name="BackgroundImage" Grid.RowSpan="2" Source="Assets/atmosphere-background-bright-19670.jpg" Stretch="UniformToFill"/>
 
         <ScrollViewer IsEnabled="True" ViewChanged="ScrollViewer_ViewChanged" />
         <ListView Name="MyListview" Grid.Row="1" Grid.Column="1" ItemsSource="{x:Bind Top_ten_viewmodels}" HorizontalAlignment="Center" ItemClick="ListView_ItemClick" ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.HorizontalScrollMode="Enabled">
@@ -45,8 +45,8 @@
                                     <Flyout Placement="Bottom">
                                         <StackPanel Orientation="Vertical">
                                             <StackPanel Orientation="Horizontal">
-                                                <TextBlock Text="24 Hour Change: %" Style="{StaticResource Black_textblock}"/>
-                                                <TextBlock Name="24hourChangeTextblock"  Text="{x:Bind Coin_24_Hour_Change}" Style="{StaticResource Black_textblock}" Foreground="{x:Bind Coin_Sign}"/>
+                                                <TextBlock Text="24 Hour Change: " Style="{StaticResource Black_textblock}"/>
+                                                <TextBlock Name="24hourChangeTextblock"  Text="{x:Bind Coin_24_Hour_Change_String}" Style="{StaticResource Black_textblock}" Foreground="{x:Bind Coin_Sign}"/>
                                             </StackPanel>
                                             <StackPanel Orientation="Horizontal">
                                                 <TextBlock Text="24 Hour Volume: " Style="{StaticResource Black_textblock}"/>
@@ -77,13 +77,13 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <Button Name="Hamburger_button" Click="Hamburger_button_Click" Width="100" Height="60" FontSize="40" FontFamily="Segoe MDL2 Assets" Content="&#xE700;" Background="White"/>
-        <SplitView Name="HambugerSplit" Grid.Row="1" Grid.Column="0" DisplayMode="CompactOverlay" OpenPaneLength="200" CompactPaneLength="0" HorizontalAlignment="Left">
+        <Button Name="Hamburger_button" Click="Hamburger_button_Click" Height="60" FontSize="40" FontFamily="Segoe MDL2 Assets" Content="&#xE700;" Background="White"/>
+        <SplitView Name="HambugerSplit" Grid.Row="1" Grid.Column="0" DisplayMode="CompactOverlay" CompactPaneLength="0" HorizontalAlignment="Left">
             <SplitView.Pane>
-                    <ListView SelectionMode="Single" ItemsSource="{x:Bind Top_ten_viewmodels}" ScrollViewer.VerticalScrollMode="Enabled">
+                    <ListView SelectionMode="Single" ItemsSource="{x:Bind Top_ten_viewmodels}">
                         <ListView.ItemTemplate>
                             <DataTemplate x:DataType="data:TopTenViewModel">
-                                <TextBlock Text="{x:Bind Coin_Name}" Style="{StaticResource Black_textblock}"/>
+                                <TextBlock Text="{x:Bind Coin_Name}" Style="{StaticResource Black_textblock}" FontSize="38"/>
                             </DataTemplate>
                         </ListView.ItemTemplate>
                     </ListView>
