@@ -376,15 +376,6 @@
     <AppxPackagedFile Include="C:\Users\maximus\.nuget\packages\system.xml.xmlserializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\atmosphere-background-bright-19670.jpg">
-      <PackagePath>Assets\atmosphere-background-bright-19670.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\background space.jpg">
-      <PackagePath>Assets\background space.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\haha.jpg">
-      <PackagePath>Assets\haha.jpg</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ADA.png">
       <PackagePath>Assets\CryptoSVG\PNG\ADA.png</PackagePath>
     </AppxPackagedFile>
@@ -511,6 +502,9 @@
     <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ICN.png">
       <PackagePath>Assets\CryptoSVG\PNG\ICN.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ICX.png">
+      <PackagePath>Assets\CryptoSVG\PNG\ICX.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\MIOTA.png">
       <PackagePath>Assets\CryptoSVG\PNG\MIOTA.png</PackagePath>
     </AppxPackagedFile>
@@ -541,6 +535,9 @@
     <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\MTL.png">
       <PackagePath>Assets\CryptoSVG\PNG\MTL.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\NANO.png">
+      <PackagePath>Assets\CryptoSVG\PNG\NANO.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\NAV.png">
       <PackagePath>Assets\CryptoSVG\PNG\NAV.png</PackagePath>
     </AppxPackagedFile>
@@ -555,6 +552,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\OMG.png">
       <PackagePath>Assets\CryptoSVG\PNG\OMG.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ONT.png">
+      <PackagePath>Assets\CryptoSVG\PNG\ONT.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\PAY.png">
       <PackagePath>Assets\CryptoSVG\PNG\PAY.png</PackagePath>
@@ -667,8 +667,14 @@
     <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ZEN.png">
       <PackagePath>Assets\CryptoSVG\PNG\ZEN.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ZIL.png">
+      <PackagePath>Assets\CryptoSVG\PNG\ZIL.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\PNG\ZRX.png">
       <PackagePath>Assets\CryptoSVG\PNG\ZRX.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\PurpleBackground.png">
+      <PackagePath>Assets\PurpleBackground.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -697,290 +703,8 @@
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ADA.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\ADA.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ADX.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\ADX.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\AE.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\AE.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ARDR.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\ARDR.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ARK.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\ARK.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BAT.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\BAT.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BCC.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\BCC.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BCH.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\BCH.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BCN.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\BCN.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BLOCK.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\BLOCK.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BNB.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\BNB.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BNT.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\BNT.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BTC.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\BTC.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BTCD.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\BTCD.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BTG.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\BTG.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BTM.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\BTM.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\BTS.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\BTS.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\CNX.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\CNX.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\CVC.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\CVC.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\DASH.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\DASH.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\DCR.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\DCR.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\DGB.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\DGB.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\DGD.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\DGD.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\DOGE.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\DOGE.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\EDG.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\EDG.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\EMC2.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\EMC2.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\EOS.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\EOS.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ETC.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\ETC.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ETH.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\ETH.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ETHOS.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\ETHOS.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ETP.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\ETP.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\FCT.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\FCT.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\FUN.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\FUN.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\GAME.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\GAME.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\GAS.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\GAS.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\GBYTE.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\GBYTE.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\GNO.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\GNO.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\GNT.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\GNT.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\GRS.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\GRS.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\GXS.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\GXS.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\HSR.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\HSR.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ICN.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\ICN.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\IOT.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\IOT.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\KMD.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\KMD.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\KNC.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\KNC.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\LSK.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\LSK.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\LTC.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\LTC.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\MAID.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\MAID.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\MCO.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\MCO.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\MNX.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\MNX.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\MONA.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\MONA.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\MTL.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\MTL.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\NAV.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\NAV.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\NEO.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\NEO.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\NXS.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\NXS.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\NXT.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\NXT.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\OMG.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\OMG.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\PAY.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\PAY.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\PIVX.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\PIVX.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\POT.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\POT.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\POWER.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\POWER.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\PPC.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\PPC.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\PPT.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\PPT.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\PURA.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\PURA.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\QASH.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\QASH.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\QTUM.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\QTUM.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\RDN.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\RDN.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\REP.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\REP.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\SALT.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\SALT.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\SAN.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\SAN.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\SC.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\SC.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\SKY.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\SKY.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\SNGLS.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\SNGLS.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\SNT.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\SNT.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\START.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\START.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\STEEM.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\STEEM.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\STORJ.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\STORJ.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\SYS.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\SYS.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\TRX.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\TRX.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\UBQ.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\UBQ.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\USDT.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\USDT.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\VEN.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\VEN.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\VTC.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\VTC.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\WAVES.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\WAVES.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\WTC.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\WTC.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\XEM.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\XEM.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\XLM.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\XLM.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\XMR.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\XMR.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\XRP.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\XRP.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\XUC.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\XUC.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\XVG.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\XVG.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\XZC.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\XZC.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ZEC.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\ZEC.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ZEN.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\ZEN.svg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\CryptoSVG\SVG\ZRX.svg">
-      <PackagePath>Assets\CryptoSVG\SVG\ZRX.svg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\Assets\You Suffer %28Napalm Death%29.M4A">
+      <PackagePath>Assets\You Suffer %28Napalm Death%29.M4A</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\maximus\Documents\GitHub\CoinTracker\BitcoinPriceTracker\FodyWeavers.xml">
       <PackagePath>FodyWeavers.xml</PackagePath>

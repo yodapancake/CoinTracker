@@ -18,6 +18,7 @@
             <Setter Property="Foreground" Value="Black"/>
             <Setter Property="FontSize" Value="40"/>
             <Setter Property="FontFamily" Value="Helvetica"/>
+            <Setter Property="Margin" Value="0,0,0,10"/>
         </Style>
     </Page.Resources>
     <Grid>
@@ -26,10 +27,10 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <Image x:Name="BackgroundImage" Grid.RowSpan="2" Source="Assets/atmosphere-background-bright-19670.jpg" Stretch="UniformToFill"/>
+        <Image x:Name="BackgroundImage" Grid.RowSpan="2" Source="Assets/PurpleBackground.png" Stretch="UniformToFill"/>
 
         <ScrollViewer IsEnabled="True" ViewChanged="ScrollViewer_ViewChanged" />
-        <ListView Name="MyListview" Grid.Row="1" Grid.Column="1" ItemsSource="{x:Bind Top_ten_viewmodels}" HorizontalAlignment="Center" ItemClick="ListView_ItemClick" ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.HorizontalScrollMode="Enabled">
+        <ListView Name="MyListview" Grid.Row="1" Grid.Column="1" Background="Transparent" ItemsSource="{x:Bind Top_ten_viewmodels}" HorizontalAlignment="Center" ItemClick="ListView_ItemClick" ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.HorizontalScrollMode="Enabled">
             <ListView.ItemsPanel>
                 <ItemsPanelTemplate>
                     <StackPanel Orientation="Horizontal"/>
@@ -38,7 +39,10 @@
             <ListView.ItemTemplate>
                 <DataTemplate x:DataType="data:TopTenViewModel">
                     <StackPanel Margin="20,20,20,20" HorizontalAlignment="Stretch" Orientation="Vertical">
-                        <Image x:Name="ResultImage" Width="{x:Bind Coin_Picture_Scale}" Height="{x:Bind Coin_Picture_Scale}" Source="{x:Bind Coin_Picture, Mode=OneWay}" HorizontalAlignment="Center"/>
+                        <FlyoutBase.AttachedFlyout>
+                            <MenuFlyout/>
+                        </FlyoutBase.AttachedFlyout>
+                        <Image x:Name="ResultImage" Width="{x:Bind Coin_Picture_Scale}" Height="{x:Bind Coin_Picture_Scale}" Source="{x:Bind Coin_Picture, Mode=OneWay}" HorizontalAlignment="Center" Margin="0,0,0,20"/>
                         <RelativePanel HorizontalAlignment="Center">
                             <Button Name="Flyout_menu_button" Click="Flyout_menu_button_Click" Width="50" Height="50" FontFamily="Segoe MDL2 Assets" Content="&#xE70D;" Background="White">
                                 <Button.Flyout>
@@ -64,15 +68,11 @@
                                     </Flyout>
                                 </Button.Flyout>
                             </Button>
-                            <TextBlock x:Name="currency" Margin="20,0,0,0" 
-                                       Text="{x:Bind Coin_Name, Mode=OneWay}" 
-                                       Style="{StaticResource White_textblock}" 
-                                       HorizontalAlignment="Center"
-                                       RelativePanel.AlignVerticalCenterWith="Flyout_menu_button"
-                                       RelativePanel.RightOf="Flyout_menu_button"/>
+                            <TextBlock x:Name="currency" Margin="20,0,0,0" Text="{x:Bind Coin_Name, Mode=OneWay}" Style="{StaticResource White_textblock}" 
+                                       HorizontalAlignment="Center" RelativePanel.AlignVerticalCenterWith="Flyout_menu_button" RelativePanel.RightOf="Flyout_menu_button"/>
                         </RelativePanel>
                         <TextBlock x:Name="coin" Text="{x:Bind Coin_Ticker_Tape, Mode=OneWay}" Style="{StaticResource White_textblock}" HorizontalAlignment="Center"/>
-                        <TextBlock x:Name="price" Text="{x:Bind Coin_Price_USD, Mode=OneWay}" Style="{StaticResource White_textblock}" HorizontalAlignment="Center"/>
+                        <TextBlock x:Name="price" Text="{x:Bind Coin_Price_USD, Mode=OneWay}" Style="{StaticResource White_textblock}" Foreground="{x:Bind Coin_Sign}" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </DataTemplate>
             </ListView.ItemTemplate>

@@ -18,18 +18,22 @@ using BitcoinPriceTracker.Models;
 using Windows.Storage;
 using System.Collections.ObjectModel;
 using Windows.UI;
-
+using Windows.Media.Core;
+using Windows.Media.Playback;
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
 namespace BitcoinPriceTracker
 {
     public sealed partial class MainPage : Page
     {
+        private MediaPlayer mediaPlayer;
         private GlobalDataViewModel Global_Data_viewmodels = new GlobalDataViewModel();
         private ObservableCollection<TopTenViewModel> Top_ten_viewmodels = new ObservableCollection<TopTenViewModel>();
         public MainPage()
         {         
             this.InitializeComponent();
+            mediaPlayer = new MediaPlayer();
+            mediaPlayer.Source = MediaSource.CreateFromUri(new Uri("ms-appx:///Assets/You Suffer (Napalm Death).M4A"));
         }
         protected async override void OnNavigatedTo(NavigationEventArgs e)
         {
@@ -68,9 +72,12 @@ namespace BitcoinPriceTracker
                 temp.Coin_24_Hour_Change_String = " " + temp.Coin_24_Hour_Change + "%";
                 
                 double Coin_Market_Share_Percent = ((double)(temp.Coin_Market_Cap) / (long)(Global_Data_viewmodels.Total_Market_Cap));
-                int scale = (int)((Coin_Market_Share_Percent / Global_Data_viewmodels.Bitcoin_Percentage_Of_Market_Cap) * 65000);
-                temp.Coin_Picture_Scale = (int)(Math.Sqrt(scale) * 16);
-
+                int scale = (int)((Coin_Market_Share_Percent / Global_Data_viewmodels.Bitcoin_Percentage_Of_Market_Cap) * 25000000);
+                temp.Coin_Picture_Scale = (int)(Math.Sqrt(scale));
+                if(temp.Coin_Rank == 1 && temp.Coin_Price_USD > 7000)
+                {
+                    //mediaPlayer.Play();
+                }
                 if (temp.Coin_24_Hour_Change < 0)
                 {
                     temp.Coin_Sign = new SolidColorBrush(Color.FromArgb(230, 201, 19, 19));
@@ -79,7 +86,6 @@ namespace BitcoinPriceTracker
                 { 
                     temp.Coin_Sign = new SolidColorBrush(Color.FromArgb(230, 19, 201, 31));
                 }
-
                 Top_ten_viewmodels.Add(temp);
             }
         }

@@ -18,6 +18,7 @@
             <Setter Property="Foreground" Value="Black"/>
             <Setter Property="FontSize" Value="40"/>
             <Setter Property="FontFamily" Value="Helvetica"/>
+            <Setter Property="Margin" Value="0,0,0,10"/>
         </Style>
     </Page.Resources>
     <Grid>
@@ -26,10 +27,10 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <Image x:ConnectionId='2' x:Name="BackgroundImage" Grid.RowSpan="2" Source="Assets/atmosphere-background-bright-19670.jpg" Stretch="UniformToFill"/>
+        <Image x:ConnectionId='2' x:Name="BackgroundImage" Grid.RowSpan="2" Source="Assets/PurpleBackground.png" Stretch="UniformToFill"/>
 
         <ScrollViewer x:ConnectionId='3' IsEnabled="True"                                        />
-        <ListView x:ConnectionId='4' Name="MyListview" Grid.Row="1" Grid.Column="1"                                           HorizontalAlignment="Center"                                ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.HorizontalScrollMode="Enabled">
+        <ListView x:ConnectionId='4' Name="MyListview" Grid.Row="1" Grid.Column="1" Background="Transparent"                                           HorizontalAlignment="Center"                                ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.HorizontalScrollMode="Enabled">
             <ListView.ItemsPanel>
                 <ItemsPanelTemplate>
                     <StackPanel Orientation="Horizontal"/>
@@ -38,7 +39,10 @@
             <ListView.ItemTemplate>
                 <DataTemplate                                  >
                     <StackPanel x:ConnectionId='9' Margin="20,20,20,20" HorizontalAlignment="Stretch" Orientation="Vertical">
-                        <Image x:ConnectionId='10' x:Name="ResultImage"                                                                                                                      HorizontalAlignment="Center"/>
+                        <FlyoutBase.AttachedFlyout>
+                            <MenuFlyout/>
+                        </FlyoutBase.AttachedFlyout>
+                        <Image x:ConnectionId='10' x:Name="ResultImage"                                                                                                                      HorizontalAlignment="Center" Margin="0,0,0,20"/>
                         <RelativePanel HorizontalAlignment="Center">
                             <Button x:ConnectionId='13' Name="Flyout_menu_button"                                  Width="50" Height="50" FontFamily="Segoe MDL2 Assets" Content="&#xE70D;" Background="White">
                                 <Button.Flyout>
@@ -64,15 +68,11 @@
                                     </Flyout>
                                 </Button.Flyout>
                             </Button>
-                            <TextBlock x:ConnectionId='14' x:Name="currency" Margin="20,0,0,0" 
-                                                                              
-                                       Style="{StaticResource White_textblock}" 
-                                       HorizontalAlignment="Center"
-                                       RelativePanel.AlignVerticalCenterWith="Flyout_menu_button"
-                                       RelativePanel.RightOf="Flyout_menu_button"/>
+                            <TextBlock x:ConnectionId='14' x:Name="currency" Margin="20,0,0,0"                                        Style="{StaticResource White_textblock}" 
+                                       HorizontalAlignment="Center" RelativePanel.AlignVerticalCenterWith="Flyout_menu_button" RelativePanel.RightOf="Flyout_menu_button"/>
                         </RelativePanel>
                         <TextBlock x:ConnectionId='11' x:Name="coin"                                               Style="{StaticResource White_textblock}" HorizontalAlignment="Center"/>
-                        <TextBlock x:ConnectionId='12' x:Name="price"                                             Style="{StaticResource White_textblock}" HorizontalAlignment="Center"/>
+                        <TextBlock x:ConnectionId='12' x:Name="price"                                             Style="{StaticResource White_textblock}"                                 HorizontalAlignment="Center"/>
                     </StackPanel>
                 </DataTemplate>
             </ListView.ItemTemplate>
