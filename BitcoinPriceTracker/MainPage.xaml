@@ -80,7 +80,7 @@
         <Button Name="Hamburger_button" Click="Hamburger_button_Click" Height="60" FontSize="40" FontFamily="Segoe MDL2 Assets" Content="&#xE700;" Background="White"/>
         <SplitView Name="HambugerSplit" Grid.Row="1" Grid.Column="0" DisplayMode="CompactOverlay" CompactPaneLength="0" HorizontalAlignment="Left">
             <SplitView.Pane>
-                    <ListView SelectionMode="Single" ItemsSource="{x:Bind Top_ten_viewmodels}">
+                    <ListView SelectionMode="Single" ItemsSource="{x:Bind Top_ten_viewmodels}" ItemClick="ListView_ItemClick_1">
                         <ListView.ItemTemplate>
                             <DataTemplate x:DataType="data:TopTenViewModel">
                                 <TextBlock Text="{x:Bind Coin_Name}" Style="{StaticResource Black_textblock}" FontSize="38"/>

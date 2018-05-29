@@ -107,6 +107,11 @@ namespace BitcoinPriceTracker
         {
 
         }
+
+        private void ListView_ItemClick_1(object sender, ItemClickEventArgs e)
+        {
+
+        }
     } 
 }
 
